@@ -71,9 +71,14 @@ export async function POST(request: Request) {
           p_sources: sources,
           p_context: { isGreeting: true },
         })
-        .then(({ error }) => {
-          if (error) console.warn("Telemetry log warning:", error.message);
-        });
+        .then(
+          ({ error }) => {
+            if (error) console.warn("Telemetry log warning:", error.message);
+          },
+          (err: any) => {
+            console.warn("Telemetry network error:", err?.message || err);
+          }
+        );
 
       return NextResponse.json({
         answer: greetingAnswer,
@@ -107,9 +112,14 @@ export async function POST(request: Request) {
           p_sources: sources,
           p_context: { isIdentity: true },
         })
-        .then(({ error }) => {
-          if (error) console.warn("Telemetry log warning:", error.message);
-        });
+        .then(
+          ({ error }) => {
+            if (error) console.warn("Telemetry log warning:", error.message);
+          },
+          (err: any) => {
+            console.warn("Telemetry network error:", err?.message || err);
+          }
+        );
 
       return NextResponse.json({
         answer: identityAnswer,
@@ -287,9 +297,14 @@ ${contextXml}
           })),
         },
       })
-      .then(({ error }) => {
-        if (error) console.warn("Telemetry log warning:", error.message);
-      });
+      .then(
+        ({ error }) => {
+          if (error) console.warn("Telemetry log warning:", error.message);
+        },
+        (err: any) => {
+          console.warn("Telemetry network error:", err?.message || err);
+        }
+      );
 
     return NextResponse.json({
       answer: generatedAnswer,
