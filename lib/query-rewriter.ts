@@ -117,11 +117,17 @@ export function processUserQuery(
   const isGreeting = isGreetingQuery(original);
   const isIdentity = isIdentityQuery(original);
 
-  // Extract expansion concepts
+  // Extract expansion concepts (longest matching term first to avoid substring duplicates e.g. ಉಪಕುಲಪತಿ vs ಕುಲಪತಿ)
+  const sortedKeys = Object.keys(INDIC_CONCEPT_MAP).sort((a, b) => b.length - a.length);
+  let workingOriginal = original;
+  let workingLower = lower;
   const expansions: string[] = [];
-  for (const [key, expansion] of Object.entries(INDIC_CONCEPT_MAP)) {
-    if (original.includes(key) || lower.includes(key)) {
-      expansions.push(expansion);
+
+  for (const key of sortedKeys) {
+    if (workingOriginal.includes(key) || workingLower.includes(key)) {
+      expansions.push(INDIC_CONCEPT_MAP[key]);
+      workingOriginal = workingOriginal.split(key).join(" ");
+      workingLower = workingLower.split(key).join(" ");
     }
   }
 
