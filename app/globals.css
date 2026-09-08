@@ -1,26 +1,930 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Keep page completely still without scrollbars */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #040711;
+  color: #f1f5f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Kannada", Helvetica, Arial, sans-serif;
+  user-select: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+/* =========================================================
+   GALAXY BACKGROUND
+========================================================= */
+
+.chatgpt-voice-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #030712;
+  overflow: hidden;
+}
+
+.galaxy-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(1px 1px at 30px 40px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 140px 90px, #38bdf8, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 280px 220px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 420px 140px, #a855f7, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 580px 310px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 740px 100px, #38bdf8, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 910px 360px, #60a5fa, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 1040px 170px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 1220px 260px, #c084fc, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 450px 450px;
+  opacity: 0.7;
+}
+
+.nebula-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  pointer-events: none;
+}
+
+.nebula-top {
+  width: 600px;
+  height: 400px;
+  background: radial-gradient(circle, #0284c7 0%, #4338ca 50%, transparent 70%);
+  top: -100px;
+  left: 15%;
+  opacity: 0.35;
+  animation: floatNebula 14s infinite alternate ease-in-out;
+}
+
+.nebula-bottom {
+  width: 650px;
+  height: 450px;
+  background: radial-gradient(circle, #7c3aed 0%, #0369a1 50%, transparent 70%);
+  bottom: -120px;
+  right: 15%;
+  opacity: 0.35;
+  animation: floatNebula 16s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes floatNebula {
+  0% { transform: scale(0.9) translate(0, 0); }
+  100% { transform: scale(1.15) translate(25px, 20px); }
+}
+
+/* =========================================================
+   CHATGPT VOICE CONTAINER (FIXED STILL VIEWPORT)
+========================================================= */
+
+.chatgpt-voice-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 900px;
+  height: 100vh;
+  padding: 16px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Top Header */
+.voice-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 18px;
+  background: rgba(13, 22, 44, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  border-radius: 20px;
+}
+
+.header-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #38bdf8;
+  margin-bottom: 2px;
+}
+
+.brand-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.db-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #34d399;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+  letter-spacing: 0.5px;
+}
+
+.latency-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: #38bdf8;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-pill {
+  display: flex;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 24px;
+  padding: 2px;
+}
+
+.lang-option {
+  border: none;
+  background: transparent;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 18px;
+  color: #94a3b8;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lang-option.active {
+  background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(2, 132, 199, 0.5);
+}
+
+.voice-icon-btn {
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  color: #f1f5f9;
+  transition: all 0.2s ease;
+}
+
+.voice-icon-btn.active {
+  border-color: #38bdf8;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+}
+
+/* =========================================================
+   CENTRAL ASSISTANT STAGE (CHATGPT VOICE STYLE)
+========================================================= */
+
+.assistant-central-stage {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+/* Voice Avatar Stage */
+.voice-avatar-stage {
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+
+.voice-avatar-stage:hover {
+  transform: scale(1.04);
+}
+
+.blooming-aura {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aura-ring {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Idle Breathing */
+.bloom-idle .ring-1 {
+  width: 140px;
+  height: 140px;
+  border: 1.5px solid rgba(56, 189, 248, 0.3);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+  animation: auraBreathe 3.5s infinite ease-in-out;
+}
+
+.bloom-idle .ring-2 {
+  width: 170px;
+  height: 170px;
+  border: 1px dashed rgba(168, 85, 247, 0.25);
+  animation: rotateSlow 20s infinite linear;
+}
+
+/* Listening (User Speaking) Radiant Wave */
+.bloom-listening {
+  filter: drop-shadow(0 0 35px rgba(244, 63, 94, 0.9));
+}
+
+.bloom-listening .ring-1 {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #f43f5e;
+  box-shadow: 0 0 30px rgba(244, 63, 94, 0.8);
+  animation: bloomPulse 1.2s infinite ease-out;
+}
+
+.bloom-listening .ring-2 {
+  width: 190px;
+  height: 190px;
+  border: 1.5px solid rgba(251, 113, 133, 0.6);
+  animation: bloomPulse 1.2s infinite 0.35s ease-out;
+}
+
+.bloom-listening .ring-3 {
+  width: 230px;
+  height: 230px;
+  border: 1px solid rgba(253, 164, 175, 0.4);
+  animation: bloomPulse 1.2s infinite 0.7s ease-out;
+}
+
+/* Speaking (Robot Responding) Radiant Wave */
+.bloom-speaking {
+  filter: drop-shadow(0 0 40px rgba(56, 189, 248, 0.9));
+}
+
+.bloom-speaking .ring-1 {
+  width: 155px;
+  height: 155px;
+  border: 2px solid #38bdf8;
+  box-shadow: 0 0 35px rgba(56, 189, 248, 0.8);
+  animation: speakBloom 1.2s infinite ease-in-out;
+}
+
+.bloom-speaking .ring-2 {
+  width: 195px;
+  height: 195px;
+  border: 1.5px solid rgba(168, 85, 247, 0.6);
+  animation: speakBloom 1.2s infinite 0.3s ease-in-out;
+}
+
+/* Thinking Pulse */
+.bloom-thinking .ring-1 {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #38bdf8;
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.6);
+  animation: rotateSlow 2.5s infinite linear;
+}
+
+@keyframes bloomPulse {
+  0% { transform: scale(0.85); opacity: 1; }
+  100% { transform: scale(1.35); opacity: 0; }
+}
+
+@keyframes speakBloom {
+  0%, 100% { transform: scale(0.95); opacity: 0.6; }
+  50% { transform: scale(1.1); opacity: 1; filter: drop-shadow(0 0 25px #38bdf8); }
+}
+
+@keyframes auraBreathe {
+  0%, 100% { transform: scale(0.96); opacity: 0.4; }
+  50% { transform: scale(1.05); opacity: 0.85; }
+}
+
+@keyframes rotateSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Robot Head */
+.robot-head {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, #0e2b4d 0%, #061527 80%, #030a14 100%);
+  border: 3.5px solid #1e4976;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 25px rgba(56, 189, 248, 0.3);
+  z-index: 5;
+}
+
+.robot-visor {
+  width: 80px;
+  height: 60px;
+  border-radius: 34% 34% 30% 30%;
+  background: #06182c;
+  border: 2.5px solid #1a5b88;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.antenna {
+  position: absolute;
+  width: 5px;
+  height: 28px;
+  background: #11385f;
+  border-radius: 8px;
+  top: -22px;
+}
+
+.antenna::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #38bdf8;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -4px;
+  box-shadow: 0 0 12px #38bdf8;
+}
+
+.left-antenna { left: 16px; transform: rotate(-22deg); }
+.right-antenna { right: 16px; transform: rotate(22deg); }
+
+.eye {
+  position: absolute;
+  top: 18px;
+  width: 14px;
+  height: 10px;
+  border-radius: 50%;
+  background: #38bdf8;
+  box-shadow: 0 0 12px #38bdf8;
+}
+
+.left-eye { left: 14px; }
+.right-eye { right: 14px; }
+
+.mouth {
+  position: absolute;
+  bottom: 10px;
+  width: 28px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mouth-smile {
+  width: 20px;
+  height: 8px;
+  border-bottom: 2.5px solid #38bdf8;
+  border-radius: 0 0 18px 18px;
+}
+
+.voice-equalizer {
+  display: flex;
+  align-items: center;
+  gap: 2.5px;
+  height: 10px;
+}
+
+.voice-equalizer span {
+  width: 3px;
+  background: #38bdf8;
+  border-radius: 2px;
+  animation: equalizerDance 0.5s infinite alternate ease-in-out;
+}
+
+.voice-equalizer span:nth-child(1) { height: 4px; animation-delay: 0.1s; }
+.voice-equalizer span:nth-child(2) { height: 8px; animation-delay: 0.2s; }
+.voice-equalizer span:nth-child(3) { height: 11px; animation-delay: 0.05s; }
+.voice-equalizer span:nth-child(4) { height: 7px; animation-delay: 0.25s; }
+.voice-equalizer span:nth-child(5) { height: 4px; animation-delay: 0.15s; }
+
+@keyframes equalizerDance {
+  0% { transform: scaleY(0.3); }
+  100% { transform: scaleY(1.4); }
+}
+
+.mic-wave-indicator {
+  display: flex;
+  gap: 3px;
+}
+
+.mic-wave-indicator span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #f43f5e;
+  box-shadow: 0 0 6px #f43f5e;
+  animation: micDotPulse 0.8s infinite alternate;
+}
+
+.mic-wave-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.mic-wave-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes micDotPulse {
+  0% { transform: scale(0.6); opacity: 0.4; }
+  100% { transform: scale(1.3); opacity: 1; }
+}
+
+/* Status Badge */
+.voice-status-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.status-light {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-light.idle { background: #10b981; box-shadow: 0 0 8px #10b981; }
+.status-light.listening { background: #f43f5e; box-shadow: 0 0 10px #f43f5e; animation: dotBlink 0.6s infinite; }
+.status-light.speaking { background: #38bdf8; box-shadow: 0 0 10px #38bdf8; animation: dotBlink 0.6s infinite; }
+.status-light.responding { background: #f59e0b; box-shadow: 0 0 10px #f59e0b; animation: dotBlink 0.6s infinite; }
+
+@keyframes dotBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.status-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.stop-btn {
+  background: #ef4444;
+  border: none;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 2px 7px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+/* Live Speech Card */
+.live-speech-card {
+  width: 100%;
+  max-width: 650px;
+  background: rgba(244, 63, 94, 0.12);
+  border: 1.5px solid rgba(244, 63, 94, 0.4);
+  border-radius: 18px;
+  padding: 12px 18px;
+  text-align: center;
+  animation: liveCardFade 0.3s ease;
+}
+
+.live-label {
+  font-size: 11px;
+  font-weight: 800;
+  color: #f87171;
+  letter-spacing: 1px;
+}
+
+.live-text {
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@keyframes liveCardFade {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Active Turn Card (ChatGPT Style Single Active Dialog) */
+.active-turn-card {
+  width: 100%;
+  max-width: 720px;
+  max-height: 48vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(13, 22, 44, 0.75);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  border-radius: 22px;
+  padding: 16px 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.active-turn-card::-webkit-scrollbar {
+  width: 5px;
+}
+
+.active-turn-card::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.25);
+  border-radius: 8px;
+}
+
+.turn-user-box {
+  background: rgba(2, 132, 199, 0.18);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 14px;
+  padding: 8px 14px;
+}
+
+.turn-role-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #38bdf8;
+  text-transform: uppercase;
+}
+
+.turn-query-text {
+  margin: 2px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.turn-assistant-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.turn-assistant-box.thinking {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.galaxy-typing-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.galaxy-typing-dots span {
+  width: 6px;
+  height: 6px;
+  background: #38bdf8;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #38bdf8;
+  animation: typingGlow 1.2s infinite ease-in-out;
+}
+
+.galaxy-typing-dots span:nth-child(1) { animation-delay: 0s; }
+.galaxy-typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+.galaxy-typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typingGlow {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.4; }
+  40% { transform: translateY(-6px); opacity: 1; }
+}
+
+.thinking-note {
+  font-size: 13px;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.turn-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.turn-assistant-tag {
+  font-size: 12px;
+  font-weight: 800;
+  color: #38bdf8;
+}
+
+.card-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.card-tool-btn {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.card-tool-btn:hover {
+  background: rgba(56, 189, 248, 0.3);
+}
+
+.turn-response-content {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #f1f5f9;
+}
+
+.response-line {
+  margin: 0 0 6px;
+}
+
+.turn-sources {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed rgba(56, 189, 248, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.source-title {
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.source-link {
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: #38bdf8;
+  padding: 2px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Quick Starters Tray (When Idle) */
+.quick-starters-tray {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 680px;
+  margin-top: 8px;
+}
+
+.starters-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
+.starters-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.starter-chip {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 20px;
+  padding: 7px 14px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.starter-chip:hover {
+  background: rgba(2, 132, 199, 0.3);
+  border-color: #38bdf8;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.35);
+}
+
+/* =========================================================
+   BOTTOM GIANT CHATGPT MIC BAR
+========================================================= */
+
+.voice-footer {
+  width: 100%;
+  max-width: 720px;
+  margin-top: 10px;
+}
+
+.voice-input-wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 6px 8px 6px 18px;
+  border: 1.5px solid rgba(56, 189, 248, 0.3);
+  border-radius: 35px;
+  background: rgba(10, 18, 36, 0.9);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.25s ease;
+}
+
+.voice-input-wrapper:focus-within {
+  border-color: #38bdf8;
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+}
+
+.voice-text-field {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 14.5px;
+}
+
+.voice-text-field::placeholder {
+  color: #64748b;
+}
+
+.giant-voice-btn {
+  width: 48px;
+  height: 48px;
+  border: 1.5px solid rgba(56, 189, 248, 0.4);
+  border-radius: 50%;
+  background: rgba(30, 41, 59, 0.9);
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+  transition: all 0.25s ease;
+}
+
+.giant-voice-btn:hover {
+  background: rgba(56, 189, 248, 0.3);
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+.giant-voice-btn.active-recording {
+  background: #f43f5e;
+  border-color: #fb7185;
+  box-shadow: 0 0 25px rgba(244, 63, 94, 0.9);
+  animation: giantMicPulse 1s infinite alternate ease-in-out;
+}
+
+@keyframes giantMicPulse {
+  0% { transform: scale(1); box-shadow: 0 0 10px rgba(244, 63, 94, 0.6); }
+  100% { transform: scale(1.15); box-shadow: 0 0 30px rgba(244, 63, 94, 1); }
+}
+
+.voice-send-btn {
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 14px rgba(2, 132, 199, 0.4);
+}
+
+.voice-send-btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 22px rgba(56, 189, 248, 0.6);
+}
+
+.voice-send-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* =========================================================
+   MOBILE RESPONSIVENESS
+========================================================= */
+
+@media (max-width: 640px) {
+  .chatgpt-voice-container {
+    padding: 10px 12px 14px;
+  }
+
+  .voice-header {
+    padding: 8px 12px;
+  }
+
+  .brand-title {
+    font-size: 15px;
+  }
+
+  .blooming-aura {
+    width: 130px;
+    height: 130px;
+  }
+
+  .robot-head {
+    width: 95px;
+    height: 95px;
+  }
+
+  .robot-visor {
+    width: 65px;
+    height: 48px;
+  }
+
+  .active-turn-card {
+    max-height: 42vh;
+    padding: 12px 14px;
+    font-size: 13.5px;
+  }
+
+  .giant-voice-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+
+  .voice-send-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
 }

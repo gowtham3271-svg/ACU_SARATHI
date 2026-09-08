@@ -1,0 +1,3661 @@
+[
+  {
+    "id": "university",
+    "title": "About Adichunchanagiri University",
+    "category": "University",
+    "content": "Adichunchanagiri University (ACU) is a higher education university located at B.G. Nagara, Karnataka. The university describes itself as a NAAC A+ accredited university committed to education, research and service. The university offers programs in areas including medicine, engineering, pharmacy, nursing, allied health sciences, natural sciences, humanities and social sciences.",
+    "source": "https://acu.edu.in/about/"
+  },
+  {
+    "id": "location",
+    "title": "ACU Location",
+    "category": "University",
+    "content": "Adichunchanagiri University is located at B.G. Nagara in Mandya District, Karnataka, along NH-75.",
+    "source": "https://acu.edu.in/about/"
+  },
+  {
+    "id": "faculties",
+    "title": "ACU Faculties",
+    "category": "Academics",
+    "content": "Adichunchanagiri University has faculties covering Engineering and Technology, Medical and Allied Health Sciences, Pharmacy, Nursing, Natural Sciences, Humanities and Social Sciences, and other academic areas. The official ACU website currently describes the university as having 8 faculties.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "programs",
+    "title": "ACU Academic Programs",
+    "category": "Academics",
+    "content": "ACU offers undergraduate, postgraduate and doctoral programs. Examples include MBBS, BE engineering programs, B.Pharm, B.Sc Nursing, allied health programs, B.Com, BCA, BBA, B.Ed, MBA, M.Tech, M.Sc, MD/MS and Ph.D programs. The exact programs and availability should be checked against the official ACU program directory.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "engineering",
+    "title": "Faculty of Engineering and Technology",
+    "category": "Engineering",
+    "content": "Engineering programs at ACU include BE programs such as Computer Science and Engineering, Electronics and Communication Engineering, Information Science and Engineering, Artificial Intelligence and Machine Learning, Civil Engineering, Mechanical Engineering, and Robotics and Artificial Intelligence. Postgraduate programs include M.Tech specializations, and MBA is also listed under the engineering faculty page.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "nursing",
+    "title": "Nursing Programs",
+    "category": "Nursing",
+    "content": "ACU offers B.Sc Nursing programs through its nursing institutions. Postgraduate M.Sc Nursing specializations and Ph.D in Nursing are also listed on the official program directory.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "admissions",
+    "title": "ACU Admissions",
+    "category": "Admissions",
+    "content": "ACU admissions include undergraduate, postgraduate and doctoral programs. Eligibility requirements vary by program. Some programs require entrance examinations such as NEET, state entrance examinations or an ACU entrance examination. Candidates should check the official eligibility and admissions information for the specific program they are interested in.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "eligibility",
+    "title": "General Admission Eligibility",
+    "category": "Admissions",
+    "content": "For general undergraduate admission, candidates normally need to have passed 12th standard or an equivalent qualification. Specific marks, subjects, entrance examinations and other requirements depend on the individual program and category.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "hostel",
+    "title": "ACU Hostel Facilities",
+    "category": "Hostel",
+    "content": "ACU provides separate hostel facilities for boys and girls. The official hostel information describes furnished rooms, Wi-Fi, drinking water, housekeeping, laundry services, reading rooms and warden support. The girls' hostel information includes attached bathrooms, solar-heated hot water, CCTV monitoring and female warden supervision. Hostel facilities also include security, power backup and access to medical services.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "academic-facilities",
+    "title": "ACU Academic Facilities",
+    "category": "Facilities",
+    "content": "ACU's academic facilities include campus-wide Wi-Fi, smart classrooms, digital administrative services, CCTV surveillance, ERP-linked academic and examination management, a centralized analog and digital library, research laboratories, analytical laboratories and startup incubation facilities.",
+    "source": "https://acu.edu.in/about/academic-facilities/"
+  },
+  {
+    "id": "campus",
+    "title": "ACU Campus Facilities",
+    "category": "Facilities",
+    "content": "The ACU campus provides facilities including academic buildings, a centralized library, smart classrooms, research laboratories, hostels, cafeteria and dining facilities, security, ATM facilities, an essential store, campus-wide Wi-Fi and other student support facilities.",
+    "source": "https://acu.edu.in/about/academic-facilities/"
+  },
+  {
+    "id": "fees",
+    "title": "ACU Fee Structure",
+    "category": "Fees",
+    "content": "ACU publishes program-specific fee information. Fees vary according to the college, program and level of study. Hostel charges are separate from tuition fees and may vary according to room type and sharing basis. Students should check the official fee structure for the current academic year before making admission decisions.",
+    "source": "https://acu.edu.in/fee-structure/"
+  },
+  {
+    "id": "placements",
+    "title": "ACU Placements",
+    "category": "Placements",
+    "content": "ACU states that its faculties have dedicated Training and Placement Cells that support students through campus drives, industry workshops, resume development and mock interviews. Placement information varies by faculty and program, so students should check the official placement information for their specific course.",
+    "source": "https://acu.edu.in/about/faq/"
+  },
+  {
+    "id": "international",
+    "title": "International Admissions",
+    "category": "Admissions",
+    "content": "ACU welcomes international and SAARC students and provides support such as admission assistance, visa support, FRRO registration support and hostel accommodation. International applicants should use the official ACU international admissions information for current requirements.",
+    "source": "https://acu.edu.in/international-saarc-admissions/"
+  },
+  {
+    "id": "itep",
+    "title": "Integrated Teacher Education Programme",
+    "category": "Education",
+    "content": "ACU offers Integrated Teacher Education Programme pathways including B.A. B.Ed., B.Sc. B.Ed. and B.Com. B.Ed. The official ITEP page states that the programs are four-year integrated programs and admission is conducted through the National Common Entrance Test (NCET) administered by NTA.",
+    "source": "https://acu.edu.in/fmss/itep/programmes/"
+  },
+    {
+    "id": "engineering-programs",
+    "title": "BGS Institute of Technology - Engineering Programs",
+    "category": "Engineering",
+    "content": "BGS Institute of Technology offers undergraduate BE programs in Computer Science and Engineering, Electronics and Communication Engineering, Information Science and Engineering, Artificial Intelligence and Machine Learning, Civil Engineering, Mechanical Engineering, and Robotics and AI. Postgraduate M.Tech programs include VLSI and Embedded Systems, Computer Science and Engineering, Structural Engineering, Infrastructure Management and Engineering, and Nano Technology. The institute also offers Master of Business Administration and doctoral programs in Computer Science and Engineering, Electronics and Communication, Civil Engineering, and Mechanical Engineering.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "medical-programs",
+    "title": "Faculty of Medical and Allied Health Sciences",
+    "category": "Medical and Allied Health Sciences",
+    "content": "The Faculty of Medical and Allied Health Sciences includes programs such as MBBS, B.MLS Medical Laboratory Science, B.MRIT Medical Radiology and Imaging Technology, B.DTT Dialysis Therapy Technology, B.Optom Optometry, B.AOTT Anaesthesia and Operation Theatre Technology, B.Sc Cardiac Care Technology, B.Sc Clinical Psychology, B.EMT Emergency Medical Technologist, and B.PT Bachelor of Physiotherapy. Postgraduate medical programs include MD specializations and MS specializations.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "medical-md-programs",
+    "title": "ACU MD Programs",
+    "category": "Medical",
+    "content": "The official ACU program directory lists MD programs in Anatomy, Physiology, Biochemistry, Pathology, Microbiology, Pharmacology, Forensic Medicine, Community Medicine, General Medicine, Paediatrics, Dermatology, Psychiatry, Radio-Diagnosis, Anaesthesiology, and Respiratory Medicine.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "medical-ms-programs",
+    "title": "ACU MS Programs",
+    "category": "Medical",
+    "content": "The official ACU program directory lists MS programs in General Surgery, Obstetrics and Gynaecology, ENT, Ophthalmology, and Orthopaedics.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "pharmacy-programs",
+    "title": "Faculty of Pharmacy Programs",
+    "category": "Pharmacy",
+    "content": "The Faculty of Pharmacy includes Sri Adichunchanagiri College of Pharmacy and BGS VIPS. Programs listed by ACU include D.Pharm, Bachelor of Pharmacy (B.Pharm), B.Pharm Lateral Entry, Doctor of Pharmacy (Pharm.D), M.Pharm Pharmaceutical Chemistry, M.Pharm Pharmacy Practice, M.Pharm Pharmaceutics, M.Pharm Pharmaceutical Analysis, M.Pharm Pharmacology, M.Pharm Regulatory Affairs, M.Pharm Pharmacognosy, and Ph.D. in Pharmacy specialized subjects.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "natural-sciences-programs",
+    "title": "Adichunchanagiri School of Natural Sciences",
+    "category": "Natural Sciences",
+    "content": "Adichunchanagiri School of Natural Sciences offers B.Sc programs in PCM (Physics, Chemistry and Mathematics), Computer Science, and MBBt (Microbiology, Biochemistry and Biotechnology). M.Sc programs include Biochemistry, Biotechnology, Chemistry, Microbiology, Physics, and Computer Science. Doctoral programs listed include Ph.D. in Biochemistry, Biotechnology, Chemistry, Microbiology, Physics, Mathematics, and Computer Science.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "nursing-programs",
+    "title": "Faculty of Nursing Programs",
+    "category": "Nursing",
+    "content": "The Faculty of Nursing includes Adichunchanagiri College of Nursing, BGS Institute of Nursing Sciences, and BGS Vignatam Institute of Nursing Sciences. The undergraduate program listed is B.Sc Nursing. M.Sc Nursing specializations listed include Child Paediatric Nursing, Community Health Nursing, Mental Psychiatric Nursing, Medical-Surgical Nursing, and Obstetrics and Gynaecological Nursing. ACU also lists a Ph.D. in Nursing.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "humanities-programs",
+    "title": "Faculty of Humanities and Social Sciences",
+    "category": "Humanities and Social Sciences",
+    "content": "The Faculty of Humanities and Social Sciences includes BGS First Grade College, BGS College of Education, and BGS ITEP. BGS First Grade College offers B.Com, BCA, and BBA. BGS College of Education offers B.Ed. The Integrated Teacher Education Programme includes B.A. plus B.Ed., B.Com. plus B.Ed., and B.Sc. plus B.Ed.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "acu-colleges",
+    "title": "ACU Colleges and Institutions",
+    "category": "Colleges",
+    "content": "The official ACU program directory currently states that Adichunchanagiri University has 14 colleges. Institutions shown in the program directory include BGS Institute of Technology, BGS AIMS, BGS Medical College and Hospital, ASAHS, BGS VIAHS, BGS VIPT, Sri Adichunchanagiri College of Pharmacy, BGS VIPS, Adichunchanagiri School of Natural Sciences, Adichunchanagiri College of Nursing, BGS Institute of Nursing Sciences, BGS Vignatam Institute of Nursing Sciences, BGS First Grade College, and BGS College of Education. BGS ITEP is also listed under the Faculty of Humanities and Social Sciences.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "program-levels",
+    "title": "ACU Program Levels",
+    "category": "Academics",
+    "content": "Adichunchanagiri University offers undergraduate, postgraduate, and doctoral programs. The official program directory currently states that ACU has 75+ programs across 8 faculties and 14 colleges.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "engineering-college",
+    "title": "BGS Institute of Technology",
+    "category": "Colleges",
+    "content": "BGS Institute of Technology is the engineering institution shown under ACU's Faculty of Engineering and Technology. Its listed programs include BE, M.Tech, MBA and Ph.D. programs.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+  {
+    "id": "medical-institutions",
+    "title": "Medical and Allied Institutions",
+    "category": "Colleges",
+    "content": "The medical and allied health section of the ACU program directory references BGS AIMS, BGS Medical College and Hospital, ASAHS, BGS VIAHS and BGS VIPT in connection with the listed medical, allied health and physiotherapy programs.",
+    "source": "https://acu.edu.in/listofprograms/"
+  },
+    {
+    "id": "admission-process",
+    "title": "ACU Admission Process",
+    "category": "Admissions",
+    "content": "Adichunchanagiri University admissions vary according to the program. Applicants should first check the eligibility requirements for their selected course, complete the application process, submit the required documents, and complete document verification and admission formalities. Some programs require qualifying entrance examinations such as NEET, state entrance examinations, ACU entrance tests, or other examinations specified for the program. Students should verify the current admission notification for the specific academic year.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "mbbs-admission",
+    "title": "MBBS Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For MBBS admission, candidates must have passed 2nd PUC or 12th with English, Physics, Chemistry and Biology. General Merit candidates require a minimum of 50% aggregate in PCB, while SC/ST/Category I candidates require a minimum of 45% aggregate in PCB. Qualification in the NEET entrance examination is mandatory.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "be-admission",
+    "title": "B.E. Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For B.E. admission, candidates must have passed 2nd PUC or 12th with English, Physics and Mathematics together with Chemistry, Biotechnology, Biology, Electronics or Computer Science as specified. General Merit candidates require a minimum of 45% aggregate, while SC/ST/Category I candidates require a minimum of 40% aggregate. A state entrance examination or ACU entrance test is required according to the official eligibility criteria.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "bpharm-admission",
+    "title": "B.Pharm Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For B.Pharm admission, candidates must have passed 2nd PUC or 12th with English, Physics and Chemistry together with Biology or Mathematics. A state entrance examination or ACU entrance test is required according to the official ACU eligibility criteria.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "pharmd-admission",
+    "title": "Pharm.D Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For Pharm.D admission, candidates must have passed 2nd PUC or 12th with Physics, Chemistry and Biology or Mathematics, or have passed D.Pharm from a PCI-approved institution. A state entrance examination or ACU entrance test is required according to the official ACU eligibility criteria.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "bsc-nursing-admission",
+    "title": "B.Sc Nursing Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For B.Sc Nursing admission, candidates must have passed 2nd PUC or 12th with English, Physics, Chemistry and Biology. General Merit candidates require a minimum of 45% aggregate in PCB and English, while SC/ST/Category I candidates require a minimum of 40% aggregate in PCB and English.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "post-basic-nursing-admission",
+    "title": "Post Basic B.Sc Nursing Admission",
+    "category": "Admissions",
+    "content": "For Post Basic B.Sc Nursing admission, candidates must have passed a Diploma in General Nursing and Midwifery (GNM), have working knowledge of English, and have a minimum of two years of working experience.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "bcom-admission",
+    "title": "B.Com Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For B.Com admission, candidates must have passed PUC, 10+2 or an equivalent examination conducted by a State or Central Government authority.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "bed-admission",
+    "title": "B.Ed Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For B.Ed admission, eligibility depends on the previous qualification and category. Candidates may qualify with a recognised degree or with a Master's degree, B.E. or B.Tech with Science and Mathematics as specified by ACU. Minimum marks differ between General Merit and SC/ST/Category I candidates. A state entrance examination or ACU entrance test is required according to the official criteria.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "allied-health-admission",
+    "title": "Allied Health Sciences Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For Allied Health Sciences programs including B.MLS, B.MRIT, B.Optom., B.DTT, B.AOTT and B.EMT, candidates must have passed 2nd PUC or 12th or an equivalent examination with English and Physics, Chemistry, Biology and Mathematics as principal subjects. Candidates who completed diploma or vocational courses through correspondence are not eligible for these programs according to the official eligibility criteria.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "md-ms-admission",
+    "title": "MD and MS Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For MD and MS admission, candidates must have passed MBBS from an MCI-recognised medical college and must be declared qualified in NEET-PG.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "mtech-admission",
+    "title": "M.Tech Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For M.Tech admission, candidates must have completed B.E. or B.Tech from an AICTE-recognised institute. The minimum aggregate is 50% for General Merit and 45% for SC/ST/Category I candidates. A state entrance examination is required according to the official eligibility criteria.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "mba-admission",
+    "title": "MBA Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For MBA admission, candidates require a bachelor's degree. General Merit candidates require 50% aggregate, while SC/ST/Category I candidates require 45% aggregate. Accepted entrance examinations listed by ACU include K-MAT, PGCET and CAT.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "mpharm-admission",
+    "title": "M.Pharm Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For M.Pharm admission, candidates must have a B.Pharm qualification from a PCI-recognised institute. The minimum aggregate is 55% for General Merit and 50% for SC/ST/Category I candidates.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "msc-nursing-admission",
+    "title": "M.Sc Nursing Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For M.Sc Nursing admission, candidates must have B.Sc Nursing, B.Sc Honours Nursing or Post Basic B.Sc Nursing from an INC-recognised institute and at least one year of work experience. General Merit candidates require 55% aggregate, while SC/ST/Category I candidates require 50% aggregate.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "phd-admission",
+    "title": "Ph.D Admission Eligibility at ACU",
+    "category": "Admissions",
+    "content": "For Ph.D admission, candidates generally require a postgraduate degree in the relevant subject from a recognised university. The official eligibility criteria specify minimum marks that vary by category and qualification. The ACU Ph.D Entrance Test is required unless an applicable exemption such as GATE, UGC-NET, GPAT or M.Phil applies. Exempt candidates must still appear for the interview.",
+    "source": "https://acu.edu.in/admissions-eligibility-criteria/"
+  },
+  {
+    "id": "admission-contact",
+    "title": "ACU Admissions Contact",
+    "category": "Admissions",
+    "content": "For UG, PG and Ph.D applications, eligibility guidance, fee structure, entrance test coordination and counselling, students can contact the ACU Admissions Cell. The official contact page lists admissions@acu.edu.in and phone number 08234 287271.",
+    "source": "https://acu.edu.in/contact/"
+  },
+  {
+    "id": "international-admission",
+    "title": "International and SAARC Admissions at ACU",
+    "category": "Admissions",
+    "content": "International applicants may need academic mark sheets, degree certificates for postgraduate applicants, an AIU equivalence certificate for foreign qualifications, transfer and conduct certificates, a migration certificate, passport copies, photographs, a student visa and relevant entrance examination scores. ACU provides admission and visa-support assistance for international students.",
+    "source": "https://acu.edu.in/international-saarc-admissions/"
+  },
+  {
+    "id": "admission-fees-general",
+    "title": "ACU Admission Fee Information",
+    "category": "Admissions",
+    "content": "Admission and tuition fees vary by program. ACU states that detailed fee breakdowns are provided in the official notification for each program. Students should contact the Admissions Cell for the current fee structure rather than relying on a general fee amount.",
+    "source": "https://acu.edu.in/about/faq/"
+  },
+    {
+    "id": "hostel-overview",
+    "title": "ACU Hostel Facilities",
+    "category": "Hostel",
+    "content": "Adichunchanagiri University provides separate hostel facilities for boys and girls. The official ACU hostel page currently describes more than 10 hostel blocks, more than 2000 bed capacity, 24/7 warden support and campus-wide Wi-Fi coverage.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "boys-hostel",
+    "title": "ACU Boys Hostel",
+    "category": "Hostel",
+    "content": "The ACU boys hostel provides furnished rooms on a sharing basis with cots, study tables and chairs. Facilities include high-speed Wi-Fi, filtered drinking water, regular housekeeping, laundry services, reading rooms, tutorial rooms and 24/7 warden support.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "girls-hostel",
+    "title": "ACU Girls Hostel",
+    "category": "Hostel",
+    "content": "The ACU girls hostel provides separate secured residential blocks with attached bathrooms, solar-heated hot water, dedicated reading rooms and 24/7 female warden supervision. The official page also describes CCTV monitoring, indoor recreation facilities, generator backup and guest-house facilities for visiting parents.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "hostel-security",
+    "title": "ACU Hostel Security",
+    "category": "Hostel",
+    "content": "ACU hostel facilities include CCTV surveillance, access control, round-the-clock security personnel, on-site wardens and emergency response arrangements. The hostel page also describes medical access through the on-campus hospital.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "hostel-amenities",
+    "title": "ACU Hostel Amenities",
+    "category": "Hostel",
+    "content": "ACU hostel amenities include campus-wide Wi-Fi, RO purified drinking water, housekeeping, laundry services, 24/7 security, medical access, power backup and solar-heated hot water. Reading rooms and indoor recreation facilities are also available.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "hostel-dining",
+    "title": "ACU Hostel Dining",
+    "category": "Hostel",
+    "content": "ACU hostel mess facilities provide daily meals. The official hostel page describes a menu including South Indian and North Indian food. Listed meal timings include breakfast from 7:30 AM to 8:30 AM, lunch from 12:30 PM to 2:00 PM, tea or coffee from 4:30 PM to 5:30 PM, and dinner from 7:30 PM to 8:30 PM.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "hostel-rules",
+    "title": "ACU Hostel Rules",
+    "category": "Hostel",
+    "content": "ACU hostel residents are expected to follow hostel discipline and safety rules. The official hostel page states that ragging, harassment, smoking, alcohol and intoxicating substances are prohibited. Entry and exit records are maintained, unauthorized visitors are restricted, and students are responsible for hostel property.",
+    "source": "https://acu.edu.in/about/hostel-facility/"
+  },
+  {
+    "id": "campus-transport",
+    "title": "ACU Campus Transport",
+    "category": "Transport",
+    "content": "Adichunchanagiri University provides regular campus bus services connecting the B.G. Nagara campus with Bengaluru, Mandya and Mysuru. The university also provides shuttle coordination for inter-campus transportation and parking facilities.",
+    "source": "https://acu.edu.in/about/life-acu/"
+  },
+  {
+    "id": "transport-routes",
+    "title": "ACU Bus Routes",
+    "category": "Transport",
+    "content": "The main ACU campus transport information identifies Bengaluru, Mandya and Mysuru routes. Individual constituent institutions may have additional routes or schedules. Students should verify current route timings and availability with the relevant institution or transport coordinator.",
+    "source": "https://acu.edu.in/about/life-acu/"
+  },
+  {
+    "id": "bgsit-transport",
+    "title": "BGSIT Transport Facilities",
+    "category": "Transport",
+    "content": "BGS Institute of Technology operates institutional bus services on routes including Bengaluru, Mandya and Mysuru. Its official transport information also describes routes connecting Hassan and Tumkur through the NH-75 corridor. Transport schedules and availability should be confirmed with BGSIT.",
+    "source": "https://acu.edu.in/engmt/bgsit/contact/"
+  },
+  {
+    "id": "acu-road-connectivity",
+    "title": "ACU Road Connectivity",
+    "category": "Transport",
+    "content": "The ACU main campus is located at B.G. Nagara on National Highway 75, about 1 km west of Bellur Cross. The official ACU contact page describes road connectivity from Bengaluru, Mysuru, Mandya and Hassan. Direct KSRTC and private bus services operate on NH-75 and buses stop at BG Nagara or Bellur Cross.",
+    "source": "https://acu.edu.in/contact/"
+  },
+  {
+    "id": "acu-rail-connectivity",
+    "title": "ACU Rail Connectivity",
+    "category": "Transport",
+    "content": "The ACU contact page lists Nagamangala, Mandya and Bengaluru City among the nearby railway connections. Nagamangala is approximately 10 km from the campus, while Mandya is approximately 65 km away.",
+    "source": "https://acu.edu.in/contact/"
+  },
+  {
+    "id": "acu-air-connectivity",
+    "title": "ACU Air Connectivity",
+    "category": "Transport",
+    "content": "Kempegowda International Airport in Bengaluru is the nearest major airport listed by ACU. The official ACU contact page gives an approximate distance of 140 km via NH-75 and notes that taxis can be used to reach the campus.",
+    "source": "https://acu.edu.in/contact/"
+  },
+  
+{
+  "id": "bgsit-overview",
+  "title": "BGS Institute of Technology - Complete Overview",
+  "category": "BGSIT",
+  "content": "BGS Institute of Technology (BGSIT) is a constituent college of Adichunchanagiri University located at B.G. Nagara. BGSIT was established in 2001 and became a constituent college of Adichunchanagiri University in 2020. The institute is AICTE approved, NAAC A+ accredited, and has NBA-accredited programs including CSE and ECE. BGSIT offers undergraduate B.E., postgraduate M.Tech and MBA, and doctoral programs. The institute has a 21-acre campus, engineering laboratories, AICTE IDEA Lab, central library, smart classrooms, hostels, sports facilities and cafeteria.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-ug-programs",
+  "title": "BGSIT Undergraduate Engineering Programs",
+  "category": "BGSIT Academics",
+  "content": "BGS Institute of Technology offers B.E. programs in Computer Science and Engineering, Electronics and Communication Engineering, Information Science and Engineering, Artificial Intelligence and Machine Learning, Civil Engineering, Mechanical Engineering, and Robotics and Artificial Intelligence. The B.E. programs are four-year undergraduate engineering programs.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-pg-programs",
+  "title": "BGSIT Postgraduate Programs",
+  "category": "BGSIT Academics",
+  "content": "BGSIT offers postgraduate programs including M.Tech in Computer Science and Engineering, VLSI Design, Structural Engineering, Infrastructure Management, AI and Data Science, and Robotics and Artificial Intelligence. BGSIT also offers MBA. Program availability and admission requirements should be verified against the current official admission notification.",
+  "source": "https://acu.edu.in/engmt/bgsit/admissions/"
+},
+{
+  "id": "bgsit-phd-programs",
+  "title": "BGSIT PhD Programs",
+  "category": "BGSIT Academics",
+  "content": "BGSIT offers doctoral research opportunities in engineering areas including Computer Science and Engineering, Electronics and Communication Engineering, Civil Engineering and Mechanical Engineering.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-departments",
+  "title": "BGSIT Departments",
+  "category": "BGSIT Departments",
+  "content": "The engineering departments at BGSIT include Computer Science and Engineering, Electronics and Communication Engineering, Information Science and Engineering, Artificial Intelligence and Machine Learning, Civil Engineering, Mechanical Engineering, and Robotics and Artificial Intelligence. BGSIT also has Basic Science and Management studies areas.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-cse",
+  "title": "BGSIT Computer Science and Engineering",
+  "category": "BGSIT Department",
+  "content": "The Department of Computer Science and Engineering at BGSIT was established in 2005. The department offers B.E. Computer Science and Engineering and is NBA accredited. The department focuses on software engineering, algorithms, artificial intelligence, cloud computing, cyber security, full-stack development and related computing technologies. The department has an IDEA Innovation Lab, AI and ML workstations and a Cyber Security centre. The official department page describes industry partnerships, internships and project-based learning.",
+  "source": "https://acu.edu.in/engmt/bgsit/cse/"
+},
+{
+  "id": "bgsit-cse-hod",
+  "title": "BGSIT CSE HOD",
+  "category": "BGSIT Faculty",
+  "keywords": [
+    "cse",
+    "cse hod",
+    "cse head",
+    "computer science",
+    "computer science engineering",
+    "computer science and engineering",
+    "computer science hod",
+    "hod",
+    "head of department",
+    "bgsit cse"
+  ],
+  "content": "The official BGSIT Computer Science and Engineering department page identifies Dr. Manu Y M as Professor and Head of the Department of Computer Science. His listed qualifications include M.Tech and Ph.D.",
+  "source": "https://acu.edu.in/engmt/bgsit/cse/"
+},
+{
+  "id": "bgsit-aiml",
+  "title": "BGSIT Artificial Intelligence and Machine Learning",
+  "category": "BGSIT Department",
+  "content": "The BGSIT Artificial Intelligence and Machine Learning department offers B.E. Artificial Intelligence and Machine Learning. The department focuses on deep learning, natural language processing, computer vision, reinforcement learning, intelligent systems and data-driven decision making. The department uses technologies and frameworks including TensorFlow, PyTorch and Scikit-learn and has dedicated GPU-equipped AI and deep learning laboratories.",
+  "source": "https://acu.edu.in/engmt/bgsit/aiml/"
+},
+{
+  "id": "bgsit-aiml-hod",
+  "title": "BGSIT AI and ML Head of Department",
+  "category": "BGSIT Faculty",
+  "content": "The official BGSIT Artificial Intelligence and Machine Learning page identifies Dr. Siddartha B K as Associate Professor and Head of the Department of Artificial Intelligence and Machine Learning. His listed qualifications include M.Tech and Ph.D.",
+  "source": "https://acu.edu.in/engmt/bgsit/aiml/"
+},
+{
+  "id": "bgsit-ece",
+  "title": "BGSIT Electronics and Communication Engineering",
+  "category": "BGSIT Department",
+  "content": "The BGSIT Electronics and Communication Engineering department offers B.E. Electronics and Communication Engineering. The department covers AI and ML, IoT, VLSI design, embedded systems, communication technologies, signal processing and related electronics areas. It has a Centre of Excellence in Drone and IoT. BGSIT also offers M.Tech in VLSI Design and Embedded Systems and Ph.D. opportunities in Electronics and Communication.",
+  "source": "https://acu.edu.in/engmt/bgsit/ece/"
+},
+{
+  "id": "bgsit-ece-hod",
+  "title": "BGSIT ECE HOD",
+  "category": "BGSIT Faculty",
+  "keywords": [
+    "ece",
+    "ece hod",
+    "ece head",
+    "electronics",
+    "communication",
+    "electronics and communication",
+    "electronics and communication engineering",
+    "electronics communication engineering hod",
+    "hod",
+    "head of department",
+    "bgsit ece"
+  ],
+  "content": "The official BGSIT Electronics and Communication Engineering department page identifies Dr. Naveen K B as Professor and Head of the Department of Electronics and Communication Engineering.",
+  "source": "https://acu.edu.in/engmt/bgsit/ece/"
+},
+{
+  "id": "bgsit-civil",
+  "title": "BGSIT Civil Engineering",
+  "category": "BGSIT Department",
+  "content": "The BGSIT Civil Engineering department offers B.E. Civil Engineering. The department provides training in structural engineering, geotechnical engineering, transportation engineering, environmental engineering and modern construction techniques. Laboratories include surveying, geotechnical engineering, structural analysis and environmental engineering facilities. Students can work with technologies and software including BIM, AutoCAD and STAAD.Pro. The department also provides consultancy in planning, structural design and material testing.",
+  "source": "https://acu.edu.in/engmt/bgsit/civil/"
+},
+{
+  "id": "bgsit-civil-hod",
+  "title": "BGSIT Civil Engineering Head of Department",
+  "category": "BGSIT Faculty",
+  "content": "The official BGSIT Civil Engineering page identifies Dr. Shruthi R as Head of the Department of Civil Engineering. Her listed qualifications include M.Tech and Ph.D.",
+  "source": "https://acu.edu.in/engmt/bgsit/civil/"
+},
+{
+  "id": "bgsit-mechanical",
+  "title": "BGSIT Mechanical Engineering",
+  "category": "BGSIT Department",
+  "content": "BGSIT offers B.E. Mechanical Engineering. The department covers thermal engineering, machine design, manufacturing technologies and related mechanical engineering areas. The official faculty directory identifies Dr. Manjunath S H as Professor and Head of the Mechanical Engineering Department.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-ise",
+  "title": "BGSIT Information Science and Engineering",
+  "category": "BGSIT Department",
+  "content": "BGSIT offers B.E. Information Science and Engineering. The program focuses on computer networks, web technologies, information security and related information technology areas, with industry internship opportunities.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-robotics-ai",
+  "title": "BGSIT Robotics and Artificial Intelligence",
+  "category": "BGSIT Department",
+  "content": "BGSIT offers B.E. Robotics and Artificial Intelligence. The program focuses on autonomous systems, control engineering, kinematics, robotics and artificial intelligence technologies.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-basic-science",
+  "title": "BGSIT Basic Science Department",
+  "category": "BGSIT Department",
+  "content": "BGSIT has a Basic Science area covering foundational subjects including mathematics, physics, chemistry and humanities-related foundation courses. The official faculty directory identifies Dr. B K Yuvaraja as Professor and Head of the Basic Science Department and Dr. Shankara S R as Associate Professor and Head of the Physics Department.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-faculty-complete",
+  "title": "BGSIT Complete Faculty Directory",
+  "category": "BGSIT Faculty",
+  "content": "The official ACU BGSIT faculty directory currently lists 60 faculty profiles. The departments shown in the directory are CSE, ECE, ISE, AI&ML, Civil, Mechanical, MBA and Basic Science. ISE currently shows 0 faculty profiles in the directory.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-cse-faculty-complete",
+  "title": "BGSIT CSE Faculty",
+  "category": "BGSIT Faculty",
+  "content": "Computer Science and Engineering faculty currently listed by the official BGSIT faculty directory: Dr. Jayanthiladevi; Dr. Vani N; Dr. Swetha K R; Mr. Ananda K; Mr. Dhruva M S; Mr. Kishore H N; Mr. Prasanna Kumar M J; Mrs. Jyothi B G; Mrs. Namitha A R; Mrs. Nandini S R; Mrs. Pallavi N R; Mrs. Saritha D; Mrs. Shruthi K S; Mrs. Divyashree M U; Ms. Dharini K R; SANTHOSH B J; Ms. Afshan Zareen.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-ece-faculty-complete",
+  "title": "BGSIT ECE Faculty",
+  "category": "BGSIT Faculty",
+  "content": "Electronics and Communication Engineering faculty currently listed by the official BGSIT faculty directory: Dr. Smitha A S; Mr. Balaji B S; Mr. Deepak R; Mr. Sandeep S V; Dr. Vijay Kumar Gowda B N.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-aiml-faculty-complete",
+  "title": "BGSIT AI and Machine Learning Faculty",
+  "category": "BGSIT Faculty",
+  "content": "Artificial Intelligence and Machine Learning faculty currently listed by the official BGSIT faculty directory: Ms. Chandrika B N; Ms. Smitha K; Mr. Anil Kumar K B; Mr. Kiran N; Mr. Rajasekaran T; Mrs. Nimisha Y B; Ms. Bindu K N; Dr. Parmanand Prabhat; Mrs. Malarashree G.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-civil-faculty-complete",
+  "title": "BGSIT Civil Engineering Faculty",
+  "category": "BGSIT Faculty",
+  "content": "Civil Engineering faculty currently listed by the official BGSIT faculty directory: Mr. Varun C S; Dr. Mahalingegowda H R; Mr. Akshay Kumar H S; Mr. Amith B J; Mr. Sunil R; Mr. Sachin M S; Uma A; Mrs. Sandya D S.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-mechanical-faculty-complete",
+  "title": "BGSIT Mechanical Engineering Faculty",
+  "category": "BGSIT Faculty",
+  "content": "Mechanical Engineering faculty currently listed by the official BGSIT faculty directory: Dr. Manjunath S H; Dr. Hemaraju; Dr. Chethana G C; Mr. Hemantha C; Mr. K S Sudeep Kumar.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-basic-science-faculty-complete",
+  "title": "BGSIT Basic Science Faculty",
+  "category": "BGSIT Faculty",
+  "content": "Basic Science faculty currently listed by the official BGSIT faculty directory: Dr. Shankara S R; Dr. B K Yuvaraja; Dr. Parashivamurthy H L; Dr. Malathesh P; Mr. Gangadharagowda P H; Mr. Sunil Kumar M S; Mrs. Ashwini M D; Mrs. Chaithra S M; Mrs. Dakshayini G; Mrs. Priyanka H D; Mrs. Smitha S K; Ms. Kavitha; Ms. Koushitha B K; Ms. Sushma T N; Ms. Umalakshmi H A.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-mba-faculty-complete",
+  "title": "BGSIT MBA Faculty",
+  "category": "BGSIT Faculty",
+  "content": "MBA/Management Studies faculty currently listed by the official BGSIT faculty directory: Mr Bharath KJ.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-ise-faculty-status",
+  "title": "BGSIT ISE Faculty Status",
+  "category": "BGSIT Faculty",
+  "content": "The current official BGSIT faculty directory shows 0 faculty profiles under Information Science and Engineering (ISE). Saarthi must not invent or guess ISE faculty names. If a user asks for ISE faculty, Saarthi should explain that the current official directory does not list faculty profiles for ISE and recommend checking the official BGSIT directory for updates.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-aiml-hod",
+  "title": "BGSIT AI and ML HOD",
+  "category": "BGSIT Faculty",
+  "keywords": [
+    "aiml",
+    "ai ml",
+    "ai and ml",
+    "artificial intelligence",
+    "machine learning",
+    "aiml hod",
+    "ai ml hod",
+    "head of department",
+    "hod"
+  ],
+  "content": "The current Head of the Department of Artificial Intelligence and Machine Learning (AI&ML) at BGS Institute of Technology (BGSIT) is Dr. Siddartha B K. He is an Associate Professor and Head of the AI and Machine Learning department.",
+  "source": "https://acu.edu.in/engmt/bgsit/aiml/"
+},
+{
+  "id": "bgsit-aiml-faculty",
+  "title": "BGSIT AI and Machine Learning Faculty",
+  "category": "BGSIT Faculty",
+  "keywords": [
+    "aiml faculty",
+    "ai ml faculty",
+    "ai and ml faculty",
+    "artificial intelligence faculty",
+    "machine learning faculty",
+    "aiml teachers",
+    "ai ml teachers",
+    "faculty of aiml",
+    "bgsit aiml"
+  ],
+  "content": "The AI and Machine Learning faculty currently listed for BGSIT include: Dr. Siddartha B K, Ms. Chandrika B N, Ms. Smitha K, Mr. Anil Kumar K B, Mr. Kiran N, Mr. Rajasekaran T, Mrs. Nimisha Y B, Ms. Bindu K N, Dr. Parmanand Prabhat, and Mrs. Malarashree G. Faculty designations, qualifications and specializations should be taken from the current official BGSIT faculty profiles.",
+  "source": "https://acu.edu.in/engmt/bgsit/faculty/"
+},
+{
+  "id": "bgsit-facilities",
+  "title": "BGSIT Facilities",
+  "category": "BGSIT Facilities",
+  "content": "BGSIT facilities include engineering laboratories, AICTE IDEA Lab, central library, smart classrooms, campus hostels, sports grounds, auditorium and cafeteria. The official BGSIT page describes a 41,839+ volume library, digital journals, e-library and reading halls. The IDEA Lab supports innovation, design, entrepreneurship and prototyping.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "bgsit-placement",
+  "title": "BGSIT Placements",
+  "category": "BGSIT Placements",
+  "content": "The official BGSIT pages currently state an 86% placement figure. The CSE department page describes active relationships with more than 100 industry partners, structured internships, pre-placement training and campus recruitment. It lists recruiters including TCS, Infosys, Wipro, Accenture, Capgemini, IBM, Cognizant, HCL Technologies, Mphasis, L&T Infotech, Oracle, SAP Labs, Mindtree and Hexaware. The CSE page gives a package range of ₹3.5 LPA to ₹18 LPA for the information presented there.",
+  "source": "https://acu.edu.in/engmt/bgsit/cse/"
+},
+{
+  "id": "bgsit-admissions",
+  "title": "BGSIT Admissions 2026-27",
+  "category": "BGSIT Admissions",
+  "content": "BGSIT has an official admissions page for the 2026-27 academic year. Listed programs include B.E. in CSE, ECE, ISE, AI and ML, Civil Engineering, Mechanical Engineering and Robotics and Artificial Intelligence, including lateral entry options. The admissions page also lists M.Tech programs, MBA and hostel options. Students should use the official BGSIT admissions page for current fees, eligibility, documents and admission procedures.",
+  "source": "https://acu.edu.in/engmt/bgsit/admissions/"
+},
+{
+  "id": "bgsit-transport",
+  "title": "BGSIT Transportation",
+  "category": "BGSIT Facilities",
+  "content": "BGSIT provides institutional transportation. The existing ACU knowledge base records BGSIT routes including Bengaluru, Mandya and Mysuru and additional routes through the NH-75 corridor. Students should verify current routes and schedules with BGSIT.",
+  "source": "https://acu.edu.in/engmt/bgsit/contact/"
+},
+{
+  "id": "bgsit-recognition",
+  "title": "BGSIT Recognition and Accreditation",
+  "category": "BGSIT Accreditation",
+  "content": "BGSIT is approved by AICTE, is a constituent college of Adichunchanagiri University since 2020, is NAAC A+ accredited, has NBA-accredited programs including CSE and ECE, is recognised by the Government of Karnataka, participates in NIRF and is recognised as an AICTE IDEA Lab institution.",
+  "source": "https://acu.edu.in/engmt/bgsit/about/"
+},
+{
+  "id": "bgsit-principal",
+  "title": "BGSIT Principal",
+  "category": "BGSIT Leadership",
+  "keywords": [
+    "bgsit principal",
+    "principal of bgsit",
+    "principal bgsit",
+    "bgs institute of technology principal",
+    "bgsit college principal",
+    "college principal",
+    "principal"
+  ],
+  "content": "The Principal of BGS Institute of Technology (BGSIT) is Dr. B. N. Shobha.",
+  "source": "https://acu.edu.in/engmt/bgsit/"
+},
+{
+  "id": "aims-principal",
+  "title": "AIMS Principal",
+  "category": "Adichunchanagiri Institute of Medical Sciences Leadership",
+  "keywords": [
+    "aims principal",
+    "principal of aims",
+    "principal aims",
+    "adichunchanagiri institute of medical sciences principal",
+    "medical college principal",
+    "bgs aims principal",
+    "principal"
+  ],
+  "content": "Dr. M. G. Shivaramu is the Principal of Adichunchanagiri Institute of Medical Sciences, also known as AIMS. He is also the Dean of Health Sciences, Medical and Allied Health Sciences, at Adichunchanagiri University.",
+  "source": "https://acu.edu.in/acu_aims_newpages/"
+},
+{
+  "id": "aims-overview",
+  "title": "Adichunchanagiri Institute of Medical Sciences",
+  "category": "AIMS Medical College",
+  "keywords": [
+    "aims",
+    "bgs aims",
+    "bgsaims",
+    "adichunchanagiri institute of medical sciences",
+    "medical college",
+    "medical sciences",
+    "mbbs",
+    "medicine",
+    "medical college bangalore",
+    "medical college bg nagara"
+  ],
+  "content": "Adichunchanagiri Institute of Medical Sciences, or AIMS, is a constituent college of Adichunchanagiri University located at B.G. Nagara, Karnataka. The institute was established in 1986. It is recognised by the National Medical Commission and is accredited NAAC A+. AIMS is integrated with the Adichunchanagiri Hospital and Research Centre for hospital-based clinical training.",
+  "source": "https://acu.edu.in/acu_aims_newpages/"
+},
+{
+  "id": "aims-programmes",
+  "title": "AIMS Programmes",
+  "category": "AIMS Courses and Programmes",
+  "keywords": [
+    "aims courses",
+    "aims programs",
+    "aims programmes",
+    "mbbs",
+    "md",
+    "ms",
+    "medical courses",
+    "ug medical",
+    "pg medical",
+    "undergraduate medical",
+    "postgraduate medical"
+  ],
+  "content": "AIMS offers MBBS at undergraduate level and MD and MS postgraduate medical programmes. The official AIMS website describes MBBS as a five and a half year programme including internship. MD and MS are three year postgraduate speciality programmes.",
+  "source": "https://acu.edu.in/acu_aims_newpages/"
+},
+{
+  "id": "aims-pre-paraclinical-departments",
+  "title": "AIMS Pre and Para-Clinical Departments",
+  "category": "AIMS Departments",
+  "keywords": [
+    "aims departments",
+    "pre clinical",
+    "preclinical",
+    "para clinical",
+    "paraclinical",
+    "anatomy",
+    "physiology",
+    "biochemistry",
+    "pathology",
+    "microbiology",
+    "pharmacology",
+    "forensic medicine",
+    "toxicology",
+    "community medicine",
+    "cardiology",
+    "clinical immunology",
+    "rheumatology"
+  ],
+  "content": "The AIMS Pre and Para-Clinical departments listed on the official website are Anatomy, Physiology, Biochemistry, Pathology, Microbiology, Pharmacology, Forensic Medicine and Toxicology, Community Medicine, Cardiology, and Clinical Immunology and Rheumatology.",
+  "source": "https://bgsaims.edu.in/"
+},
+{
+  "id": "aims-medicine-allied-departments",
+  "title": "AIMS Medicine and Allied Departments",
+  "category": "AIMS Departments",
+  "keywords": [
+    "aims medicine departments",
+    "medicine allied",
+    "general medicine",
+    "dermatology",
+    "venereology",
+    "leprosy",
+    "dvl",
+    "pediatrics",
+    "paediatrics",
+    "emergency medicine",
+    "pulmonary medicine",
+    "psychiatry",
+    "radiology",
+    "nephrology",
+    "medical oncology"
+  ],
+  "content": "The AIMS Medicine and Allied departments listed on the official website are General Medicine, Dermatology, Venereology and Leprosy, Pediatrics, Emergency Medicine, Pulmonary Medicine, Psychiatry, Radiology, Nephrology, and Medical Oncology.",
+  "source": "https://bgsaims.edu.in/"
+},
+{
+  "id": "aims-surgery-allied-departments",
+  "title": "AIMS Surgery and Allied Departments",
+  "category": "AIMS Departments",
+  "keywords": [
+    "aims surgery departments",
+    "surgery allied",
+    "general surgery",
+    "anaesthesiology",
+    "anesthesia",
+    "obstetrics",
+    "gynaecology",
+    "gynecology",
+    "ophthalmology",
+    "orthopedics",
+    "orthopaedics",
+    "ent",
+    "head and neck surgery",
+    "urology",
+    "surgical oncology",
+    "plastic surgery",
+    "neurosurgery",
+    "dentistry"
+  ],
+  "content": "The AIMS Surgery and Allied departments listed on the official website are General Surgery, Anaesthesiology, Obstetrics and Gynaecology, Ophthalmology, Orthopedics, ENT and Head and Neck Surgery, Urology, Surgical Oncology, Plastic Surgery, Neurosurgery, and Dentistry.",
+  "source": "https://bgsaims.edu.in/"
+},
+{
+  "id": "aims-facilities",
+  "title": "AIMS Facilities and Student Services",
+  "category": "AIMS Facilities",
+  "keywords": [
+    "aims facilities",
+    "aims hostel",
+    "aims library",
+    "aims laboratories",
+    "aims student facilities",
+    "learning resource centre",
+    "library",
+    "laboratories",
+    "hostel",
+    "skill simulation centre",
+    "simulation center",
+    "student support"
+  ],
+  "content": "The AIMS official website provides information about the Learning Resource Centre, hostel facility, laboratories, hospital bed distribution, student support services, skill and simulation centre, NSS, sports, grievance support, anti-ragging and other student committees.",
+  "source": "https://bgsaims.edu.in/"
+},
+{
+  "id": "aims-hospital",
+  "title": "Adichunchanagiri Hospital and Research Centre",
+  "category": "AIMS Hospital",
+  "keywords": [
+    "aims hospital",
+    "adichunchanagiri hospital",
+    "ahrc",
+    "hospital",
+    "research centre",
+    "research center",
+    "clinical training",
+    "medical hospital"
+  ],
+  "content": "AIMS is integrated with the Adichunchanagiri Hospital and Research Centre. The hospital provides the clinical environment for hospital-based medical education and training. The AIMS website also provides information about hospital services, schemes and insurance, patient rights, health check-ups, patient services and other hospital resources.",
+  "source": "https://bgsaims.edu.in/"
+},
+{
+  "id": "aims-anatomy-faculty",
+  "title": "AIMS Anatomy HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims anatomy",
+    "anatomy aims",
+    "anatomy hod",
+    "anatomy faculty",
+    "anatomy teachers",
+    "who is anatomy hod",
+    "who teaches anatomy"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Tejaswi HL as Professor and Head of the Department of Anatomy. Other listed Anatomy faculty are Dr. Sharada B M, Dr. Ajay N, Dr. Yogi Anupkumar Balakrishnan, Dr. Naveen Kumar B D, and Mrs. Sharmadha K L.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-pharmacology-faculty",
+  "title": "AIMS Pharmacology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims pharmacology",
+    "pharmacology aims",
+    "pharmacology hod",
+    "pharmacology faculty",
+    "pharmacology teachers",
+    "who is pharmacology hod",
+    "who teaches pharmacology"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Kokila B N as Professor and Head of the Department of Pharmacology. Other listed Pharmacology faculty are Dr. Ravi Shankar M., Dr. Ravi M., Dr. Ramesh H S, and Dr. Vagdevi H R.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-pathology-faculty",
+  "title": "AIMS Pathology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims pathology",
+    "pathology aims",
+    "pathology hod",
+    "pathology faculty",
+    "pathology teachers",
+    "who is pathology hod",
+    "who teaches pathology"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Abhishek M.G. as Professor and Head of the Department of Pathology. Other listed Pathology faculty are Dr. Vijayshankar S., Dr. Amita K., Dr. Sanjay M, Dr. Nanjunda Swamy D, Dr. Rakshitha H.B, Dr. Kusuma K N, Dr. Rajini T, Dr. Sumaya, Dr. Apoorva Pandit, Dr. Nandini S Raj, and Dr. Prabhashree C.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-paediatrics-faculty",
+  "title": "AIMS Paediatrics HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims paediatrics",
+    "aims pediatrics",
+    "paediatrics aims",
+    "pediatrics aims",
+    "paediatrics hod",
+    "pediatrics hod",
+    "paediatrics faculty",
+    "pediatrics faculty",
+    "who is paediatrics hod",
+    "who is pediatrics hod",
+    "who teaches pediatrics"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Mahendrappa K B as Professor and Head of the Department of Paediatrics. Other listed Paediatrics faculty are Dr. C Anitha, Dr. Sunil Kumar P, Dr. Prasanna Kumar D G, Dr. Madhava Kamath K, Dr. Nandha Kumar V, Dr. Anurag, Dr. Sri Raksha S, and Dr. Meghana S K.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-physiology-faculty",
+  "title": "AIMS Physiology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims physiology",
+    "physiology aims",
+    "physiology hod",
+    "physiology faculty",
+    "physiology teachers",
+    "who is physiology hod",
+    "who teaches physiology"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Anand K.S.S as Professor and Head of the Department of Physiology. Other listed Physiology faculty are Dr. Ravi G.N., Dr. Bhagyashree N, Dr. Divyashree, Dr. Santosh K Mayannavar, Dr. Karthik Kulkarni, and Mr. Ivon Francis Lewis.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-biochemistry-faculty",
+  "title": "AIMS Biochemistry HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims biochemistry",
+    "biochemistry aims",
+    "biochemistry hod",
+    "biochemistry faculty",
+    "biochemistry teachers",
+    "who is biochemistry hod",
+    "who teaches biochemistry"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Aliya Nusrath as Vice Principal and Professor in Biochemistry. Other listed Biochemistry faculty are Dr. Rajeshwari A., Dr. Namitha D, and Somashekar G.N. The current staff list does not identify a Biochemistry HOD in the displayed records.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-microbiology-faculty",
+  "title": "AIMS Microbiology Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims microbiology",
+    "microbiology aims",
+    "microbiology hod",
+    "microbiology faculty",
+    "microbiology teachers",
+    "who is microbiology hod",
+    "who teaches microbiology"
+  ],
+  "content": "The current AIMS NMC staff list lists Dr. K Vidya Sagar, Dr. Sageera Banoo, Dr. Shakthi R, Dr. Sudheendra Kulkarni, Dr. Sujith Pavan, Dr. Roopashree S, and Dr. Eeshita Dhar under Microbiology. The current displayed staff list does not identify a Microbiology HOD.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-forensic-medicine-faculty",
+  "title": "AIMS Forensic Medicine and Toxicology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims forensic medicine",
+    "forensic medicine aims",
+    "forensic medicine hod",
+    "forensic faculty",
+    "toxicology",
+    "forensic medicine and toxicology",
+    "who is forensic medicine hod"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Vijaya Kumar A.G. as Professor and Head of the Department of Forensic Medicine and Toxicology. Other listed faculty are Dr. Shivaramu M.G., Dr. Chinmayi Yelauri, and Dr. Jyothi S. Dr. Shivaramu M.G. is listed as Dean and Principal.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-community-medicine-faculty",
+  "title": "AIMS Community Medicine Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims community medicine",
+    "community medicine aims",
+    "community medicine hod",
+    "community medicine faculty",
+    "community medicine teachers",
+    "who is community medicine hod",
+    "who teaches community medicine"
+  ],
+  "content": "The current AIMS NMC staff list lists Dr. Shashikiran M, Dr. Harsha Kumar H N, Dr. Raghavendra S.K, Dr. Ranjini N, Dr. Madhura M M, Dr. Shwetha A Neralakatte, Dr. Thulasi M, Dr. R Keerthi, Dr. Vijaykumar S Biradar, Dr. Krishnaveni Y S, Dr. Varsha G, Dr. Shravya Alva, and Mrs. Veena N H under Community Medicine. The displayed staff list does not identify a Community Medicine HOD.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-general-medicine-faculty",
+  "title": "AIMS General Medicine HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims general medicine",
+    "general medicine aims",
+    "medicine hod",
+    "general medicine hod",
+    "general medicine faculty",
+    "medicine faculty",
+    "who is general medicine hod",
+    "who teaches general medicine"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Inbanathan J as Professor and Head of the Department of General Medicine. Other listed staff are Dr. Shashikantha, Dr. Ravi B.N, Dr. Rajashekar H K, Dr. Ramesha S S, Dr. M M Basavaraju, Dr. Shiva Kumar K M, Dr. Pavan M, Dr. Shruthi B, Dr. Jagadesha C G, Dr. H D Srinivas, Dr. Anand L, Dr. Divakar Gowda C P, Dr. Chethan R Rajpurohit, Dr. Srinivas P, Dr. Swetha N, Dr. Mithun R, Dr. Anand C K, Dr. Madhusudan J, and Dr. Udayraghavendra P V.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-emergency-medicine-faculty",
+  "title": "AIMS Emergency Medicine HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims emergency medicine",
+    "emergency medicine aims",
+    "emergency medicine hod",
+    "emergency medicine faculty",
+    "emergency faculty",
+    "who is emergency medicine hod",
+    "who teaches emergency medicine"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Suneetha D K as Professor and Head of the Department of Emergency Medicine. Other listed faculty are Dr. Pandarinath A and Dr. Lokesh B S.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-psychiatry-faculty",
+  "title": "AIMS Psychiatry Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims psychiatry",
+    "psychiatry aims",
+    "psychiatry hod",
+    "psychiatry faculty",
+    "psychiatry teachers",
+    "who is psychiatry hod",
+    "who teaches psychiatry"
+  ],
+  "content": "The current AIMS NMC staff list lists Dr. Tejaswi Prithviraj H K, Dr. Vaibhavi P S, and Dr. Kavitha B under Psychiatry. The displayed staff list does not identify a Psychiatry HOD.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-dermatology-faculty",
+  "title": "AIMS Dermatology Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims dermatology",
+    "dermatology aims",
+    "dermatology hod",
+    "dermatology faculty",
+    "skin department",
+    "who is dermatology hod",
+    "who teaches dermatology"
+  ],
+  "content": "The current AIMS NMC staff list lists Dr. Yogesh D as Professor and Dr. Shradha Gurudev as Assistant Professor in Dermatology. The displayed staff list does not identify a Dermatology HOD.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-respiratory-medicine-faculty",
+  "title": "AIMS Respiratory Medicine HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims respiratory medicine",
+    "respiratory medicine aims",
+    "pulmonary medicine",
+    "pulmonary medicine hod",
+    "respiratory medicine hod",
+    "respiratory faculty",
+    "who is respiratory medicine hod",
+    "who teaches respiratory medicine"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Deepu C C as Professor and Head of the Department of Respiratory Medicine. Other listed faculty are Dr. Sandeepa H S, Dr. Narendra U, Dr. Chirag K C, and Dr. Vijayalakshmi.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-general-surgery-faculty",
+  "title": "AIMS General Surgery HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims general surgery",
+    "general surgery aims",
+    "surgery hod",
+    "general surgery hod",
+    "general surgery faculty",
+    "surgery faculty",
+    "who is surgery hod",
+    "who teaches surgery"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Balakrishna M A as Professor and Head of the Department of General Surgery. Other listed faculty are Dr. Hanumanthaiah C.S, Dr. Abhinash Hazarika, Dr. Venkata Subbarao Gurram, Dr. Sachin M B, Dr. Rajesh K N, Dr. Divakara S R, Dr. Bharath M S, Dr. Venkatesh N, Dr. Pallavi H R, Dr. Sushrutha G, Dr. Avinash S R, Dr. Anoop S Rao, Dr. Chiranjeevi H, Dr. Shreyas C, Dr. Sri Bhargav Kolli, and Dr. Anup K Vadone.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-orthopedics-faculty",
+  "title": "AIMS Orthopedics HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims orthopedics",
+    "orthopedics aims",
+    "orthopaedics aims",
+    "orthopedics hod",
+    "orthopedics faculty",
+    "bone department",
+    "who is orthopedics hod",
+    "who teaches orthopedics"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Mahesh D.V as Professor and Head of the Department of Orthopedics. Other listed faculty are Dr. Sagar B G, Dr. Harish K, Dr. Bellad S H, Dr. Vishwanath C, Dr. Shankara K, Dr. Ashoka Rakshith, Dr. Rajeevratna Suresh Naik, Dr. Pradeep H, Dr. Guruprasad S, and Dr. Mohan Kumar.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-ent-faculty",
+  "title": "AIMS ENT HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims ent",
+    "ent aims",
+    "ear nose throat",
+    "ent hod",
+    "ent faculty",
+    "head and neck surgery",
+    "who is ent hod",
+    "who teaches ent"
+  ],
+  "content": "The current AIMS NMC staff list lists Dr. Ravi K.S as Vice Principal and Professor in ENT. Other listed ENT faculty are Dr. Nitha, Dr. Sushma Nayak, Dr. Pragathi B S, Dr. Kiran T, and Dr. Rohini D Urs. The displayed staff list does not identify an ENT HOD.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-ophthalmology-faculty",
+  "title": "AIMS Ophthalmology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims ophthalmology",
+    "ophthalmology aims",
+    "eye department",
+    "ophthalmology hod",
+    "ophthalmology faculty",
+    "eye doctor department",
+    "who is ophthalmology hod",
+    "who teaches ophthalmology"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Shetty Niharika Krishna as Professor and Head of the Department of Ophthalmology. Other listed faculty are Dr. D N Prakash, Dr. Srinivas S, Dr. Abhilash B, Dr. Shashikumar B R, and Dr. Kiran Kumar K B.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-anaesthesiology-faculty",
+  "title": "AIMS Anaesthesiology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims anaesthesiology",
+    "aims anesthesiology",
+    "anaesthesia aims",
+    "anesthesia aims",
+    "anaesthesiology hod",
+    "anesthesiology hod",
+    "anaesthesiology faculty",
+    "who is anaesthesiology hod",
+    "who teaches anaesthesiology"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Chetanananda T.N as Professor and Head of the Department of Anaesthesiology. Other listed faculty are Dr. Manjula R, Dr. Prajwal Patel H.S, Dr. Sarvesh B., Dr. Prashanth Gowtham Raj S K, Dr. Ahmedi Fathima, Dr. Avinash Shastri H, Dr. Shravya M S, Dr. Swathi V, Dr. Raghavendra R, Dr. Pallavi N, Dr. Saikumar C Patil, Dr. Rashmi Ashok Baligatti, and Dr. Chaitra T S.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-radio-diagnosis-faculty",
+  "title": "AIMS Radio Diagnosis HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims radio diagnosis",
+    "radiology aims",
+    "radio diagnosis aims",
+    "radiology hod",
+    "radio diagnosis hod",
+    "radiology faculty",
+    "radiology teachers",
+    "who is radiology hod",
+    "who teaches radiology"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Shashikumar M R as Professor and Head of the Department of Radio Diagnosis. Other listed faculty are Dr. Rajendra Kumar N L, Dr. Pradeep K, Dr. Harish H, Dr. Mahesha B M, Dr. Chiranth N, Dr. Manu R, Dr. Shashank B H, Ms Priya Seagal V K, and Dr. Pooja M.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-obg-faculty",
+  "title": "AIMS Obstetrics and Gynaecology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims obg",
+    "aims obstetrics",
+    "aims gynaecology",
+    "aims gynecology",
+    "obg hod",
+    "obg faculty",
+    "obstetrics gynecology hod",
+    "obstetrics and gynaecology",
+    "who is obg hod",
+    "who teaches obg"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Mahendra G as Professor and Head of the OBG department. Other listed faculty are Dr. Ravindra S Pukale, Dr. Mamatha K, Dr. Ramesh Babu, Dr. Nirmala Doraiswamy C K, Dr. Janasri N, Dr. Sunil C V, Dr. Ashwini B, Dr. Nikhitha B, Dr. Vijayalaxmi Gurunath Sasavihalli, Dr. Subbappa K, and Dr. Jyothipriya K S.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-dentistry-faculty",
+  "title": "AIMS Dentistry HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims dentistry",
+    "dentistry aims",
+    "dental department",
+    "dentistry hod",
+    "dentistry faculty",
+    "dental faculty",
+    "who is dentistry hod",
+    "who teaches dentistry"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Ranjith Singh as Professor and Head of the Department of Dentistry. Other listed faculty are Dr. Prasanna H.R. and Dr. Lakshmi M S.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-urology-faculty",
+  "title": "AIMS Urology HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims urology",
+    "urology aims",
+    "urology hod",
+    "urology faculty",
+    "urology teachers",
+    "who is urology hod",
+    "who teaches urology"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Girisha T D as Professor and Head of the Department of Urology. Other listed faculty are Dr. Prasad C and Dr. Vinod Laxman Gundami.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-plastic-surgery-faculty",
+  "title": "AIMS Plastic Surgery HOD and Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims plastic surgery",
+    "plastic surgery aims",
+    "plastic surgery hod",
+    "plastic surgery faculty",
+    "who is plastic surgery hod",
+    "who teaches plastic surgery"
+  ],
+  "content": "The current AIMS NMC staff list identifies Dr. Naveen N as Professor and Head of the Department of Plastic Surgery. Other listed faculty are Dr. Chethan S and Dr. Suhas G.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "aims-neurosurgery-faculty",
+  "title": "AIMS Neurosurgery Faculty",
+  "category": "AIMS Faculty",
+  "keywords": [
+    "aims neurosurgery",
+    "neurosurgery aims",
+    "neuro surgery",
+    "neurosurgery hod",
+    "neurosurgery faculty",
+    "who teaches neurosurgery"
+  ],
+  "content": "The current AIMS NMC staff list lists Dr. Chandan H A and Dr. Kshitija Prakash Suratkar under M.Ch – Neuro Surgery. The displayed staff list does not identify a Neurosurgery HOD.",
+  "source": "https://bgsaims.edu.in/nmc-staff-list-aims/"
+},
+{
+  "id": "acu-pharmacy-overview",
+  "title": "ACU Faculty of Pharmacy",
+  "category": "Pharmacy",
+  "keywords": [
+    "pharmacy",
+    "faculty of pharmacy",
+    "acu pharmacy",
+    "pharmacy college",
+    "pharmacy courses",
+    "pharmacy departments",
+    "pharmacy programs",
+    "pharmacy faculty"
+  ],
+  "content": "Adichunchanagiri University Faculty of Pharmacy has constituent institutions including Sri Adichunchanagiri College of Pharmacy at B.G. Nagara, Mandya, and BGS Vijnatham Institute of Pharmaceutical Sciences at Chikkaballapur. The Faculty of Pharmacy offers pharmaceutical education from diploma to doctoral level. SACP offers D.Pharm, B.Pharm, M.Pharm, Pharm.D and Ph.D. BGS VIPS offers B.Pharm and D.Pharm. The pharmacy departments include Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy, Pharmacy Practice, Pharmaceutical Analysis and Regulatory Affairs. Pharmacy facilities include a teaching hospital, Drug Testing Laboratory, Medicinal Plant Garden, Pilot Plant and Instrumentation facilities, Incubation Centre and Central Library.",
+  "source": "https://acu.edu.in/pharmacy/"
+},
+{
+  "id": "sacp-principal",
+  "title": "SACP Principal",
+  "category": "Pharmacy Leadership",
+  "keywords": [
+    "sacp principal",
+    "pharmacy principal",
+    "principal of pharmacy",
+    "principal sri adichunchanagiri college of pharmacy",
+    "dr bharathi",
+    "bharathi dr"
+  ],
+  "content": "Dr. Bharathi D.R. is identified as the Principal of Sri Adichunchanagiri College of Pharmacy (SACP), a constituent college of Adichunchanagiri University.",
+  "source": "https://acu.edu.in/pharmacy/sacp/"
+},
+{
+  "id": "pharmacy-departments",
+  "title": "ACU Pharmacy Departments",
+  "category": "Pharmacy Departments",
+  "keywords": [
+    "pharmacy departments",
+    "pharmaceutics",
+    "pharmaceutical chemistry",
+    "pharmacology",
+    "pharmacognosy",
+    "pharmacy practice",
+    "pharmaceutical analysis",
+    "regulatory affairs"
+  ],
+  "content": "The Faculty of Pharmacy has specialized departments including Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy, Pharmacy Practice, Pharmaceutical Analysis and Regulatory Affairs. Pharmaceutics focuses on drug formulation, delivery systems, nanotechnology and industrial pharmacy. Pharmaceutical Chemistry covers medicinal chemistry, drug design and synthesis. Pharmacology covers drug action, toxicology, pharmacokinetics and pre-clinical research. Pharmacognosy covers natural products, herbal drug standardization and phytochemistry. Pharmacy Practice covers clinical pharmacy, hospital pharmacy, patient counselling and pharmacovigilance. Pharmaceutical Analysis focuses on quality control and drug analysis. Regulatory Affairs covers regulatory submissions.",
+  "source": "https://acu.edu.in/pharmacy/"
+},
+{
+  "id": "pharmacy-programs",
+  "title": "ACU Pharmacy Programs",
+  "category": "Pharmacy Programs",
+  "keywords": [
+    "pharmacy courses",
+    "pharmacy programs",
+    "d pharm",
+    "dpharm",
+    "b pharm",
+    "bpharm",
+    "m pharm",
+    "mpharm",
+    "pharm d",
+    "pharmd",
+    "phd pharmacy"
+  ],
+  "content": "Sri Adichunchanagiri College of Pharmacy offers D.Pharm, B.Pharm, M.Pharm, Pharm.D and Ph.D. D.Pharm is a 2-year program. B.Pharm is a 4-year undergraduate program. M.Pharm is a 2-year postgraduate program. Pharm.D is a 6-year clinical pharmacy program. Ph.D. in Pharmacy is a research program. BGS Vijnatham Institute of Pharmaceutical Sciences offers B.Pharm and D.Pharm.",
+  "source": "https://acu.edu.in/pharmacy/"
+},
+{
+  "id": "sacp-pharmaceutics-faculty",
+  "title": "SACP Pharmaceutics HOD and Faculty",
+  "category": "Pharmacy Faculty",
+  "keywords": [
+    "pharmaceutics",
+    "pharmaceutics hod",
+    "pharmaceutics faculty",
+    "pharmaceutics teachers",
+    "pharmacy pharmaceutics",
+    "who is pharmaceutics hod",
+    "who teaches pharmaceutics"
+  ],
+  "content": "The current ACU Academic Council identifies Dr. Kiran Kumar G.B. as Professor and Head of the Department of Pharmaceutics at Sri Adichunchanagiri College of Pharmacy. ACU's current Ph.D. guide list also includes Dr. Prakash S Goudanavar, Dr. Juturi Ravi Kumar Reddy, Dr. Vedamurthy Joshi, Dr. Raghavendra Naveen N, Dr. Buduru Gowthami, Dr. Madhu B K, Dr. Mallamma T and Dr. Prasiddhi Naik in Pharmaceutics and related Regulatory Affairs research.",
+  "source": "https://acu.edu.in/about-us/the-academic-council/"
+},
+{
+  "id": "sacp-pharmacology-faculty",
+  "title": "SACP Pharmacology HOD and Faculty",
+  "category": "Pharmacy Faculty",
+  "keywords": [
+    "pharmacology",
+    "pharmacology hod",
+    "pharmacology faculty",
+    "pharmacology teachers",
+    "pharmacy pharmacology",
+    "who is pharmacology hod",
+    "who teaches pharmacology"
+  ],
+  "content": "The ACU Annual Report identifies Dr. Bharathi D R as Professor and Head of the Department of Pharmacology at SACCP. Other verified Pharmacy faculty and research guides include Dr. Mohammad Ali, Dr. Syed Sagheer Ahmed, Dr. Vakkalagadda Siva Ganesh and Dr. Seema Mudhol.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "sacp-pharmacognosy-faculty",
+  "title": "SACP Pharmacognosy HOD and Faculty",
+  "category": "Pharmacy Faculty",
+  "keywords": [
+    "pharmacognosy",
+    "pharmacognosy hod",
+    "pharmacognosy faculty",
+    "pharmacognosy teachers",
+    "pharmacy pharmacognosy",
+    "who is pharmacognosy hod",
+    "who teaches pharmacognosy"
+  ],
+  "content": "The ACU Annual Report identifies Dr. Annegowda H V as Professor and Head of the Department of Pharmacognosy at SACCP. Other verified faculty and research guides include Dr. Pulak Majumder and Dr. Tripathy Amrutanand S.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "sacp-pharmaceutical-chemistry-analysis",
+  "title": "SACP Pharmaceutical Chemistry and Analysis Faculty",
+  "category": "Pharmacy Faculty",
+  "keywords": [
+    "pharmaceutical chemistry",
+    "pharmaceutical chemistry hod",
+    "pharmaceutical chemistry faculty",
+    "pharmaceutical analysis",
+    "pharmaceutical analysis faculty",
+    "pharmacy chemistry",
+    "chemistry pharmacy faculty",
+    "who teaches pharmaceutical chemistry"
+  ],
+  "content": "The ACU Annual Report identifies Dr. T. Yunus Pasha as Professor and Head of Pharmaceutical Chemistry at SACCP. Current ACU Pharmacy research guides include Dr. Ramesh B, Dr. Yunus Pasha T, Dr. Shanakar Mani, Dr. Rashmi N G, Dr. Naga Prashanth, Dr. Purushotham K N and Dr. Yenduri Suvarna.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "sacp-pharmacy-practice-faculty",
+  "title": "SACP Pharmacy Practice HOD and Faculty",
+  "category": "Pharmacy Faculty",
+  "keywords": [
+    "pharmacy practice",
+    "pharmacy practice hod",
+    "pharmacy practice faculty",
+    "clinical pharmacy faculty",
+    "pharmacy practice teachers",
+    "who is pharmacy practice hod",
+    "who teaches pharmacy practice"
+  ],
+  "content": "The ACU Annual Report identifies Dr. Mahendra Kumar as Professor and Head of the Department of Pharmacy Practice at SACCP. Current ACU Pharmacy research guides include Dr. Mahendra Kumar B J, Dr. Satish Kumar B and Dr. Ravindra B N.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "sacp-regulatory-affairs-faculty",
+  "title": "SACP Pharmaceutical Regulatory Affairs Faculty",
+  "category": "Pharmacy Faculty",
+  "keywords": [
+    "regulatory affairs",
+    "pharmaceutical regulatory affairs",
+    "regulatory affairs faculty",
+    "regulatory affairs hod",
+    "pharmacy regulatory affairs",
+    "who teaches regulatory affairs"
+  ],
+  "content": "Current ACU Pharmacy research guides associated with Pharmaceutics and Regulatory Affairs include Dr. Prakash S Goudanavar, Dr. Juturi Ravi Kumar Reddy, Dr. Vedamurthy Joshi, Dr. Raghavendra Naveen N, Dr. Buduru Gowthami, Dr. Madhu B K, Dr. Mallamma T and Dr. Prasiddhi Naik.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "sacp-pharmaceutical-analysis-faculty",
+  "title": "SACP Pharmaceutical Analysis Faculty",
+  "category": "Pharmacy Faculty",
+  "keywords": [
+    "pharmaceutical analysis",
+    "pharmaceutical analysis faculty",
+    "pharmaceutical analysis hod",
+    "drug analysis",
+    "pharmacy analysis",
+    "who teaches pharmaceutical analysis"
+  ],
+  "content": "Current ACU Pharmacy research guides include Dr. B Prakash Kumar, Dr. Rashmi N G and Dr. Yenduri Suvarna in Pharmaceutical Analysis and related Pharmaceutical Chemistry and Analysis research.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "sacp-leadership",
+  "title": "SACP Pharmacy Leadership",
+  "category": "Pharmacy Leadership",
+  "keywords": [
+    "sacp principal",
+    "pharmacy principal",
+    "pharmacy dean",
+    "faculty of pharmacy dean",
+    "principal of pharmacy",
+    "who is pharmacy principal"
+  ],
+  "content": "The current SACP page identifies Dr. Bharathi D.R. as Principal of Sri Adichunchanagiri College of Pharmacy. The current ACU IQAC page identifies Dr. Prakash Goudanavar as Dean of the Faculty of Pharmacy and Principal, SACCP. Because official ACU pages currently show these leadership roles differently, ACU Saarthi should report the role and source carefully rather than combining them into one person.",
+  "source": "https://acu.edu.in/pharmacy/sacp/"
+},
+{
+  "id": "acu-nursing-overview",
+  "title": "ACU Faculty of Nursing",
+  "category": "Nursing",
+  "keywords": [
+    "nursing",
+    "acu nursing",
+    "faculty of nursing",
+    "nursing college",
+    "nursing colleges",
+    "nursing institutions",
+    "nursing courses",
+    "nursing programs",
+    "bsc nursing",
+    "bscnursing",
+    "gnm",
+    "post basic bsc nursing",
+    "pb bsc nursing",
+    "msc nursing",
+    "phd nursing"
+  ],
+  "content": "Adichunchanagiri University Faculty of Nursing has three nursing institutions: Adichunchanagiri College of Nursing at B.G. Nagara, BGS Institute of Nursing Sciences at Sasyakashi, Nagamangala, and BGS Vijnatham Institute of Nursing Sciences at Bengaluru. The Faculty of Nursing currently describes 83+ faculty members, six core nursing departments and clinical training through teaching hospitals. ACN offers GNM, B.Sc Nursing, Post Basic B.Sc Nursing, M.Sc Nursing and Ph.D Nursing. BGSINS and BGS VINS offer B.Sc Nursing.",
+  "source": "https://acu.edu.in/nursing/"
+},
+{
+  "id": "acn-principal",
+  "title": "Adichunchanagiri College of Nursing Principal",
+  "category": "Nursing Leadership",
+  "keywords": [
+    "acn principal",
+    "nursing principal",
+    "principal of acn",
+    "principal of nursing",
+    "adichunchanagiri college of nursing principal",
+    "victoria sarvand",
+    "prof victoria sarvand"
+  ],
+  "content": "Prof. Victoria Sarvand is the current Principal of Adichunchanagiri College of Nursing, B.G. Nagara. She is also associated with the OBG Nursing department.",
+  "source": "https://acu.edu.in/nursing/acn/contact-acn/"
+},
+{
+  "id": "acn-medical-surgical-nursing",
+  "title": "ACN Medical Surgical Nursing HOD",
+  "category": "Nursing Faculty",
+  "keywords": [
+    "medical surgical nursing",
+    "medical surgical nursing hod",
+    "medical surgical hod",
+    "msn nursing",
+    "acn medical surgical",
+    "who is medical surgical nursing hod"
+  ],
+  "content": "The current ACN contact page identifies Dr. Shobha K R as the HOD or In-Charge of the Medical Surgical Nursing department.",
+  "source": "https://acu.edu.in/nursing/acn/contact-acn/"
+},
+{
+  "id": "acn-community-health-nursing",
+  "title": "ACN Community Health Nursing HOD",
+  "category": "Nursing Faculty",
+  "keywords": [
+    "community health nursing",
+    "community health nursing hod",
+    "chn hod",
+    "community nursing",
+    "pgn swamy",
+    "who is community health nursing hod"
+  ],
+  "content": "Mr. PGN Swamy is Associate Professor and Head of the Department of Community Health Nursing at Adichunchanagiri College of Nursing.",
+  "source": "https://acu.edu.in/nursing/acn/dept-chn/"
+},
+{
+  "id": "acn-obg-nursing",
+  "title": "ACN OBG Nursing HOD",
+  "category": "Nursing Faculty",
+  "keywords": [
+    "obg nursing",
+    "obg nursing hod",
+    "obg hod nursing",
+    "obstetrics nursing",
+    "gynaecology nursing",
+    "gynecology nursing",
+    "kavitha nk",
+    "who is obg nursing hod"
+  ],
+  "content": "The current ACN contact page identifies Mrs. Kavitha N K as the HOD or In-Charge of OBG Nursing. The OBG Nursing department provides training in maternal health, midwifery, reproductive health, high-risk pregnancy, labour, puerperium and neonatal care.",
+  "source": "https://acu.edu.in/nursing/acn/contact-acn/"
+},
+{
+  "id": "acn-paediatric-nursing",
+  "title": "ACN Paediatric Nursing HOD",
+  "category": "Nursing Faculty",
+  "keywords": [
+    "paediatric nursing",
+    "paediatric nursing hod",
+    "pediatric nursing",
+    "pediatric nursing hod",
+    "child health nursing",
+    "child health hod",
+    "arathi tv",
+    "who is paediatric nursing hod",
+    "who is pediatric nursing hod"
+  ],
+  "content": "Prof. Arathi T V is Professor and Head of the Department of Paediatric Nursing at Adichunchanagiri College of Nursing. The department currently describes 14 faculty members and provides training in neonatal care, NICU, PICU, immunization, growth monitoring, developmental disorders and adolescent health.",
+  "source": "https://acu.edu.in/nursing/acn/dept-paediatric/"
+},
+{
+  "id": "acn-psychiatric-nursing",
+  "title": "ACN Psychiatric Nursing HOD",
+  "category": "Nursing Faculty",
+  "keywords": [
+    "psychiatric nursing",
+    "psychiatric nursing hod",
+    "mental health nursing",
+    "mental health nursing hod",
+    "psychiatry nursing",
+    "chethan bs",
+    "who is psychiatric nursing hod",
+    "who is mental health nursing hod"
+  ],
+  "content": "Mr. Chethan B S is Assistant Professor and Head of the Department of Psychiatric Nursing at Adichunchanagiri College of Nursing. The department focuses on mental health promotion, counselling, psychiatric rehabilitation, suicide prevention, substance abuse awareness and community mental health.",
+  "source": "https://acu.edu.in/nursing/acn/dept-psychiatric/"
+},
+{
+  "id": "acn-nursing-foundation",
+  "title": "ACN Nursing Foundation Department",
+  "category": "Nursing Department",
+  "keywords": [
+    "nursing foundation",
+    "nursing foundation department",
+    "nursing basics",
+    "basic nursing",
+    "nursing foundation faculty",
+    "acn nursing foundation"
+  ],
+  "content": "The Nursing Foundation department at Adichunchanagiri College of Nursing is the core department responsible for foundational nursing education. The current department page describes 15 faculty members. It covers basic nursing care, patient assessment, clinical procedures, medication administration, wound care, infection control, health assessment and professional ethics.",
+  "source": "https://acu.edu.in/nursing/acn/dept-nursing-foundation/"
+},
+{
+  "id": "bgsins-nursing",
+  "title": "BGS Institute of Nursing Sciences",
+  "category": "Nursing Institution",
+  "keywords": [
+    "bgsins",
+    "bgs ins",
+    "bgs institute of nursing sciences",
+    "bgs nursing sasyakashi",
+    "nursing sasyakashi",
+    "bsc nursing bgsins",
+    "komala hk",
+    "bgsins principal"
+  ],
+  "content": "BGS Institute of Nursing Sciences is a constituent nursing institution of Adichunchanagiri University located at Sasyakashi, Nagamangala Taluk. It was established in 2023. Dr. Komala H K is the Principal. The institution offers B.Sc Nursing and provides supervised clinical training in General Medicine, Surgery, Paediatrics, OBG, Orthopaedics, Emergency Care and Intensive Care.",
+  "source": "https://acu.edu.in/nursing/bgsins/"
+},
+{
+  "id": "bgs-vins-nursing",
+  "title": "BGS Vijnatham Institute of Nursing Sciences",
+  "category": "Nursing Institution",
+  "keywords": [
+    "bgs vins",
+    "bgs vijnatham institute of nursing sciences",
+    "vijnatham nursing",
+    "bgs nursing bengaluru",
+    "bgs nursing bangalore",
+    "nagarur nursing",
+    "nelamangala nursing",
+    "bsc nursing bgs vins"
+  ],
+  "content": "BGS Vijnatham Institute of Nursing Sciences is located at the BGS Vijnatham South Campus in Bengaluru, Nagarur, Nelamangala. It offers B.Sc Nursing and provides clinical rotations through the attached BGS Medical College Hospital, which the current ACU page describes as having more than 650 beds.",
+  "source": "https://acu.edu.in/nursing/"
+},
+{
+  "id": "acu-nursing-complete-overview",
+  "title": "ACU Faculty of Nursing - Complete Overview",
+  "category": "Nursing",
+  "keywords": [
+    "nursing",
+    "acu nursing",
+    "faculty of nursing",
+    "nursing college",
+    "nursing colleges",
+    "adichunchanagiri college of nursing",
+    "acn",
+    "bgsins",
+    "bgs institute of nursing sciences",
+    "bgs vijnatham institute of nursing sciences",
+    "bgs vins",
+    "bsc nursing",
+    "bscnursing",
+    "gnm",
+    "general nursing midwifery",
+    "post basic bsc nursing",
+    "pb bsc nursing",
+    "msc nursing",
+    "phd nursing"
+  ],
+  "content": "Adichunchanagiri University Faculty of Nursing includes Adichunchanagiri College of Nursing, BGS Institute of Nursing Sciences and BGS Vijnatham Institute of Nursing Sciences. Adichunchanagiri College of Nursing was established in 1991 and offers GNM, B.Sc Nursing, Post Basic B.Sc Nursing, M.Sc Nursing and Ph.D Nursing. ACN has six departments: Medical Surgical Nursing, Community Health Nursing, OBG Nursing, Paediatric Nursing, Psychiatric Nursing and Nursing Foundation. The current ACN HODs or department in-charges are Dr. Shobha K R for Medical Surgical Nursing, Mr. PGN Swamy for Community Health Nursing, Mrs. Kavitha N K for OBG Nursing, Prof. Arathi T V for Paediatric Nursing and Mr. Chethan B S for Psychiatric Nursing. Prof. Victoria Sarvand is Principal of ACN. ACN provides clinical training through Adichunchanagiri Hospital and Research Centre. BGS Institute of Nursing Sciences was established in 2023 and offers B.Sc Nursing. Dr. Komala H K is Principal of BGSINS. BGSINS has six nursing departments and clinical training through its hospital and AHRC. BGS Vijnatham Institute of Nursing Sciences in Bengaluru offers B.Sc Nursing and GNM and provides clinical training through BGS MCH Hospital.",
+  "source": "https://acu.edu.in/nursing/"
+},
+{
+    "id": "acn-medical-surgical-nursing-faculty",
+    "title": "ACN Medical Surgical Nursing Faculty",
+    "category": "Nursing Faculty",
+    "keywords": [
+      "medical surgical nursing",
+      "medical-surgical nursing",
+      "medical surgical",
+      "med surg",
+      "med-surg",
+      "adult health nursing",
+      "medical surgical nursing faculty",
+      "medical surgical nursing teachers",
+      "who teaches medical surgical nursing",
+      "who are the medical surgical nursing faculty",
+      "medical surgical hod"
+    ],
+    "content": "The Medical Surgical Nursing department at Adichunchanagiri College of Nursing is headed by Dr. Shobha K R. Dr. Shobha K R is the HOD or In-Charge of Medical Surgical Nursing. The department focuses on adult health nursing, medical nursing, surgical nursing, critical care, perioperative nursing, ICU and OT training. If a user asks who teaches Medical Surgical Nursing and the complete current faculty list is not available in the verified ACU knowledge base, ACU Saarthi should identify Dr. Shobha K R as the verified department head and clearly state that the complete current faculty list is not currently available.",
+    "source": "https://acu.edu.in/nursing/acn/contact-acn/"
+  },
+  {
+    "id": "acn-paediatric-nursing-faculty",
+    "title": "ACN Paediatric Nursing Faculty",
+    "category": "Nursing Faculty",
+    "keywords": [
+      "paediatric nursing",
+      "paediatric faculty",
+      "paediatric nursing faculty",
+      "pediatric nursing",
+      "pediatric faculty",
+      "child health nursing",
+      "child nursing faculty",
+      "paediatric teachers",
+      "pediatric teachers",
+      "who teaches paediatric nursing",
+      "who teaches pediatric nursing",
+      "who are the paediatric nursing faculty",
+      "paediatric hod"
+    ],
+    "content": "The Paediatric Nursing department at Adichunchanagiri College of Nursing is headed by Prof. Arathi T V, Professor and Head. The department currently has 14 faculty members according to the official ACU department page. It focuses on child health nursing, neonatal care, NICU, PICU, immunization, growth monitoring, developmental disorders and adolescent health. The complete individual names of all 14 current faculty members are not displayed on the current official department page. ACU Saarthi must not invent faculty names.",
+    "source": "https://acu.edu.in/nursing/acn/dept-paediatric/"
+  },
+  {
+    "id": "acn-community-health-nursing-faculty",
+    "title": "ACN Community Health Nursing Faculty",
+    "category": "Nursing Faculty",
+    "keywords": [
+      "community health nursing",
+      "community health faculty",
+      "community nursing faculty",
+      "community health nursing teachers",
+      "chn faculty",
+      "chn teachers",
+      "public health nursing faculty",
+      "who teaches community health nursing",
+      "who are the community health nursing faculty",
+      "community health hod"
+    ],
+    "content": "The Community Health Nursing department at Adichunchanagiri College of Nursing is headed by Mr. PGN Swamy, Associate Professor and Head. The department focuses on public health, epidemiology, rural healthcare, family health, health education, biostatistics and environmental health. Students receive field training in adopted villages, Community Health Centres, Primary Health Centres and school health programs. The complete current individual faculty list is not displayed on the official department page, so ACU Saarthi must not invent additional faculty names.",
+    "source": "https://acu.edu.in/nursing/acn/dept-chn/"
+  },
+  {
+    "id": "acn-obg-nursing-faculty",
+    "title": "ACN OBG Nursing Faculty",
+    "category": "Nursing Faculty",
+    "keywords": [
+      "obg nursing",
+      "obg faculty",
+      "obg nursing faculty",
+      "obstetrics nursing",
+      "obstetric nursing faculty",
+      "gynecology nursing",
+      "gynaecology nursing",
+      "maternal nursing faculty",
+      "obg teachers",
+      "who teaches obg nursing",
+      "who teaches obstetrics nursing",
+      "who are the obg nursing faculty",
+      "obg hod"
+    ],
+    "content": "The Obstetrics and Gynecology Nursing department at Adichunchanagiri College of Nursing is headed by Mrs. Kavitha N K, Assistant Professor and HOD. The department focuses on maternal health, reproductive health, high-risk pregnancy, labour, puerperium, neonatal care and family planning. Prof. Victoria Sarvand, Principal of ACN, is also associated with the OBG Nursing department. The complete current individual faculty list is not displayed on the official department page, so ACU Saarthi must not invent additional faculty names.",
+    "source": "https://acu.edu.in/nursing/acn/dept-obg/"
+  },
+  {
+    "id": "acn-psychiatric-nursing-faculty",
+    "title": "ACN Psychiatric Nursing Faculty",
+    "category": "Nursing Faculty",
+    "keywords": [
+      "psychiatric nursing",
+      "psychiatric faculty",
+      "psychiatric nursing faculty",
+      "psychiatry nursing",
+      "mental health nursing",
+      "mental health faculty",
+      "mental health nursing faculty",
+      "psychiatric teachers",
+      "mental health teachers",
+      "who teaches psychiatric nursing",
+      "who teaches mental health nursing",
+      "who are the psychiatric nursing faculty",
+      "psychiatric hod"
+    ],
+    "content": "The Psychiatric Nursing department at Adichunchanagiri College of Nursing is headed by Mr. Chethan B S, Assistant Professor and Head. The department currently has 11 faculty members according to the official ACU department page. It focuses on mental health promotion, prevention of mental illness, counselling, psychotherapy, suicide prevention, substance abuse awareness, psychiatric rehabilitation and community mental health. The complete individual names of all 11 current faculty members are not displayed on the current official department page. ACU Saarthi must not invent faculty names.",
+    "source": "https://acu.edu.in/nursing/acn/dept-psychiatric/"
+  },
+  {
+    "id": "acn-all-faculty",
+    "title": "Adichunchanagiri College of Nursing Faculty",
+    "category": "Nursing Faculty",
+    "keywords": [
+      "acn faculty",
+      "all acn faculty",
+      "all nursing faculty",
+      "adichunchanagiri college of nursing faculty",
+      "nursing faculty list",
+      "acn teachers",
+      "nursing teachers",
+      "faculty of acn",
+      "who are the acn faculty",
+      "give me all acn faculty"
+    ],
+    "content": "Adichunchanagiri College of Nursing currently reports 83+ nursing faculty members across six nursing departments: Medical Surgical Nursing, Community Health Nursing, OBG Nursing, Paediatric Nursing, Psychiatric Nursing and Nursing Foundation. Verified current department heads include Dr. Shobha K R for Medical Surgical Nursing, Mr. PGN Swamy for Community Health Nursing, Mrs. Kavitha N K for OBG Nursing, Prof. Arathi T V for Paediatric Nursing and Mr. Chethan B S for Psychiatric Nursing. The current official ACU website does not provide a complete individual list of all 83+ faculty members on one public page. ACU Saarthi should not invent or guess the remaining names.",
+    "source": "https://acu.edu.in/nursing/acn/"
+  },
+  {
+  "id": "acu-allied-health-complete",
+  "title": "ACU Allied Health Sciences - Complete Overview",
+  "category": "Allied Health Sciences",
+  "keywords": [
+    "allied health",
+    "allied health sciences",
+    "acu allied health",
+    "medical allied health",
+    "asaHS",
+    "asahs",
+    "adichunchanagiri school of allied health sciences",
+    "bgs viahs",
+    "bgs vijnatham institute of allied health sciences",
+    "bgs vipt",
+    "bgs vijnatham institute of physiotherapy",
+    "mlt",
+    "medical laboratory",
+    "medical laboratory technology",
+    "medical laboratory science",
+    "bmls",
+    "medical imaging",
+    "medical imaging technology",
+    "medical radiology",
+    "bmrit",
+    "dialysis",
+    "renal dialysis",
+    "renal dialysis technology",
+    "bdtt",
+    "optometry",
+    "boptom",
+    "anaesthesia",
+    "anesthesia",
+    "operation theatre",
+    "operation theater",
+    "aott",
+    "physiotherapy",
+    "physio",
+    "bpt"
+  ],
+  "content": "Adichunchanagiri University has a Faculty of Medical and Allied Health Sciences. Its allied-health institutions include Adichunchanagiri School of Allied Health Sciences (ASAHS) at B.G. Nagara, BGS Vijnatham Institute of Allied Health Sciences (BGS VIAHS) at the BGS Vijnatham South Campus in Bengaluru, and BGS Vijnatham Institute of Physiotherapy (BGS VIPT). ASAHS currently has five main undergraduate Allied Health programmes: B.Sc Medical Laboratory Technology, B.Sc Medical Imaging Technology, B.Sc Renal Dialysis Technology, B.Sc Optometry, and B.Sc Anaesthesia and Operation Theatre Technology. ASAHS has ten foundational and clinical departments: Anatomy, Physiology, Biochemistry, Pathology, Microbiology, Pharmacology, Anaesthesia, Radiology, Ophthalmology and General Medicine. BGS VIAHS offers allied-health programmes including Medical Laboratory Science, Medical Radiology and Imaging Technology, Dialysis Therapy Technology, Optometry, and Anaesthesia and Operation Theatre Technology. BGS VIPT offers Bachelor of Physiotherapy, a 4.5-year programme including clinical internship. ACU also lists M.Sc Clinical Psychology as a postgraduate programme at ASAHS. Clinical training is integrated with ACU teaching hospitals. The current public ASAHS pages do not provide a complete verified current list of individual faculty and HOD names, so ACU Saarthi must not invent faculty or HOD names.",
+  "source": "https://acu.edu.in/asahs/"
+},
+{
+  "id": "asaHS-medical-laboratory",
+  "title": "ASAHS Medical Laboratory Technology",
+  "category": "Allied Health Programmes",
+  "keywords": [
+    "mlt",
+    "medical lab",
+    "medical laboratory",
+    "medical laboratory technology",
+    "medical laboratory science",
+    "bmls",
+    "b.sc mlt"
+  ],
+  "content": "ASAHS offers Medical Laboratory Technology / Medical Laboratory Science. The programme covers areas including Biochemistry, Pathology, Microbiology, Blood Banking and laboratory equipment. Students are trained for diagnostic laboratory and healthcare laboratory roles.",
+  "source": "https://acu.edu.in/asahs/"
+},
+{
+  "id": "asaHS-medical-imaging",
+  "title": "ASAHS Medical Imaging Technology",
+  "category": "Allied Health Programmes",
+  "keywords": [
+    "medical imaging",
+    "medical imaging technology",
+    "medical radiology",
+    "radiology technology",
+    "bmrit",
+    "mit",
+    "b.sc imaging"
+  ],
+  "content": "ASAHS offers Medical Imaging Technology. The programme covers medical imaging and prepares students for clinical imaging work including radiography and modern imaging technologies such as CT and MRI through supervised hospital-based training.",
+  "source": "https://acu.edu.in/asahs/"
+},
+{
+  "id": "asaHS-dialysis",
+  "title": "ASAHS Renal Dialysis Technology",
+  "category": "Allied Health Programmes",
+  "keywords": [
+    "dialysis",
+    "renal dialysis",
+    "renal dialysis technology",
+    "dialysis technology",
+    "dialysis technician",
+    "bdtt"
+  ],
+  "content": "ASAHS offers Renal Dialysis Technology. The programme focuses on renal anatomy and physiology, kidney diseases, dialysis procedures, dialysis equipment and patient care during renal replacement therapy.",
+  "source": "https://acu.edu.in/asahs/"
+},
+{
+  "id": "asaHS-optometry",
+  "title": "ASAHS Optometry",
+  "category": "Allied Health Programmes",
+  "keywords": [
+    "optometry",
+    "optometrist",
+    "boptom",
+    "b.optom",
+    "eye care",
+    "vision science"
+  ],
+  "content": "ASAHS offers B.Sc Optometry. The programme focuses on vision science, comprehensive eye examination, refraction, contact lenses, paediatric optometry and geriatric optometry.",
+  "source": "https://acu.edu.in/asahs/"
+},
+{
+  "id": "asaHS-anaesthesia-ot",
+  "title": "ASAHS Anaesthesia and Operation Theatre Technology",
+  "category": "Allied Health Programmes",
+  "keywords": [
+    "anaesthesia",
+    "anesthesia",
+    "anaesthesia technology",
+    "anesthesia technology",
+    "operation theatre",
+    "operation theater",
+    "ot technology",
+    "aott"
+  ],
+  "content": "ASAHS offers B.Sc Anaesthesia and Operation Theatre Technology. The programme prepares students for anaesthesia assistance, sterile technique, surgical instrumentation, perioperative monitoring and operation-theatre practice.",
+  "source": "https://acu.edu.in/asahs/"
+},
+{
+  "id": "bgs-vijnatham-physiotherapy",
+  "title": "BGS Vijnatham Institute of Physiotherapy",
+  "category": "Allied Health Programmes",
+  "keywords": [
+    "physiotherapy",
+    "physio",
+    "physical therapy",
+    "bpt",
+    "b.pt",
+    "bgs physiotherapy",
+    "bgs vijnatham physiotherapy",
+    "bgs vipt"
+  ],
+  "content": "BGS Vijnatham Institute of Physiotherapy offers Bachelor of Physiotherapy. The programme is 4.5 years and includes clinical internship. It covers musculoskeletal, neurological, cardio-respiratory and sports rehabilitation.",
+  "source": "https://acu.edu.in/faculty-of-medical-allied-health-sciences/"
+},
+[
+  {
+    "id": "acu-allied-health-overview",
+    "title": "ACU Faculty of Medical and Allied Health Sciences",
+    "category": "Allied Health Sciences",
+    "content": "Adichunchanagiri University has a Faculty of Medical and Allied Health Sciences. The allied health institutions associated with ACU include Adichunchanagiri School of Allied Health Sciences, also known as ASAHS, BGS Vijnatham Institute of Allied Health Sciences, also known as BGS VIAHS, and BGS Vijnatham Institute of Physiotherapy, also known as BGS VIPT. Allied Health Sciences provides education and clinical training in areas such as medical laboratory technology, medical imaging technology, renal dialysis technology, optometry, anaesthesia and operation theatre technology, and physiotherapy.",
+    "source": "https://acu.edu.in/fmahs/"
+  },
+  {
+    "id": "asahs-overview",
+    "title": "Adichunchanagiri School of Allied Health Sciences ASAHS",
+    "category": "Allied Health Sciences",
+    "content": "Adichunchanagiri School of Allied Health Sciences, commonly called ASAHS, is an allied health institution under Adichunchanagiri University. ASAHS is located at B.G. Nagara, Mandya District, Karnataka. ASAHS provides undergraduate allied health education and clinical training. The school has foundational and clinical departments including Anatomy, Physiology, Biochemistry, Pathology, Microbiology, Pharmacology, Anaesthesia, Radiology, Ophthalmology and General Medicine.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-departments",
+    "title": "ASAHS Departments",
+    "category": "Allied Health Sciences",
+    "content": "The departments associated with Adichunchanagiri School of Allied Health Sciences include Anatomy, Physiology, Biochemistry, Pathology, Microbiology, Pharmacology, Anaesthesia, Radiology, Ophthalmology and General Medicine.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-medical-laboratory-technology",
+    "title": "B.Sc Medical Laboratory Technology",
+    "category": "Allied Health Programmes",
+    "content": "ASAHS offers B.Sc Medical Laboratory Technology. The programme prepares students in medical laboratory sciences and clinical laboratory practice. Areas include pathology, microbiology, biochemistry, blood banking, laboratory procedures, diagnostic testing and laboratory equipment. Students can pursue careers in hospital laboratories, diagnostic laboratories and other healthcare laboratory services.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-medical-imaging-technology",
+    "title": "B.Sc Medical Imaging Technology",
+    "category": "Allied Health Programmes",
+    "content": "ASAHS offers B.Sc Medical Imaging Technology. The programme focuses on medical imaging and diagnostic imaging practice. Students learn about imaging procedures and technologies used in healthcare, including radiography and advanced imaging areas such as CT and MRI, together with supervised clinical training.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-renal-dialysis",
+    "title": "B.Sc Renal Dialysis Technology",
+    "category": "Allied Health Programmes",
+    "content": "ASAHS offers B.Sc Renal Dialysis Technology. The programme focuses on renal anatomy and physiology, kidney diseases, dialysis procedures, dialysis equipment, patient monitoring and renal replacement therapy. Students receive clinical exposure in healthcare settings.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-optometry",
+    "title": "B.Sc Optometry",
+    "category": "Allied Health Programmes",
+    "content": "ASAHS offers B.Sc Optometry. The programme focuses on vision science and eye care. Areas include eye examination, refraction, contact lenses, paediatric optometry, geriatric optometry and clinical vision care.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-anaesthesia-operation-theatre",
+    "title": "B.Sc Anaesthesia and Operation Theatre Technology",
+    "category": "Allied Health Programmes",
+    "content": "ASAHS offers B.Sc Anaesthesia and Operation Theatre Technology. The programme prepares students in anaesthesia assistance, operation theatre procedures, sterile techniques, surgical instruments, perioperative care and patient monitoring.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-anatomy",
+    "title": "ASAHS Anatomy Department",
+    "category": "Allied Health Departments",
+    "content": "Anatomy is one of the foundational departments of Adichunchanagiri School of Allied Health Sciences. The department supports allied health education through the study of the structure of the human body.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-physiology",
+    "title": "ASAHS Physiology Department",
+    "category": "Allied Health Departments",
+    "content": "Physiology is one of the foundational departments of Adichunchanagiri School of Allied Health Sciences. The department supports allied health education through the study of normal functions and processes of the human body.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-biochemistry",
+    "title": "ASAHS Biochemistry Department",
+    "category": "Allied Health Departments",
+    "content": "Biochemistry is one of the foundational departments of Adichunchanagiri School of Allied Health Sciences. The department supports allied health education through the study of biochemical processes and their relevance to health and disease.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-pathology",
+    "title": "ASAHS Pathology Department",
+    "category": "Allied Health Departments",
+    "content": "Pathology is one of the clinical and foundational departments of Adichunchanagiri School of Allied Health Sciences. It supports education related to disease processes and laboratory diagnosis.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-microbiology",
+    "title": "ASAHS Microbiology Department",
+    "category": "Allied Health Departments",
+    "content": "Microbiology is one of the departments of Adichunchanagiri School of Allied Health Sciences. The department supports allied health education in microorganisms, infections and laboratory-related microbiology.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-pharmacology",
+    "title": "ASAHS Pharmacology Department",
+    "category": "Allied Health Departments",
+    "content": "Pharmacology is one of the departments of Adichunchanagiri School of Allied Health Sciences. The department supports allied health education related to medicines, drugs, their actions and their clinical use.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-anaesthesia",
+    "title": "ASAHS Anaesthesia Department",
+    "category": "Allied Health Departments",
+    "content": "Anaesthesia is one of the clinical departments of Adichunchanagiri School of Allied Health Sciences. The department supports education and clinical exposure related to anaesthesia and perioperative care.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-radiology",
+    "title": "ASAHS Radiology Department",
+    "category": "Allied Health Departments",
+    "content": "Radiology is one of the clinical departments of Adichunchanagiri School of Allied Health Sciences. The department supports education and clinical exposure related to medical imaging and radiological services.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-ophthalmology",
+    "title": "ASAHS Ophthalmology Department",
+    "category": "Allied Health Departments",
+    "content": "Ophthalmology is one of the clinical departments of Adichunchanagiri School of Allied Health Sciences. The department supports education related to eye health and ophthalmic care.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "asahs-general-medicine",
+    "title": "ASAHS General Medicine Department",
+    "category": "Allied Health Departments",
+    "content": "General Medicine is one of the clinical departments of Adichunchanagiri School of Allied Health Sciences. The department supports allied health education and clinical exposure related to general medical conditions and patient care.",
+    "source": "https://acu.edu.in/asahs/"
+  },
+  {
+    "id": "bgs-viahs",
+    "title": "BGS Vijnatham Institute of Allied Health Sciences",
+    "category": "Allied Health Sciences",
+    "content": "BGS Vijnatham Institute of Allied Health Sciences, commonly called BGS VIAHS, is an allied health institution associated with Adichunchanagiri University. It is located at the BGS Vijnatham South Campus in Nagarur, Nelamangala, Bengaluru. The institution provides allied health education and clinical training.",
+    "source": "https://acu.edu.in/fmahs/"
+  },
+  {
+    "id": "bgs-viahs-programmes",
+    "title": "BGS VIAHS Programmes",
+    "category": "Allied Health Programmes",
+    "content": "BGS Vijnatham Institute of Allied Health Sciences offers allied health programmes including Medical Laboratory Science, Medical Radiology and Imaging Technology, Dialysis Therapy Technology, Optometry, and Anaesthesia and Operation Theatre Technology.",
+    "source": "https://acu.edu.in/undergraduate/"
+  },
+  {
+    "id": "bgs-vipt",
+    "title": "BGS Vijnatham Institute of Physiotherapy",
+    "category": "Physiotherapy",
+    "content": "BGS Vijnatham Institute of Physiotherapy, commonly called BGS VIPT, is an institution associated with Adichunchanagiri University. It offers Bachelor of Physiotherapy. The programme has a duration of 4.5 years including clinical internship.",
+    "source": "https://acu.edu.in/fmahs/"
+  },
+  {
+    "id": "bpt",
+    "title": "Bachelor of Physiotherapy BPT",
+    "category": "Physiotherapy",
+    "content": "Bachelor of Physiotherapy, commonly called BPT or B.P.T., is offered at BGS Vijnatham Institute of Physiotherapy. The programme is 4.5 years including clinical internship. Areas of physiotherapy include musculoskeletal physiotherapy, neurological physiotherapy, cardio-respiratory physiotherapy, sports rehabilitation and clinical rehabilitation.",
+    "source": "https://acu.edu.in/fmahs/"
+  },
+  {
+    "id": "msc-clinical-psychology",
+    "title": "M.Sc Clinical Psychology",
+    "category": "Postgraduate Allied Health",
+    "content": "Adichunchanagiri University lists M.Sc Clinical Psychology as a postgraduate programme. The programme focuses on areas including psychological assessment, psychotherapy, clinical case work and supervised clinical training.",
+    "source": "https://acu.edu.in/postgraduate/"
+  },
+  {
+    "id": "allied-health-clinical-training",
+    "title": "Allied Health Clinical Training",
+    "category": "Allied Health Sciences",
+    "content": "Allied Health students under ACU receive clinical exposure and practical training through the university healthcare ecosystem and associated teaching hospitals. Clinical training helps students apply theoretical knowledge in real healthcare settings.",
+    "source": "https://acu.edu.in/fmahs/"
+  },
+  {
+    "id": "allied-health-faculty",
+    "title": "Allied Health Faculty and HOD Information",
+    "category": "Allied Health Faculty",
+    "content": "Adichunchanagiri University has multiple allied health departments across its allied health institutions. The current public ACU pages provide information about the institutions, programmes and departments, but a complete verified current individual faculty and HOD list is not available in the public information used for this knowledge base. ACU Saarthi must not invent or guess faculty names or HOD names. If a user asks for a specific allied health faculty member or HOD and the verified name is not available, Saarthi should say that the current verified name is not available and recommend checking the official ACU source.",
+    "source": "https://acu.edu.in/fmahs/"
+  },
+ {
+  "id": "bgsfgc-overview",
+  "title": "BGS First Grade College",
+  "category": "BGS First Grade College",
+  "keywords": [
+    "bgsfgc",
+    "bgs fgc",
+    "bgs first grade college",
+    "first grade college",
+    "bgs college",
+    "b g s first grade college"
+  ],
+  "content": "BGS First Grade College is a constituent college of Adichunchanagiri University located at B.G. Nagara. The college was established in 2016 and offers undergraduate programmes in Bachelor of Commerce, Bachelor of Computer Applications and Bachelor of Business Administration. The college follows the NEP and CBCS framework. The current Principal is Dr. Rohith N R.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/"
+},
+{
+  "id": "bgsfgc-bca",
+  "title": "Bachelor of Computer Applications BCA",
+  "category": "BGS First Grade College BCA",
+  "keywords": [
+    "bca",
+    "BCA",
+    "bca course",
+    "bca programme",
+    "bca program",
+    "bachelor of computer applications",
+    "computer applications",
+    "computer application",
+    "bca degree",
+    "bca at bgsfgc",
+    "bgsfgc bca",
+    "bgs first grade college bca",
+    "computer course"
+  ],
+  "content": "BGS First Grade College offers the Bachelor of Computer Applications, commonly called BCA. BCA is an undergraduate programme focused on computer applications. The programme has a duration of 3 years and 6 semesters. The programme covers areas including programming, databases, networking, web technologies and software development. BCA prepares students for careers in the IT industry.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/bca/"
+},
+{
+  "id": "bgsfgc-bca-eligibility",
+  "title": "BGS First Grade College BCA Eligibility",
+  "category": "BCA Admission and Eligibility",
+  "keywords": [
+    "bca eligibility",
+    "eligibility for bca",
+    "bca admission eligibility",
+    "who can join bca",
+    "who can apply for bca",
+    "bca qualification",
+    "qualification for bca",
+    "bca admission",
+    "bca admissions",
+    "how to join bca",
+    "eligibility bca",
+    "bca requirements",
+    "12th bca",
+    "puc bca",
+    "commerce bca",
+    "science bca"
+  ],
+  "content": "For admission to BCA at BGS First Grade College, a candidate must have passed 12th standard or an equivalent examination from a recognised board. Candidates from the Commerce or Science stream are eligible. Minimum passing marks are as per university norms.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/admissions/"
+},
+{
+  "id": "bgsfgc-bca-duration",
+  "title": "BGS First Grade College BCA Duration",
+  "category": "BCA Programme",
+  "keywords": [
+    "bca duration",
+    "how many years bca",
+    "how long is bca",
+    "bca course duration",
+    "bca semesters",
+    "bca years",
+    "duration of bca",
+    "bca 3 years",
+    "bca 6 semesters"
+  ],
+  "content": "The BCA programme at BGS First Grade College has a duration of 3 years divided into 6 semesters.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/bca/"
+},
+{
+  "id": "bgsfgc-principal",
+  "title": "BGS First Grade College Principal",
+  "category": "BGS First Grade College Leadership",
+  "keywords": [
+    "bgsfgc principal",
+    "bgs first grade college principal",
+    "who is the principal of bgsfgc",
+    "who is bgsfgc principal",
+    "college principal",
+    "principal of bgs first grade college",
+    "dr rohith n r",
+    "rohith n r"
+  ],
+  "content": "The current Principal of BGS First Grade College at B.G. Nagara is Dr. Rohith N R. His listed qualifications are Ph.D, MBA, M.Com and M.A. Economics.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/"
+},
+{
+  "id": "bgsfgc-bca-faculty",
+  "title": "BGS First Grade College BCA Faculty",
+  "category": "BCA Faculty",
+  "keywords": [
+    "bca faculty",
+    "BCA FACULTY",
+    "bca faculties",
+    "bca teacher",
+    "bca teachers",
+    "bca teaching faculty",
+    "who teaches bca",
+    "who are the bca faculty",
+    "bca faculty members",
+    "bgsfgc bca faculty",
+    "bgs first grade college bca faculty",
+    "teachers of bca"
+  ],
+  "content": "The official BGS First Grade College faculty directory provides faculty information, but the current directory page is not displaying the individual faculty profiles. Therefore, ACU Saarthi should not guess or invent BCA faculty names. It should state that verified current BCA faculty information is not currently available in the knowledge base.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/faculty/"
+},
+{
+  "id": "bgsfgc-bca-hod",
+  "title": "BGS First Grade College BCA HOD",
+  "category": "BCA HOD",
+  "keywords": [
+    "bca hod",
+    "BCA HOD",
+    "hod of bca",
+    "head of bca",
+    "head of department bca",
+    "bca department head",
+    "who is bca hod",
+    "who is the bca hod",
+    "current bca hod",
+    "bgsfgc bca hod",
+    "bgs first grade college bca hod"
+  ],
+  "content": "The current official BGS First Grade College faculty directory does not currently display the individual HOD profile. Therefore, ACU Saarthi must not guess the current BCA HOD name. It should say that verified current HOD information is not currently available in the knowledge base.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/faculty/"
+},
+{
+  "id": "bgsfgc-bca-admission-process",
+  "title": "BGS First Grade College BCA Admission Process",
+  "category": "BCA Admission",
+  "keywords": [
+    "bca admission",
+    "BCA ADMISSION",
+    "bca admissions",
+    "admission for bca",
+    "how to apply for bca",
+    "bca application",
+    "bca admission process",
+    "how can i join bca",
+    "how do i join bca",
+    "apply for bca",
+    "bca application process",
+    "bgsfgc bca admission"
+  ],
+  "content": "The BCA admission process at BGS First Grade College includes checking eligibility, obtaining the application form online or from the college office, submitting the completed application with required documents, merit-based selection according to the qualifying examination, completing fee payment and joining the classes after admission. The college advises students to follow the latest university admission notifications for current dates.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/admissions/"
+},
+{
+  "id": "asns-overview",
+  "title": "Adichunchanagiri School of Natural Sciences ASNS",
+  "category": "Natural Sciences",
+  "keywords": [
+    "asns",
+    "ASNS",
+    "Adichunchanagiri School of Natural Sciences",
+    "school of natural sciences",
+    "faculty of natural sciences",
+    "natural sciences",
+    "science college",
+    "science school",
+    "b g nagara",
+    "bg nagara"
+  ],
+  "content": "Adichunchanagiri School of Natural Sciences, commonly known as ASNS, is a constituent college of Adichunchanagiri University at B.G. Nagara. ASNS provides education and research across seven science disciplines: Biochemistry, Biotechnology, Microbiology, Chemistry, Physics, Computer Science and Mathematics. The school offers undergraduate, postgraduate and doctoral programmes. ASNS focuses on laboratory-based learning, research exposure, interdisciplinary education and scientific innovation.",
+  "source": "https://acu.edu.in/ns/asns/"
+},
+{
+  "id": "asns-leadership",
+  "title": "ASNS Principal and Dean",
+  "category": "ASNS Leadership",
+  "keywords": [
+    "asns principal",
+    "principal of asns",
+    "who is asns principal",
+    "who is the principal of natural sciences",
+    "natural sciences principal",
+    "dr shwetha h n",
+    "shwetha h n",
+    "asns dean",
+    "dean natural sciences",
+    "dean of natural sciences",
+    "dr kalappa prashantha",
+    "kalappa prashantha"
+  ],
+  "content": "The current Principal of Adichunchanagiri School of Natural Sciences is Dr. Shwetha H. N., M.Sc., Ph.D. The Dean of the Faculty of Natural Sciences is Dr. Kalappa Prashantha, Ph.D., D.Sc. (France), who is also a Professor at ACU-CRI.",
+  "source": "https://acu.edu.in/ns/leadership/"
+},
+{
+  "id": "asns-departments",
+  "title": "ASNS Departments",
+  "category": "Natural Sciences Departments",
+  "keywords": [
+    "asns departments",
+    "natural science departments",
+    "departments in asns",
+    "asns branches",
+    "asns subjects",
+    "science departments",
+    "physics department",
+    "chemistry department",
+    "biochemistry department",
+    "biotechnology department",
+    "microbiology department",
+    "computer science department",
+    "mathematics department"
+  ],
+  "content": "Adichunchanagiri School of Natural Sciences has seven science disciplines: Biochemistry, Biotechnology, Microbiology, Chemistry, Physics, Computer Science and Mathematics. Biochemistry covers areas such as enzyme kinetics, clinical biochemistry, metabolomics and molecular diagnostics. Biotechnology includes genetic engineering, bioinformatics, recombinant DNA technology and industrial bioprocessing. Microbiology covers medical, virology, immunology, food and environmental microbiology. Chemistry includes organic synthesis, analytical chemistry, material science and green chemistry. Physics includes condensed matter, spectroscopy, material science, computational physics and astrophysics. Computer Science includes programming, algorithms, data structures, artificial intelligence, data science and advanced software development. Mathematics includes real analysis, abstract algebra and applied mathematics.",
+  "source": "https://acu.edu.in/ns/"
+},
+{
+  "id": "asns-ug-programmes",
+  "title": "ASNS Undergraduate B.Sc Programmes",
+  "category": "ASNS Undergraduate Programmes",
+  "keywords": [
+    "asns ug",
+    "asns undergraduate",
+    "bsc asns",
+    "b.sc asns",
+    "bsc courses natural sciences",
+    "bsc computer science",
+    "bsc pcm",
+    "bsc mbbt",
+    "mbbt",
+    "microbiology biochemistry biotechnology",
+    "pcm",
+    "physics chemistry mathematics"
+  ],
+  "content": "ASNS offers three undergraduate B.Sc programmes. They are B.Sc Computer Science, B.Sc Physics Chemistry Mathematics, commonly called B.Sc PCM, and B.Sc Microbiology Biochemistry Biotechnology, commonly called B.Sc MBBt. The B.Sc programmes have a duration of 3 years and 6 semesters and are aligned with NEP 2020.",
+  "source": "https://acu.edu.in/ns/ug/"
+},
+{
+  "id": "asns-bsc-computer-science",
+  "title": "B.Sc Computer Science at ASNS",
+  "category": "ASNS B.Sc Computer Science",
+  "keywords": [
+    "bsc computer science",
+    "b.sc computer science",
+    "bsc cs",
+    "bsc computer",
+    "computer science asns",
+    "computer science course asns",
+    "asns computer science",
+    "bsc cs asns",
+    "computer science degree"
+  ],
+  "content": "B.Sc Computer Science at ASNS is a 3-year, 6-semester undergraduate programme. It covers programming fundamentals, discrete mathematics, algorithms, databases, operating systems, software engineering, web technologies and applied mathematics. The programme uses laboratory-based learning and includes a major project in the final semester. Eligibility is PUC or 10+2 with Physics, Mathematics and Chemistry as compulsory subjects, with a minimum of 45 percent aggregate in the three subjects, or 40 percent for SC/ST candidates. The listed tuition fee is forty thousand rupees per year and the application fee is four hundred rupees.",
+  "source": "https://acu.edu.in/ns/ug/b-sc-computer-science/"
+},
+{
+  "id": "asns-bsc-pcm",
+  "title": "B.Sc Physics Chemistry Mathematics PCM at ASNS",
+  "category": "ASNS B.Sc PCM",
+  "keywords": [
+    "bsc pcm",
+    "b.sc pcm",
+    "pcm",
+    "physics chemistry mathematics",
+    "physics chemistry maths",
+    "bsc physics chemistry mathematics",
+    "asns pcm",
+    "pcm course",
+    "pcm degree"
+  ],
+  "content": "B.Sc PCM at ASNS is a 3-year, 6-semester undergraduate programme covering Physics, Chemistry and Mathematics. Physics includes classical and modern physics, mechanics, waves, thermal physics, electricity and magnetism, optics, solid state and nuclear physics. Chemistry covers organic, inorganic, physical and analytical chemistry. Mathematics includes calculus, algebra, differential equations, real and complex analysis and numerical methods. Eligibility is PUC or 10+2 with Physics, Mathematics and Chemistry, with a minimum of 45 percent aggregate, or 40 percent for SC/ST candidates. The listed tuition fee is thirty-five thousand rupees per year and the application fee is four hundred rupees.",
+  "source": "https://acu.edu.in/ns/ug/b-sc-pcm/"
+},
+{
+  "id": "asns-bsc-mbbt",
+  "title": "B.Sc Microbiology Biochemistry Biotechnology MBBt",
+  "category": "ASNS B.Sc MBBt",
+  "keywords": [
+    "bsc mbbt",
+    "b.sc mbbt",
+    "mbbt",
+    "microbiology biochemistry biotechnology",
+    "microbiology biochemistry biotech",
+    "bsc microbiology",
+    "bsc biotechnology",
+    "bsc biochemistry",
+    "asns mbbt",
+    "mbbt course",
+    "mbbt degree"
+  ],
+  "content": "B.Sc MBBt at ASNS is an integrated 3-year, 6-semester undergraduate programme combining Microbiology, Biochemistry and Biotechnology. The programme covers microbial techniques, biomolecules, enzymology, molecular biology, genetic engineering, industrial biotechnology and clinical microbiology. Laboratory training includes techniques such as aseptic culture, spectrophotometry, electrophoresis, PCR and enzyme assays. Eligibility is PUC or 10+2 with a Science stream including Physics, Chemistry and Biology or Mathematics, with a minimum of 45 percent, or 40 percent for SC/ST candidates. The listed tuition fee is thirty-five thousand rupees per year and the application fee is four hundred rupees.",
+  "source": "https://acu.edu.in/ns/ug/b-sc-mbbt/"
+},
+{
+  "id": "asns-pg-programmes",
+  "title": "ASNS M.Sc Postgraduate Programmes",
+  "category": "ASNS Postgraduate Programmes",
+  "keywords": [
+    "asns pg",
+    "asns postgraduate",
+    "msc asns",
+    "m.sc asns",
+    "msc physics",
+    "msc chemistry",
+    "msc biochemistry",
+    "msc biotechnology",
+    "msc microbiology",
+    "msc computer science",
+    "molecular biology"
+  ],
+  "content": "ASNS offers postgraduate M.Sc programmes in Physics, Chemistry, Biochemistry, Biotechnology, Microbiology and Computer Science. The M.Sc programmes generally have a duration of 2 years and 4 semesters. The programmes combine advanced subject study, laboratory work, research and dissertation-based learning.",
+  "source": "https://acu.edu.in/ns/asns/"
+},
+{
+  "id": "asns-phd",
+  "title": "Ph.D Natural Sciences at ASNS",
+  "category": "ASNS Doctoral Programme",
+  "keywords": [
+    "asns phd",
+    "phd natural sciences",
+    "ph.d natural sciences",
+    "phd science",
+    "doctor of philosophy natural sciences",
+    "asns doctoral programme",
+    "doctoral natural sciences",
+    "phd physics",
+    "phd chemistry",
+    "phd biotechnology",
+    "phd microbiology",
+    "phd biochemistry",
+    "phd computer science",
+    "phd mathematics"
+  ],
+  "content": "ASNS offers doctoral research opportunities across its natural science disciplines. The Ph.D programme is multidisciplinary and is governed by Adichunchanagiri University Ph.D regulations. The ASNS programme page describes a typical duration of 3 to 5 years. Doctoral admissions include an entrance examination, interview and coursework phase aligned with UGC norms.",
+  "source": "https://acu.edu.in/ns/asns/"
+},
+{
+  "id": "asns-faculty-vivek-hk",
+  "title": "Dr. Vivek H.K. ASNS Faculty",
+  "category": "ASNS Biotechnology Faculty",
+  "keywords": [
+    "dr vivek h k",
+    "vivek hk",
+    "vivek h.k",
+    "asns faculty vivek",
+    "biotechnology faculty asns",
+    "who teaches biotechnology asns",
+    "biotechnology teacher asns"
+  ],
+  "content": "Dr. Vivek H.K. is listed by Adichunchanagiri University as an Associate Professor in the Department of Biotechnology at ASNS.",
+  "source": "https://acu.edu.in/about-us/the-academic-council/"
+},
+{
+  "id": "asns-faculty-general",
+  "title": "ASNS Faculty",
+  "category": "ASNS Faculty",
+  "keywords": [
+    "asns faculty",
+    "asns faculties",
+    "natural sciences faculty",
+    "natural science teachers",
+    "asns teachers",
+    "who teaches at asns",
+    "faculty of natural sciences",
+    "science faculty"
+  ],
+  "content": "ASNS has faculty members across its seven science disciplines. The current official ACU sources should be used to verify individual faculty names and designations. One currently listed faculty member is Dr. Vivek H.K., Associate Professor in the Department of Biotechnology. ACU Saarthi must not invent or guess additional current faculty names.",
+  "source": "https://acu.edu.in/about-us/the-academic-council/"
+},
+{
+  "id": "asns-admission",
+  "title": "ASNS Admission",
+  "category": "ASNS Admissions",
+  "keywords": [
+    "asns admission",
+    "asns admissions",
+    "natural sciences admission",
+    "science admission",
+    "bsc admission asns",
+    "msc admission asns",
+    "how to join asns",
+    "how can i join asns",
+    "asns eligibility",
+    "asns entrance exam"
+  ],
+  "content": "ASNS admissions for undergraduate and postgraduate programmes follow a merit-based process and are offered on a First Come First Serve basis subject to eligibility and seat availability. The official admissions page states that no entrance examination is required for UG and PG programmes. Ph.D admissions follow the University's doctoral regulations and include an entrance examination, interview and coursework phase.",
+  "source": "https://acu.edu.in/ns/admissions/"
+},
+{
+  "id": "asns-facilities",
+  "title": "ASNS Campus and Facilities",
+  "category": "ASNS Facilities",
+  "keywords": [
+    "asns facilities",
+    "natural sciences facilities",
+    "asns campus",
+    "science labs",
+    "asns laboratory",
+    "computer lab asns",
+    "physics lab asns",
+    "chemistry lab asns",
+    "biotechnology lab asns",
+    "microbiology lab asns",
+    "biochemistry lab asns"
+  ],
+  "content": "ASNS is located within the Adichunchanagiri University campus at B.G. Nagara. Facilities include modern classrooms, discipline-specific laboratories for Physics, Chemistry, Biochemistry, Biotechnology, Microbiology and Computer Science, seminar halls, faculty offices and research facilities. The campus also provides access to advanced instrumentation and centralised research facilities.",
+  "source": "https://acu.edu.in/ns/campus/"
+},
+{
+  "id": "fmss-overview",
+  "title": "Faculty of Humanities and Social Sciences",
+  "category": "Faculty of Humanities and Social Sciences",
+  "keywords": [
+    "fmss",
+    "FMSS",
+    "faculty of humanities",
+    "humanities and social sciences",
+    "faculty of humanities and social sciences",
+    "humanities faculty",
+    "social sciences faculty",
+    "acu humanities",
+    "acu fmss"
+  ],
+  "content": "The Faculty of Humanities and Social Sciences at Adichunchanagiri University provides undergraduate, postgraduate and doctoral education through BGS First Grade College, BGS College of Education and the Integrated Teacher Education Programme. The faculty covers commerce, management, computer applications and teacher education. Current programmes include B.Com, BCA, BBA, M.Com, Ph.D. in Commerce, B.Ed, Ph.D. in Education, B.A.B.Ed, B.Sc.B.Ed and B.Com.B.Ed.",
+  "source": "https://acu.edu.in/fmss/"
+},
+{
+  "id": "bgsfgc-bcom",
+  "title": "B.Com at BGS First Grade College",
+  "category": "BGS First Grade College B.Com",
+  "keywords": [
+    "bcom",
+    "BCom",
+    "b.com",
+    "b com",
+    "bachelor of commerce",
+    "commerce",
+    "commerce degree",
+    "bcom course",
+    "bcom programme",
+    "bcom program",
+    "bgsfgc bcom",
+    "bgs first grade college bcom"
+  ],
+  "content": "BGS First Grade College offers the Bachelor of Commerce, commonly called B.Com. It is a 3-year undergraduate programme divided into 6 semesters. The programme covers areas including accounting, taxation, business law, financial management and economics. It is designed to provide a foundation for careers in commerce, finance, banking and business.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/"
+},
+{
+  "id": "bgsfgc-bcom-eligibility",
+  "title": "B.Com Eligibility at BGS First Grade College",
+  "category": "B.Com Admission and Eligibility",
+  "keywords": [
+    "bcom eligibility",
+    "eligibility for bcom",
+    "bcom admission",
+    "bcom admission eligibility",
+    "who can join bcom",
+    "who can apply for bcom",
+    "bcom qualification",
+    "12th bcom",
+    "puc bcom",
+    "commerce bcom"
+  ],
+  "content": "For B.Com admission at BGS First Grade College, candidates must have passed 12th standard or an equivalent examination from a recognised board with the Commerce stream. Minimum passing marks are as per university norms.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/admissions/"
+},
+{
+  "id": "bgsfgc-bba",
+  "title": "BBA at BGS First Grade College",
+  "category": "BGS First Grade College BBA",
+  "keywords": [
+    "bba",
+    "BBA",
+    "b.b.a",
+    "b b a",
+    "bachelor of business administration",
+    "business administration",
+    "business management",
+    "bba course",
+    "bba programme",
+    "bba program",
+    "bgsfgc bba",
+    "bgs first grade college bba"
+  ],
+  "content": "BGS First Grade College offers the Bachelor of Business Administration, commonly called BBA. It is a 3-year undergraduate programme divided into 6 semesters. The programme focuses on marketing, human resources, operations, entrepreneurship and business strategy. It is designed to develop business, management and leadership skills.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/bba/"
+},
+{
+  "id": "bgsfgc-bba-eligibility",
+  "title": "BBA Eligibility at BGS First Grade College",
+  "category": "BBA Admission and Eligibility",
+  "keywords": [
+    "bba eligibility",
+    "eligibility for bba",
+    "bba admission",
+    "bba admission eligibility",
+    "who can join bba",
+    "who can apply for bba",
+    "bba qualification",
+    "12th bba",
+    "puc bba",
+    "commerce bba",
+    "science bba",
+    "arts bba"
+  ],
+  "content": "For BBA admission at BGS First Grade College, candidates must have passed 12th standard or an equivalent examination from a recognised board. Commerce, Science and Arts streams are accepted. Minimum passing marks are as per university norms.",
+  "source": "https://acu.edu.in/fmss/bgsfgc/admissions/"
+},
+{
+  "id": "bgsfgc-mcom",
+  "title": "M.Com at BGS First Grade College",
+  "category": "BGS First Grade College M.Com",
+  "keywords": [
+    "mcom",
+    "MCom",
+    "m.com",
+    "m com",
+    "master of commerce",
+    "commerce postgraduate",
+    "mcom course",
+    "mcom programme",
+    "mcom program",
+    "bgsfgc mcom",
+    "bgs first grade college mcom"
+  ],
+  "content": "M.Com, or Master of Commerce, is a postgraduate programme listed under BGS First Grade College and the Faculty of Humanities and Social Sciences. Students interested in current M.Com admission eligibility, duration, fees and admission dates should use the latest official ACU information.",
+  "source": "https://acu.edu.in/fmss/"
+},
+{
+  "id": "bgsfgc-phd-commerce",
+  "title": "Ph.D. in Commerce at BGS First Grade College",
+  "category": "BGS First Grade College Ph.D. Commerce",
+  "keywords": [
+    "phd commerce",
+    "ph.d commerce",
+    "phd in commerce",
+    "doctor of philosophy commerce",
+    "commerce phd",
+    "bgsfgc phd",
+    "bgs first grade college phd",
+    "commerce doctoral programme",
+    "commerce research"
+  ],
+  "content": "The Faculty of Humanities and Social Sciences provides a Ph.D. pathway in Commerce through the ACU research ecosystem. Ph.D. admissions and eligibility are governed by the current Adichunchanagiri University Ph.D. regulations. Students should use the latest official university notification for current entrance, eligibility and admission requirements.",
+  "source": "https://acu.edu.in/fmss/"
+},
+{
+  "id": "bgscoe-overview",
+  "title": "BGS College of Education",
+  "category": "BGS College of Education",
+  "keywords": [
+    "bgscoe",
+    "BGSCOE",
+    "bgsce",
+    "BGSCE",
+    "bgs college of education",
+    "bgs college education",
+    "college of education",
+    "teacher education",
+    "bgs teacher education",
+    "education college acu"
+  ],
+  "content": "BGS College of Education is a constituent college of Adichunchanagiri University. It was established in 2007 and became a constituent college of ACU in 2018. The college is recognised by the National Council for Teacher Education. It provides teacher education through the B.Ed programme and doctoral research through the Ph.D. in Education programme. The college has trained more than 1,400 educators and has more than 16 qualified faculty members.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "bgscoe-principal",
+  "title": "BGS College of Education Principal",
+  "category": "BGS College of Education Leadership",
+  "keywords": [
+    "bgscoe principal",
+    "bgsce principal",
+    "bgs college of education principal",
+    "principal of bgs college of education",
+    "who is bgscoe principal",
+    "who is the principal of bgscoe",
+    "dr a t shivaramu",
+    "a t shivaramu",
+    "shivaramu"
+  ],
+  "content": "Dr. A. T. Shivaramu is the Principal of BGS College of Education and the Dean of Humanities and Social Sciences at Adichunchanagiri University. His qualifications include M.Sc. in Mathematics, M.Ed., M.Phil. and Ph.D.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "bgscoe-bed",
+  "title": "B.Ed at BGS College of Education",
+  "category": "BGS College of Education B.Ed",
+  "keywords": [
+    "bed",
+    "BEd",
+    "b.ed",
+    "b ed",
+    "bachelor of education",
+    "teacher education",
+    "bed course",
+    "bed programme",
+    "bed program",
+    "bgscoe bed",
+    "bgsce bed",
+    "bgs college education bed"
+  ],
+  "content": "The Bachelor of Education, commonly called B.Ed, at BGS College of Education is a 2-year programme divided into 4 semesters. It is an NCTE-recognised teacher education programme. The programme includes pedagogy, educational psychology, ICT integration, teaching practice and school internship. The medium of instruction is English and Kannada.",
+  "source": "https://acu.edu.in/fmss/bgscoe/b-ed/"
+},
+{
+  "id": "bgscoe-bed-eligibility",
+  "title": "B.Ed Eligibility at BGS College of Education",
+  "category": "B.Ed Admission and Eligibility",
+  "keywords": [
+    "bed eligibility",
+    "b.ed eligibility",
+    "eligibility for bed",
+    "who can join bed",
+    "who can apply for bed",
+    "bed qualification",
+    "bachelor education eligibility",
+    "bgscoe bed eligibility"
+  ],
+  "content": "Candidates with at least 50 percent marks in a Bachelor's or Master's degree in Science, Social Science or Humanities can apply for B.Ed. Eligible undergraduate degrees include B.A, B.Sc, B.Com, B.B.M, B.Tech and B.E. Eligible postgraduate degrees include M.A, M.Sc, M.Com, M.B.A and M.Tech. B.E and B.Tech candidates with Science and Mathematics specialisation require at least 55 percent marks. Relaxations for eligible categories are provided according to Central and State Government rules.",
+  "source": "https://acu.edu.in/fmss/bgscoe/b-ed/"
+},
+{
+  "id": "bgscoe-phd-education",
+  "title": "Ph.D. in Education at BGS College of Education",
+  "category": "BGS College of Education Ph.D.",
+  "keywords": [
+    "phd education",
+    "ph.d education",
+    "phd in education",
+    "doctor of philosophy education",
+    "education phd",
+    "bgscoe phd",
+    "bgsce phd",
+    "education research",
+    "doctoral education"
+  ],
+  "content": "BGS College of Education offers a Ph.D. in Education for advanced research in the field of education. The programme is research-based and follows ACU Ph.D. regulations. Candidates require a recognised M.Ed. degree with a minimum of 55 percent marks in the respective or related subject. Selection includes the ACU Research Entrance Test and interview. Research areas include multidisciplinary contemporary areas in education.",
+  "source": "https://acu.edu.in/fmss/bgscoe/ph-d-in-education/"
+},
+{
+  "id": "bgscoe-faculty",
+  "title": "BGS College of Education Faculty",
+  "category": "BGS College of Education Faculty",
+  "keywords": [
+    "bgscoe faculty",
+    "bgsce faculty",
+    "bgs college of education faculty",
+    "education faculty",
+    "b ed faculty",
+    "bed teachers",
+    "teacher education faculty",
+    "who teaches bed",
+    "who teaches b ed",
+    "faculty of bgscoe"
+  ],
+  "content": "BGS College of Education has more than 16 qualified faculty members supporting its teacher education programmes. Current individual faculty names should be taken from the latest official ACU faculty information. ACU Saarthi must not invent faculty names when a current verified faculty profile is unavailable.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "itep-overview",
+  "title": "Integrated Teacher Education Programme ITEP",
+  "category": "ACU ITEP",
+  "keywords": [
+    "itep",
+    "ITEP",
+    "integrated teacher education programme",
+    "integrated teacher education program",
+    "teacher education programme",
+    "teacher education program",
+    "4 year bed",
+    "four year teacher education",
+    "nep teacher education",
+    "acu itep"
+  ],
+  "content": "The Integrated Teacher Education Programme, commonly called ITEP, is a 4-year integrated undergraduate teacher education programme at Adichunchanagiri University aligned with NEP 2020 and recognised by NCTE. It combines a disciplinary degree with professional teacher education so students earn an integrated degree and B.Ed. in four years.",
+  "source": "https://acu.edu.in/fmss/itep/"
+},
+{
+  "id": "itep-ba-bed",
+  "title": "B.A.B.Ed at ACU ITEP",
+  "category": "ITEP Arts",
+  "keywords": [
+    "ba bed",
+    "b.a.b.ed",
+    "ba.bed",
+    "ba bed itep",
+    "bachelor of arts bachelor of education",
+    "integrated arts education",
+    "arts teacher education",
+    "itep arts",
+    "history bed",
+    "geography bed",
+    "political science bed",
+    "economics bed",
+    "english bed",
+    "hindi bed",
+    "kannada bed",
+    "sanskrit bed"
+  ],
+  "content": "The B.A.B.Ed programme under ITEP is a 4-year, 8-semester integrated programme with 50 seats. It combines Arts disciplines with professional teacher education and prepares students for teaching at the secondary stage. Disciplinary choices include History, Geography, Political Science, Economics, English, Hindi, Kannada and Sanskrit.",
+  "source": "https://acu.edu.in/fmss/itep/programmes/"
+},
+{
+  "id": "itep-bsc-bed",
+  "title": "B.Sc.B.Ed at ACU ITEP",
+  "category": "ITEP Science",
+  "keywords": [
+    "bsc bed",
+    "b.sc.b.ed",
+    "bsc.bed",
+    "bsc bed itep",
+    "bachelor of science bachelor of education",
+    "integrated science education",
+    "science teacher education",
+    "itep science",
+    "maths bed",
+    "physics bed",
+    "chemistry bed",
+    "zoology bed",
+    "botany bed",
+    "computer science bed"
+  ],
+  "content": "The B.Sc.B.Ed programme under ITEP is a 4-year, 8-semester integrated programme with 50 seats. It combines Science disciplines with professional teacher education and prepares students to teach science and mathematics at the secondary stage. Disciplinary choices include Mathematics, Physics, Chemistry, Zoology, Botany and Computer Science.",
+  "source": "https://acu.edu.in/fmss/itep/programmes/"
+},
+{
+  "id": "itep-bcom-bed",
+  "title": "B.Com.B.Ed at ACU ITEP",
+  "category": "ITEP Commerce",
+  "keywords": [
+    "bcom bed",
+    "b.com.b.ed",
+    "bcom.bed",
+    "bcom bed itep",
+    "bachelor of commerce bachelor of education",
+    "integrated commerce education",
+    "commerce teacher education",
+    "itep commerce",
+    "commerce bed",
+    "accountancy bed",
+    "business studies bed"
+  ],
+  "content": "The B.Com.B.Ed programme under ITEP is a 4-year, 8-semester integrated programme with 50 seats. It combines Commerce disciplines with professional teacher education and prepares students to teach commerce and business studies at the secondary stage. Disciplinary choices include Commerce, Accountancy and Business Studies.",
+  "source": "https://acu.edu.in/fmss/itep/programmes/"
+},
+{
+  "id": "itep-admission",
+  "title": "ITEP Admission and Eligibility",
+  "category": "ITEP Admissions",
+  "keywords": [
+    "itep admission",
+    "itep admissions",
+    "itep eligibility",
+    "eligibility for itep",
+    "how to join itep",
+    "how to apply for itep",
+    "ncet",
+    "nta ncet",
+    "national common entrance test",
+    "itep entrance exam",
+    "itep application"
+  ],
+  "content": "Admission to all three ITEP streams is conducted through the National Common Entrance Test, known as NCET, administered by the National Testing Agency. Candidates must pass 10+2 or an equivalent examination from a recognised board, meet the minimum aggregate prescribed by NCTE and NTA, and have a valid NCET score. Reservation follows Government of Karnataka and ACU norms. The programme is a 4-year integrated undergraduate degree.",
+  "source": "https://acu.edu.in/fmss/itep/programmes/"
+},
+{
+  "id": "itep-facilities",
+  "title": "ITEP Facilities",
+  "category": "ITEP Facilities",
+  "keywords": [
+    "itep facilities",
+    "itep campus",
+    "itep library",
+    "itep psychology lab",
+    "itep ict lab",
+    "itep language lab",
+    "itep science labs",
+    "itep teaching practice",
+    "itep infrastructure"
+  ],
+  "content": "ITEP provides facilities including a demonstration school for teaching practice, a psychology laboratory, ICT and language laboratories, science laboratories and a library. The library has more than 8,686 books and uses KOHA library automation. The programme also includes internship, immersion, research-oriented learning and placement support.",
+  "source": "https://acu.edu.in/fmss/itep/"
+},
+{
+  "id": "fmss-courses-humanities",
+  "title": "Courses in Humanities and Social Sciences",
+  "category": "Faculty of Humanities and Social Sciences",
+  "keywords": [
+    "humanities",
+    "humanity",
+    "humanities courses",
+    "courses in humanities",
+    "what courses are in humanities",
+    "what are the courses in humanities",
+    "courses available in humanities",
+    "humanities and social sciences courses",
+    "social science courses",
+    "humanities courses at acu",
+    "courses in fmss",
+    "fmss courses",
+    "fmss programmes",
+    "fmss programs",
+    "faculty of humanities courses",
+    "faculty of humanities and social sciences courses"
+  ],
+  "content": "The Faculty of Humanities and Social Sciences at Adichunchanagiri University offers programmes through BGS First Grade College, BGS College of Education and the Integrated Teacher Education Programme. The programmes include Bachelor of Commerce (B.Com), Bachelor of Computer Applications (BCA), Bachelor of Business Administration (BBA), Master of Commerce (M.Com), Ph.D. in Commerce, Bachelor of Education (B.Ed), Ph.D. in Education, B.A.B.Ed, B.Sc.B.Ed and B.Com.B.Ed. BCA is offered through BGS First Grade College. B.Com and BBA are undergraduate commerce and management programmes. B.Ed and Ph.D. in Education are offered through BGS College of Education. ITEP includes B.A.B.Ed, B.Sc.B.Ed and B.Com.B.Ed.",
+  "source": "https://acu.edu.in/fmss/"
+},
+{
+  "id": "bgscoe-about",
+  "title": "About BGS College of Education",
+  "category": "BGS College of Education",
+  "keywords": [
+    "bgscoe",
+    "bgscoe college",
+    "bgs college of education",
+    "bgs college education",
+    "college of education",
+    "education college",
+    "teacher education college",
+    "bgs teacher education",
+    "acu education college"
+  ],
+  "content": "BGS College of Education is a constituent college of Adichunchanagiri University. The college was established in 2007 and became a constituent college of Adichunchanagiri University in 2018. It is recognised by the National Council for Teacher Education. The college focuses on teacher education, professional development and educational research.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "bgscoe-bed-course",
+  "title": "B.Ed Course at BGS College of Education",
+  "category": "B.Ed",
+  "keywords": [
+    "bed",
+    "b ed",
+    "b.ed",
+    "bachelor of education",
+    "bachelor education",
+    "bed course",
+    "b ed course",
+    "b.ed course",
+    "bed programme",
+    "bed program",
+    "education course",
+    "teacher training course",
+    "teacher education course",
+    "bgscoe bed",
+    "bgs college education bed"
+  ],
+  "content": "BGS College of Education offers the Bachelor of Education, commonly known as B.Ed. The B.Ed programme is a professional teacher education programme designed to prepare students for teaching careers. The programme includes educational psychology, pedagogy, teaching methods, ICT in education, teaching practice and school internship. The B.Ed programme has a duration of 2 years and 4 semesters.",
+  "source": "https://acu.edu.in/fmss/bgscoe/b-ed/"
+},
+{
+  "id": "bgscoe-bed-duration",
+  "title": "B.Ed Duration",
+  "category": "B.Ed Programme",
+  "keywords": [
+    "bed duration",
+    "b ed duration",
+    "b.ed duration",
+    "how many years is bed",
+    "how long is bed",
+    "how many years b ed",
+    "bed years",
+    "bed semesters",
+    "b ed semesters",
+    "duration of bachelor of education"
+  ],
+  "content": "The B.Ed programme at BGS College of Education has a duration of 2 years divided into 4 semesters.",
+  "source": "https://acu.edu.in/fmss/bgscoe/b-ed/"
+},
+{
+  "id": "bgscoe-bed-eligibility",
+  "title": "B.Ed Eligibility",
+  "category": "B.Ed Eligibility",
+  "keywords": [
+    "bed eligibility",
+    "b ed eligibility",
+    "b.ed eligibility",
+    "eligibility for bed",
+    "eligibility for b ed",
+    "who can join bed",
+    "who can apply for bed",
+    "bed qualification",
+    "b ed qualification",
+    "bachelor of education eligibility",
+    "bed admission eligibility"
+  ],
+  "content": "Candidates with at least 50 percent marks in a Bachelor's or Master's degree in Science, Social Science or Humanities can apply for B.Ed. Eligible undergraduate degrees include B.A, B.Sc, B.Com, B.B.M, B.Tech and B.E. Eligible postgraduate degrees include M.A, M.Sc, M.Com, M.B.A and M.Tech. B.E and B.Tech candidates with Science and Mathematics specialisation require at least 55 percent marks. Relaxations for eligible categories are provided according to Central and State Government rules.",
+  "source": "https://acu.edu.in/fmss/bgscoe/b-ed/"
+},
+{
+  "id": "bgscoe-bed-admission",
+  "title": "B.Ed Admission",
+  "category": "B.Ed Admission",
+  "keywords": [
+    "bed admission",
+    "b ed admission",
+    "b.ed admission",
+    "admission for bed",
+    "admission for b ed",
+    "how to join bed",
+    "how to apply for bed",
+    "apply for bed",
+    "bed application",
+    "bed admission process",
+    "bgscoe admission",
+    "bgs college education admission"
+  ],
+  "content": "Students who meet the B.Ed eligibility requirements can apply for admission to BGS College of Education. Applicants should submit the required academic documents and follow the latest admission procedure announced by Adichunchanagiri University and the college. Current admission dates and seat availability should be checked from the official ACU admission notification.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "bgscoe-bed-curriculum",
+  "title": "B.Ed Curriculum",
+  "category": "B.Ed Curriculum",
+  "keywords": [
+    "bed subjects",
+    "b ed subjects",
+    "b.ed subjects",
+    "bed syllabus",
+    "b ed syllabus",
+    "bed curriculum",
+    "b ed curriculum",
+    "what subjects are in bed",
+    "subjects in bed",
+    "bed course subjects",
+    "bachelor education subjects"
+  ],
+  "content": "The B.Ed curriculum includes educational psychology, pedagogy, teaching methods, assessment and evaluation, ICT in education, classroom management, inclusive education, educational technology, teaching practice and school internship. The programme combines theoretical study with practical teacher-training experience.",
+  "source": "https://acu.edu.in/fmss/bgscoe/b-ed/"
+},
+{
+  "id": "bgscoe-bed-teaching-practice",
+  "title": "B.Ed Teaching Practice and Internship",
+  "category": "B.Ed Practical Training",
+  "keywords": [
+    "bed teaching practice",
+    "b ed teaching practice",
+    "bed internship",
+    "b ed internship",
+    "school internship",
+    "teaching internship",
+    "bed practical",
+    "teacher training practical",
+    "practice teaching",
+    "bed school internship"
+  ],
+  "content": "The B.Ed programme includes practical teaching experience through teaching practice and school internship. Students get opportunities to apply educational theories, teaching methods, classroom management techniques and assessment practices in real school environments.",
+  "source": "https://acu.edu.in/fmss/bgscoe/b-ed/"
+},
+{
+  "id": "bgscoe-phd",
+  "title": "Ph.D. in Education",
+  "category": "BGS College of Education Ph.D.",
+  "keywords": [
+    "phd education",
+    "ph d education",
+    "ph.d education",
+    "phd in education",
+    "education phd",
+    "education ph d",
+    "doctor of philosophy education",
+    "doctoral education",
+    "phd bgscoe",
+    "bgscoe phd",
+    "bgs college education phd"
+  ],
+  "content": "BGS College of Education offers a Ph.D. in Education for candidates interested in advanced research in education. The programme is research-oriented and follows Adichunchanagiri University's Ph.D. regulations.",
+  "source": "https://acu.edu.in/fmss/bgscoe/ph-d-in-education/"
+},
+{
+  "id": "bgscoe-phd-eligibility",
+  "title": "Ph.D. Education Eligibility",
+  "category": "Ph.D. Education Eligibility",
+  "keywords": [
+    "phd education eligibility",
+    "ph d education eligibility",
+    "ph.d education eligibility",
+    "eligibility for phd education",
+    "who can join phd education",
+    "who can apply phd education",
+    "phd education qualification",
+    "education phd eligibility",
+    "bgscoe phd eligibility"
+  ],
+  "content": "Candidates seeking admission to the Ph.D. in Education programme require a recognised M.Ed. degree with a minimum of 55 percent marks in the respective or related subject, subject to the applicable Adichunchanagiri University Ph.D. regulations.",
+  "source": "https://acu.edu.in/fmss/bgscoe/ph-d-in-education/"
+},
+{
+  "id": "bgscoe-phd-admission",
+  "title": "Ph.D. Education Admission",
+  "category": "Ph.D. Education Admission",
+  "keywords": [
+    "phd education admission",
+    "ph d education admission",
+    "ph.d education admission",
+    "phd admission education",
+    "how to join phd education",
+    "how to apply phd education",
+    "phd education entrance",
+    "research entrance test",
+    "aret",
+    "acu research entrance test",
+    "phd interview education"
+  ],
+  "content": "Admission to the Ph.D. in Education programme follows Adichunchanagiri University's doctoral admission regulations. The admission process includes the ACU Research Entrance Test and an interview, followed by the required research coursework for selected candidates.",
+  "source": "https://acu.edu.in/fmss/bgscoe/ph-d-in-education/"
+},
+{
+  "id": "bgscoe-phd-research",
+  "title": "Ph.D. Education Research Areas",
+  "category": "Education Research",
+  "keywords": [
+    "education research",
+    "phd research education",
+    "education research areas",
+    "research areas bgscoe",
+    "educational research",
+    "education phd research",
+    "research topics education",
+    "education research topics"
+  ],
+  "content": "The Ph.D. in Education supports advanced and multidisciplinary research in contemporary areas of education. Research scholars work under recognised supervisors and undertake research according to the regulations and academic requirements of Adichunchanagiri University.",
+  "source": "https://acu.edu.in/fmss/bgscoe/ph-d-in-education/"
+},
+{
+  "id": "bgscoe-leadership",
+  "title": "BGS College of Education Leadership",
+  "category": "BGS College of Education Leadership",
+  "keywords": [
+    "bgscoe leadership",
+    "bgs college education leadership",
+    "principal bgscoe",
+    "bgscoe principal",
+    "principal of bgs college of education",
+    "who is the principal of bgscoe",
+    "who is bgscoe principal",
+    "dean humanities social sciences",
+    "bgscoe dean",
+    "dr a t shivaramu",
+    "a t shivaramu",
+    "shivaramu"
+  ],
+  "content": "Dr. A. T. Shivaramu is the Principal of BGS College of Education. He is also the Dean of Humanities and Social Sciences at Adichunchanagiri University. His qualifications include M.Sc. in Mathematics, M.Ed., M.Phil. and Ph.D.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "bgscoe-faculty",
+  "title": "BGS College of Education Faculty",
+  "category": "BGS College of Education Faculty",
+  "keywords": [
+    "bgscoe faculty",
+    "bgs college education faculty",
+    "bgs college of education faculty",
+    "bgscoe teachers",
+    "bgscoe teacher",
+    "bed faculty",
+    "bed teachers",
+    "b ed faculty",
+    "b ed teachers",
+    "who teaches bed",
+    "who teaches b ed",
+    "education faculty",
+    "teacher education faculty",
+    "faculty members bgscoe"
+  ],
+  "content": "BGS College of Education has more than 16 qualified faculty members supporting teacher education and research. The college faculty includes teachers and researchers with expertise in education and related disciplines. Individual current faculty names should be taken only from the latest official ACU faculty directory. ACU Saarthi must not guess faculty names when a verified current profile is unavailable.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "bgscoe-facilities",
+  "title": "BGS College of Education Facilities",
+  "category": "BGS College of Education Facilities",
+  "keywords": [
+    "bgscoe facilities",
+    "bgs college education facilities",
+    "education college facilities",
+    "bed facilities",
+    "bed infrastructure",
+    "bgscoe infrastructure",
+    "education laboratory",
+    "psychology lab",
+    "ict lab",
+    "education technology lab",
+    "library bgscoe"
+  ],
+  "content": "BGS College of Education provides facilities to support teacher education, practical training and research. Facilities include classrooms, library resources, educational laboratories, ICT facilities and facilities for teaching practice and school internship.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "bgscoe-common-questions",
+  "title": "BGS College of Education Common Questions",
+  "category": "BGS College of Education FAQs",
+  "keywords": [
+    "what is bgscoe",
+    "what is bgs college of education",
+    "what courses are in bgscoe",
+    "what courses are offered in bgscoe",
+    "who is bgscoe principal",
+    "who teaches bed",
+    "how many years is bed",
+    "bed course duration",
+    "bed eligibility",
+    "phd education bgscoe",
+    "bgscoe admission"
+  ],
+  "content": "BGS College of Education offers B.Ed and Ph.D. in Education. The B.Ed programme is 2 years and 4 semesters. Candidates with the required Bachelor's or Master's degree and prescribed marks can apply. The Ph.D. in Education is a research programme governed by ACU Ph.D. regulations. Dr. A. T. Shivaramu is the Principal of BGS College of Education and the Dean of Humanities and Social Sciences.",
+  "source": "https://acu.edu.in/fmss/bgscoe/"
+},
+{
+  "id": "acu-phd-overview",
+  "title": "ACU Ph.D. Programme",
+  "category": "Ph.D.",
+  "keywords": [
+    "phd",
+    "PhD",
+    "ph.d",
+    "ph d",
+    "doctor of philosophy",
+    "doctoral programme",
+    "doctoral program",
+    "doctoral research",
+    "acu phd",
+    "ACU PhD",
+    "adichunchanagiri university phd",
+    "research programme",
+    "research program"
+  ],
+  "content": "Adichunchanagiri University offers Ph.D. programmes across 8 faculties and more than 40 research areas. The doctoral programme is governed by the ACU Ph.D. Regulations 2025, which comply with UGC Regulations 2022 and are effective from the 2025-26 academic year. ACU provides full-time and part-time doctoral study options, expert supervision, structured coursework and research facilities.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-faculties",
+  "title": "ACU Ph.D. Faculties and Research Areas",
+  "category": "Ph.D. Research",
+  "keywords": [
+    "phd faculties",
+    "phd departments",
+    "phd subjects",
+    "phd research areas",
+    "research areas phd",
+    "what subjects are available for phd",
+    "which subjects have phd",
+    "phd courses",
+    "phd disciplines",
+    "phd engineering",
+    "phd medical",
+    "phd nursing",
+    "phd pharmacy",
+    "phd education",
+    "phd natural sciences",
+    "phd computer applications",
+    "phd humanities",
+    "phd commerce"
+  ],
+  "content": "ACU offers doctoral research across 8 faculties and more than 40 research areas. The broad areas include Engineering and Technology, Medical Sciences, Pharmacy, Nursing, Natural Sciences, Computer Applications and Information Science, Humanities and Social Sciences, and Commerce. Research areas include disciplines such as Civil Engineering, Mechanical Engineering, Electronics and Communication Engineering, Computer Science and Engineering, Medicine, Pharmacy, Nursing, Education, Commerce and other approved research subjects.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "acu-phd-eligibility",
+  "title": "ACU Ph.D. Eligibility",
+  "category": "Ph.D. Eligibility",
+  "keywords": [
+    "phd eligibility",
+    "PhD eligibility",
+    "ph d eligibility",
+    "eligibility for phd",
+    "who can apply for phd",
+    "who can join phd",
+    "phd qualification",
+    "phd requirements",
+    "doctoral eligibility",
+    "masters degree phd",
+    "pg degree phd"
+  ],
+  "content": "Candidates seeking admission to the ACU Ph.D. programme generally require a Master's degree or equivalent in the relevant discipline from a recognised university. The current ACU Ph.D. information specifies a minimum of 55 percent marks, with 50 percent for eligible SC/ST and other categories as per applicable UGC norms. Discipline-specific requirements may apply. Candidates must also satisfy the current ACU Ph.D. regulations and supervisor availability requirements.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-entrance",
+  "title": "ACU Ph.D. Entrance Test",
+  "category": "Ph.D. Admission",
+  "keywords": [
+    "phd entrance",
+    "phd entrance exam",
+    "phd entrance test",
+    "ACU RET",
+    "acu ret",
+    "ACU research entrance test",
+    "research entrance test",
+    "phd exam",
+    "phd test",
+    "is phd entrance mandatory",
+    "phd entrance eligibility"
+  ],
+  "content": "The ACU Research Entrance Test, commonly called ACU-RET, is part of the Ph.D. admission process. Candidates who hold recognised qualifications such as UGC-NET, CSIR-NET, GATE, GPAT, SLET or equivalent national-level qualifications may be exempted from ACU-RET according to the applicable regulations. Exempted candidates must still participate in the required interview or viva voce process. Qualification in an entrance test does not by itself guarantee admission because admission depends on seats and supervisor availability.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-admission-categories",
+  "title": "ACU Ph.D. Admission Categories",
+  "category": "Ph.D. Admission",
+  "keywords": [
+    "phd admission categories",
+    "phd categories",
+    "seven phd categories",
+    "7 phd categories",
+    "phd admission types",
+    "full time phd",
+    "part time phd",
+    "self financed phd",
+    "international phd",
+    "project fellow phd",
+    "national fellowship phd",
+    "acu phd categories"
+  ],
+  "content": "The ACU Ph.D. Regulations 2025 provide seven admission categories. They are full-time candidates with national fellowships, full-time candidates with ACU scholarships, full-time self-financed candidates, full-time project fellows, full-time international candidates, joint or co-supervised international researchers, and part-time working professionals.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-full-time",
+  "title": "ACU Full-Time Ph.D.",
+  "category": "Ph.D. Full-Time",
+  "keywords": [
+    "full time phd",
+    "full-time phd",
+    "phd full time",
+    "full time doctoral programme",
+    "full time doctoral program",
+    "acu full time phd",
+    "phd scholarship",
+    "phd research full time"
+  ],
+  "content": "ACU offers full-time Ph.D. study through multiple admission categories. Full-time scholars may be admitted with national fellowships, ACU scholarships, as self-financed scholars or as project fellows. Full-time Ph.D. has a minimum duration of 3 years and a maximum duration of 6 years. Mandatory coursework is completed during the initial research period.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-part-time",
+  "title": "ACU Part-Time Ph.D.",
+  "category": "Ph.D. Part-Time",
+  "keywords": [
+    "part time phd",
+    "part-time phd",
+    "phd part time",
+    "working professional phd",
+    "phd for working professionals",
+    "part time doctoral programme",
+    "part time doctoral program",
+    "acu part time phd",
+    "phd while working"
+  ],
+  "content": "ACU provides a part-time Ph.D. pathway for eligible working professionals. Part-time Ph.D. has a minimum duration of 4 years and a maximum duration of 8 years. Working candidates must provide a No-Objection Certificate from their employer. The current regulations also require prescribed physical presence at the university and completion of mandatory coursework.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-duration",
+  "title": "ACU Ph.D. Duration",
+  "category": "Ph.D. Duration",
+  "keywords": [
+    "phd duration",
+    "how many years phd",
+    "how long is phd",
+    "phd years",
+    "doctoral duration",
+    "full time phd duration",
+    "part time phd duration",
+    "duration of phd at acu"
+  ],
+  "content": "The full-time ACU Ph.D. programme has a minimum duration of 3 years and a maximum duration of 6 years. The part-time Ph.D. programme has a minimum duration of 4 years and a maximum duration of 8 years. Mandatory coursework is completed during the initial stage of the programme.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-coursework",
+  "title": "ACU Ph.D. Coursework",
+  "category": "Ph.D. Coursework",
+  "keywords": [
+    "phd coursework",
+    "phd course work",
+    "doctoral coursework",
+    "doctoral course work",
+    "phd classes",
+    "phd first six months",
+    "phd coursework duration",
+    "acu phd coursework"
+  ],
+  "content": "Ph.D. scholars at ACU must complete mandatory coursework during the initial stage of their doctoral programme. The current regulations specify coursework within the first 6 months. Scholars must successfully complete the prescribed coursework before progressing through the research and thesis stages.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-research-proposal",
+  "title": "ACU Ph.D. Research Proposal",
+  "category": "Ph.D. Research Proposal",
+  "keywords": [
+    "phd research proposal",
+    "research proposal phd",
+    "how to write phd proposal",
+    "phd proposal",
+    "doctoral research proposal",
+    "research proposal requirements",
+    "acu phd proposal",
+    "phd interview proposal"
+  ],
+  "content": "Applicants to the ACU Ph.D. programme must prepare a research proposal. The proposal should describe the proposed research area, objectives, literature survey, methodology, expected outcomes and research plan. The proposal is evaluated during the interview or viva voce process.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-supervisor",
+  "title": "ACU Ph.D. Research Supervisors",
+  "category": "Ph.D. Supervisors",
+  "keywords": [
+    "phd supervisor",
+    "phd guide",
+    "phd research guide",
+    "research supervisor",
+    "doctoral supervisor",
+    "doctoral guide",
+    "acu phd guide",
+    "who can guide phd",
+    "phd supervisor eligibility",
+    "phd guides"
+  ],
+  "content": "ACU Ph.D. scholars conduct their research under approved research supervisors. The current ACU research information lists 125 approved Ph.D. guides across 8 faculties. Candidates must identify a recognised supervisor whose research area matches the proposed research and whose guideship is valid with ACU. Supervisor availability and approved research capacity are considered during admission.",
+  "source": "https://acu.edu.in/research/phd/"
+},
+{
+  "id": "acu-phd-fellowship",
+  "title": "ACU Ph.D. Fellowship",
+  "category": "Ph.D. Fellowship",
+  "keywords": [
+    "phd fellowship",
+    "phd scholarship",
+    "phd stipend",
+    "phd salary",
+    "how much fellowship phd",
+    "phd monthly fellowship",
+    "acu phd fellowship",
+    "acu phd scholarship",
+    "phd funding",
+    "research fellowship"
+  ],
+  "content": "ACU provides fellowship support for eligible full-time Ph.D. scholars. The current Ph.D. page lists a fellowship of twenty-five thousand rupees per month plus HRA for eligible full-time ACU scholarship scholars, and thirty thousand rupees per month plus HRA for candidates with recognised qualifications such as GATE, GPAT, UGC-CSIR-NET, SLET, ICMR-JRF, DBT-JRF, DST-INSPIRE or other recognised tests. Fellowship support is subject to the applicable regulations and is generally provided for a maximum of 3 years.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-admission-process",
+  "title": "ACU Ph.D. Admission Process",
+  "category": "Ph.D. Admission",
+  "keywords": [
+    "phd admission process",
+    "phd application process",
+    "how to apply for phd",
+    "how can i apply for phd",
+    "phd admission",
+    "phd application",
+    "apply phd acu",
+    "acu phd admission",
+    "doctoral admission process"
+  ],
+  "content": "The ACU Ph.D. admission process involves checking the latest notification and eligibility, registering online through the ACU admissions portal, submitting personal academic and research information, uploading the required documents, paying the application fee, appearing for ACU-RET when applicable, attending the interview or viva voce, and completing admission and registration if selected. A research supervisor is allotted or identified according to the applicable regulations and availability.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-phd-faq",
+  "title": "ACU Ph.D. Common Questions",
+  "category": "Ph.D. FAQs",
+  "keywords": [
+    "what is phd",
+    "what is a phd",
+    "phd details",
+    "phd information",
+    "phd courses",
+    "phd eligibility",
+    "phd admission",
+    "phd duration",
+    "phd fees",
+    "phd fellowship",
+    "phd scholarship",
+    "phd entrance",
+    "phd research areas",
+    "who can do phd",
+    "how to join phd",
+    "how to apply phd"
+  ],
+  "content": "ACU Saarthi can provide verified information about the ACU Ph.D. programme, including research areas, eligibility, admission categories, ACU-RET, exemptions, research proposals, supervisors, coursework, duration, fellowship and application procedure. Current fees and admission dates can change by admission cycle and should be taken from the latest official ACU notification. Saarthi must not guess current fees, dates, supervisor availability or admission status.",
+  "source": "https://acu.edu.in/phd/"
+},
+{
+  "id": "acu-vice-chancellor",
+  "title": "Vice Chancellor of Adichunchanagiri University",
+  "category": "University Leadership",
+  "keywords": [
+    "vice chancellor",
+    "vice-chancellor",
+    "vc",
+    "acu vc",
+    "acu vice chancellor",
+    "adichunchanagiri university vice chancellor",
+    "who is the vice chancellor",
+    "who is the vice chancellor of acu",
+    "who is acu vice chancellor",
+    "current vice chancellor",
+    "current vc",
+    "vice chancellor name",
+    "dr s n sridhara",
+    "dr sn sridhara",
+    "s n sridhara",
+    "sn sridhara",
+    "col dr s n sridhara",
+    "colonel dr s n sridhara"
+  ],
+  "content": "The current Vice-Chancellor of Adichunchanagiri University is Col. Dr. S.N. Sridhara. He has more than 38 years of experience in engineering education, research and institutional leadership. He holds a B.E. in Mechanical Engineering from Bangalore University, an M.E. in Aerospace Engineering from the Indian Institute of Science, Bengaluru, and a Ph.D. in Aerospace Engineering from the Indian Institute of Science, Bengaluru. His areas of expertise include Computational Fluid Dynamics, Solar Energy Systems, Hybrid Electric Vehicles, Biofuel Technologies and Sustainable Engineering. He has more than 230 research publications and 7 patents. As Vice-Chancellor of ACU, he leads academic development, research excellence, accreditation initiatives and outcome-based education across the university.",
+  "source": "https://acu.edu.in/about/vc/"
+},
+{
+  "id": "acu-vc-office-contact",
+  "title": "Office of the Vice Chancellor",
+  "category": "University Administration",
+  "keywords": [
+    "vice chancellor office",
+    "vc office",
+    "office of vice chancellor",
+    "contact vice chancellor",
+    "vice chancellor contact",
+    "vc contact",
+    "email vice chancellor",
+    "vice chancellor email",
+    "acu vc email",
+    "how to contact vice chancellor",
+    "contact acu vice chancellor"
+  ],
+  "content": "The Office of the Vice Chancellor at Adichunchanagiri University handles matters relating to academic policy, institutional strategy, research collaborations and external partnerships. The official Vice-Chancellor office email listed by ACU is osd.vc@acu.edu.in. The Office of the Vice Chancellor is at Adichunchanagiri University, B.G. Nagara, Karnataka.",
+  "source": "https://acu.edu.in/about/vc/"
+},
+{
+  "id": "acu-chancellor",
+  "title": "Chancellor of Adichunchanagiri University",
+  "category": "University Leadership",
+  "keywords": [
+    "chancellor",
+    "acu chancellor",
+    "who is the chancellor",
+    "chancellor of acu",
+    "adichunchanagiri university chancellor",
+    "nirmalanandanatha",
+    "dr nirmalanandanatha mahaswamiji",
+    "poojya sri sri sri dr nirmalanandanatha mahaswamiji",
+    "swamiji",
+    "jagadguru",
+    "ಕುಲಪತಿ",
+    "ನಿರ್ಮಲಾನಂದನಾಥ ಸ್ವಾಮೀಜಿ"
+  ],
+  "content": "Paramapoojya Jagadguru Sri Sri Sri Dr. Nirmalanandanatha Mahaswamiji is the Honorable Chancellor of Adichunchanagiri University and the 72nd pontiff of Sri Adichunchanagiri Mahasamsthana Math. He is a renowned visionary leader with a master's degree in structural engineering from IIT Madras and has guided thousands of educational and social institutions under the Sri Adichunchanagiri Shikshana Trust (SAST).",
+  "source": "https://acu.edu.in/about/"
+},
+{
+  "id": "acu-pro-chancellor",
+  "title": "Pro-Chancellor of Adichunchanagiri University",
+  "category": "University Leadership",
+  "keywords": [
+    "pro chancellor",
+    "pro-chancellor",
+    "acu pro chancellor",
+    "who is the pro chancellor",
+    "prakashnatha swamiji",
+    "sri sri dr prakashnatha swamiji",
+    "ಸಹ ಕುಲಪತಿ",
+    "ಪ್ರಕಾಶ್‌ನಾಥ ಸ್ವಾಮೀಜಿ"
+  ],
+  "content": "Poojya Sri Sri Dr. Prakashnatha Swamiji is the Honorable Pro-Chancellor of Adichunchanagiri University and Managing Trustee of Sri Adichunchanagiri Shikshana Trust (SAST). He provides strategic guidance and leadership for the expansion, development, and modern educational excellence of ACU institutions.",
+  "source": "https://acu.edu.in/about/"
+},
+{
+  "id": "acu-registrar",
+  "title": "Registrar of Adichunchanagiri University",
+  "category": "University Administration",
+  "keywords": [
+    "registrar",
+    "acu registrar",
+    "who is the registrar",
+    "registrar of acu",
+    "dr c k subbaraya",
+    "dr ck subbaraya",
+    "ಕುಲಸಚಿವರು",
+    "ರಿಜಿಸ್ಟ್ರಾರ್"
+  ],
+  "content": "Dr. C.K. Subbaraya is the Registrar of Adichunchanagiri University. The Registrar's office manages university administrative operations, official notifications, statutory bodies, faculty appointments, and student records.",
+  "source": "https://acu.edu.in/about/"
+},
+{
+  "id": "acu-hospital-ahrc",
+  "title": "Adichunchanagiri Hospital & Research Centre (AH&RC)",
+  "category": "Facilities",
+  "keywords": [
+    "hospital",
+    "acu hospital",
+    "ahrc",
+    "adichunchanagiri hospital",
+    "aims hospital",
+    "medical college hospital",
+    "emergency services",
+    "beds",
+    "ఆస్పತ್ರೆ",
+    "ಆಸ್ಪತ್ರೆ"
+  ],
+  "content": "Adichunchanagiri Hospital & Research Centre (AH&RC) is a 1000+ bed multi-specialty teaching hospital affiliated with AIMS at B.G. Nagara. It provides 24/7 emergency care, ICU/CCU/NICU, advanced diagnostic laboratories, blood bank, modern operation theatres, pharmacy, radiology (MRI/CT), and subsidized/free medical care for rural and surrounding communities.",
+  "source": "https://acu.edu.in/aims/"
+},
+{
+  "id": "acu-contact-admissions",
+  "title": "ACU Contact and Admissions Cell Information",
+  "category": "Admissions",
+  "keywords": [
+    "contact",
+    "contact number",
+    "phone number",
+    "admissions cell",
+    "admissions contact",
+    "helpline",
+    "email",
+    "admission email",
+    "website",
+    "address",
+    "ಸಂಪರ್ಕ",
+    "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
+  ],
+  "content": "Official Contact details for Adichunchanagiri University (ACU):\n• Location: NH-75, B.G. Nagara, Nagamangala Taluk, Mandya District, Karnataka - 571448\n• Official Website: https://acu.edu.in\n• Admissions Cell Helpline: +91-9845199999 / 08234-287205 / 08234-287206\n• Email for Admissions: admission@acu.edu.in / info@acu.edu.in\n• Office of the VC: osd.vc@acu.edu.in",
+  "source": "https://acu.edu.in/contact-us/"
+}
+]]
