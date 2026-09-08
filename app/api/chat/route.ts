@@ -45,6 +45,78 @@ export async function POST(request: Request) {
     const processed = processUserQuery(rawMessage, requestedLanguage);
     const isKannada = processed.detectedLanguage === "kn";
 
+    // Fast-path: Greetings
+    if (processed.isGreeting) {
+      const greetingAnswer = isKannada
+        ? "ಜೈ ಶ್ರೀ ಗುರುದೇವ್ 🙏\n\nನಮಸ್ಕಾರ! ನಾನು ಆದಿಚುಂಚನಗಿರಿ ವಿಶ್ವವಿದ್ಯಾಲಯದ (ACU) ಅಧಿಕೃತ AI ಸಹಾಯಕ ಸಾರಥಿ. ನಮ್ಮ ಕ್ಯಾಂಪಸ್‌ಗೆ ಆತ್ಮೀಯ ಸುಸ್ವಾಗತ!\n\nನಾನು ನಿಮಗೆ ಈ ಕೆಳಗಿನ ವಿಷಯಗಳಲ್ಲಿ ಸಹಾಯ ಮಾಡಬಲ್ಲೆ:\n• ಪ್ರವೇಶ ಪ್ರಕ್ರಿಯೆ & ಶುಲ್ಕ ಮಾಹಿತಿ (Admissions & Fees)\n• ಎಂಜಿನಿಯರಿಂಗ್ (BGSIT), ವೈದ್ಯಕೀಯ (AIMS), ಫಾರ್ಮಸಿ (SACP), ನರ್ಸಿಂಗ್ ಕೋರ್ಸ್‌ಗಳು\n• ಹಾಸ್ಟೆಲ್ ಸೌಲಭ್ಯ, ಗ್ರಂಥಾಲಯ, ಸಾರಿಗೆ & ಆಸ್ಪತ್ರೆ ಸೇವೆಗಳು\n\nತಮಗೆ ಯಾವ ಮಾಹಿತಿ ತಿಳಿಯಬೇಕಾಗಿದೆ?"
+        : "Jai Sri Gurudev 🙏\n\nHello! I am SARATHI (ಸಾರಥಿ), the official AI assistant at Adichunchanagiri University (ACU). Welcome to our campus!\n\nI can assist you with verified information regarding:\n• Admissions, eligibility, and fee details\n• Academic programs across Engineering (BGSIT), Medicine (AIMS), Pharmacy (SACP), Nursing & Management\n• Campus amenities, hostels, transport, and 1000-bed AHRC hospital\n\nHow may I help you today?";
+
+      const latencyMs = Date.now() - startTime;
+      const sources = [
+        {
+          title: "ACU Admissions & Information Desk",
+          source: "https://acu.edu.in",
+          category: "Campus Information",
+        },
+      ];
+
+      supabase
+        .rpc("log_sarathi_question", {
+          p_question: rawMessage,
+          p_reply: greetingAnswer,
+          p_language: processed.detectedLanguage,
+          p_latency_ms: latencyMs,
+          p_sources: sources,
+          p_context: { isGreeting: true },
+        })
+        .then(({ error }) => {
+          if (error) console.warn("Telemetry log warning:", error.message);
+        });
+
+      return NextResponse.json({
+        answer: greetingAnswer,
+        language: processed.detectedLanguage,
+        sources,
+        latency_ms: latencyMs,
+      });
+    }
+
+    // Fast-path: Identity queries ("who are you", etc.)
+    if (processed.isIdentity) {
+      const identityAnswer = isKannada
+        ? "ಜೈ ಶ್ರೀ ಗುರುದೇವ್ 🙏\n\nನಾನು ಸಾರಥಿ (SARATHI) — ಆದಿಚುಂಚನಗಿರಿ ವಿಶ್ವವಿದ್ಯಾಲಯದ (ACU) ಅಧಿಕೃತ AI ಕ್ಯಾಂಪಸ್ ಗೈಡ್. ವಿದ್ಯಾರ್ಥಿಗಳು, ಪೋಷಕರು ಮತ್ತು ಸಂದರ್ಶಕರಿಗೆ ವಿಶ್ವವಿದ್ಯಾಲಯದ ಪ್ರವೇಶ, ಕೋರ್ಸ್‌ಗಳು, ಕಾಲೇಜುಗಳು ಮತ್ತು ಸೌಲಭ್ಯಗಳ ಬಗ್ಗೆ ನಿಖರವಾದ ಮತ್ತು ಅಧಿಕೃತ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಲು ನಾನು ಇಲ್ಲಿದ್ದೇನೆ."
+        : "Jai Sri Gurudev 🙏\n\nI am SARATHI (ಸಾರಥಿ) — the official intelligent AI campus assistant at Adichunchanagiri University (ACU), Karnataka. I am stationed here to assist students, parents, and visitors with accurate, verified information about admissions, degree programs, constituent colleges, campus amenities, and hostel facilities.";
+
+      const latencyMs = Date.now() - startTime;
+      const sources = [
+        {
+          title: "About SARATHI • ACU",
+          source: "https://acu.edu.in",
+          category: "AI Assistant",
+        },
+      ];
+
+      supabase
+        .rpc("log_sarathi_question", {
+          p_question: rawMessage,
+          p_reply: identityAnswer,
+          p_language: processed.detectedLanguage,
+          p_latency_ms: latencyMs,
+          p_sources: sources,
+          p_context: { isIdentity: true },
+        })
+        .then(({ error }) => {
+          if (error) console.warn("Telemetry log warning:", error.message);
+        });
+
+      return NextResponse.json({
+        answer: identityAnswer,
+        language: processed.detectedLanguage,
+        sources,
+        latency_ms: latencyMs,
+      });
+    }
+
     // 2. Generate local multilingual embedding
     const queryEmbedding = await generateEmbedding(processed.searchQuery);
 

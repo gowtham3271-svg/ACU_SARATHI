@@ -7,6 +7,11 @@ async function runChatTests() {
 
   const testCases = [
     {
+      name: "0. Greeting Query",
+      message: "HELLO",
+      language: "auto",
+    },
+    {
       name: "1. English Course Query",
       message: "What engineering courses are offered at BGSIT?",
       language: "auto",

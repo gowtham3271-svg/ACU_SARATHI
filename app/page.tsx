@@ -181,6 +181,11 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: queryToSend, language: languageMode }),
       });
+
+      if (!response.ok) {
+        throw new Error(`Server returned HTTP ${response.status}`);
+      }
+
       const data = await response.json();
       const answerText = data.answer || "Jai Sri Gurudev 🙏\n\nI can assist you with information about Adichunchanagiri University.";
       const detectedLang = data.language as "en" | "kn";
@@ -190,10 +195,17 @@ export default function Home() {
         setResponseLatency(data.latency_ms);
       }
       speakText(answerText, detectedLang);
-    } catch (error) {
-      const errorMessage = languageMode === "kn" || /[\u0C80-\u0CFF]/.test(queryToSend)
-          ? "ಜೈ ಶ್ರೀ ಗುರುದೇವ್ 🙏\n\nಕ್ಷಮಿಸಿ, ವಿನಂತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ."
-          : "Jai Sri Gurudev 🙏\n\nSorry, I couldn't process your request right now.";
+    } catch (error: any) {
+      console.error("SARATHI Chat error:", error);
+      const isNetwork = error instanceof TypeError && /fetch|failed|network/i.test(error.message);
+      const isKn = languageMode === "kn" || /[\u0C80-\u0CFF]/.test(queryToSend);
+      const errorMessage = isKn
+        ? (isNetwork
+            ? "ಜೈ ಶ್ರೀ ಗುರುದೇವ್ 🙏\n\nಸರ್ವರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಸರ್ವರ್ ಚಾಲನೆಯಲ್ಲಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ."
+            : "ಜೈ ಶ್ರೀ ಗುರುದೇವ್ 🙏\n\nಕ್ಷಮಿಸಿ, ವಿನಂತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.")
+        : (isNetwork
+            ? "Jai Sri Gurudev 🙏\n\nUnable to connect to the SARATHI server. Please verify the server is running."
+            : "Jai Sri Gurudev 🙏\n\nSorry, I couldn't process your request right now.");
       setCurrentResponse(errorMessage);
       speakText(errorMessage);
     } finally {

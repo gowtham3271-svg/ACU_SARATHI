@@ -14,6 +14,8 @@ export interface ProcessedQuery {
   searchQuery: string;
   detectedLanguage: DetectedLanguage;
   isCodeMixed: boolean;
+  isGreeting: boolean;
+  isIdentity: boolean;
 }
 
 // Common institutional term translations (Kannada script & Transliterated to canonical search keywords)
@@ -83,6 +85,16 @@ export function isCodeMixedKannada(text: string): boolean {
   );
 }
 
+export function isGreetingQuery(text: string): boolean {
+  const clean = text.toLowerCase().trim().replace(/^[^\w\u0C80-\u0CFF]+|[^\w\u0C80-\u0CFF]+$/g, "");
+  return /^(hello|hi|hey|hii+|heyy+|namaste|namaskara|namaskar|namaskaram|good\s+morning|good\s+afternoon|good\s+evening|jai\s+sh?ri\s+gurudev|jai\s+sri\s+gurudeva?|ನಮಸ್ಕಾರ|ನಮಸ್ತೆ|ಹಲೋ|ಹಾಯ್|ಜೈ\s+ಶ್ರೀ\s+ಗುರುದೇವ್)$/i.test(clean);
+}
+
+export function isIdentityQuery(text: string): boolean {
+  const clean = text.toLowerCase().trim().replace(/^[^\w\u0C80-\u0CFF]+|[^\w\u0C80-\u0CFF]+$/g, "");
+  return /^(who\s+are\s+you|what\s+is\s+your\s+name|what\s+are\s+you|what\s+is\s+sarathi|tell\s+me\s+about\s+yourself|ನಿಮ್ಮ\s*ಹೆಸರೇನು|ನೀವು\s*ಯಾರು|ಸಾರಥಿ\s*ಯಾರು)$/i.test(clean);
+}
+
 export function processUserQuery(
   rawQuery: string,
   preferredLanguage?: "auto" | "en" | "kn"
@@ -101,6 +113,9 @@ export function processUserQuery(
   } else if (hasScript || hasTranslit) {
     detectedLanguage = "kn";
   }
+
+  const isGreeting = isGreetingQuery(original);
+  const isIdentity = isIdentityQuery(original);
 
   // Extract expansion concepts
   const expansions: string[] = [];
@@ -121,5 +136,7 @@ export function processUserQuery(
     searchQuery: combinedSearch,
     detectedLanguage,
     isCodeMixed: hasTranslit && !hasScript,
+    isGreeting,
+    isIdentity,
   };
 }
