@@ -150,9 +150,15 @@ export async function POST(request: Request) {
       combined_score: number;
     }>;
 
-    // Check confidence threshold: Minimum similarity or FTS rank
-    const maxSim = chunks.length > 0 ? Math.max(...chunks.map((c) => c.vector_similarity)) : 0;
-    const maxFts = chunks.length > 0 ? Math.max(...chunks.map((c) => c.fts_rank)) : 0;
+    // Check confidence threshold: Minimum similarity or FTS rank (handle null/NaN/string safely)
+    const maxSim = chunks.length > 0 ? Math.max(...chunks.map((c) => {
+      const v = Number(c.vector_similarity);
+      return isNaN(v) ? 0 : v;
+    })) : 0;
+    const maxFts = chunks.length > 0 ? Math.max(...chunks.map((c) => {
+      const f = Number(c.fts_rank);
+      return isNaN(f) ? 0 : f;
+    })) : 0;
 
     // If query is out-of-domain or has zero grounded relevance, refuse rather than hallucinate
     if (chunks.length === 0 || (maxSim < 0.28 && maxFts === 0)) {

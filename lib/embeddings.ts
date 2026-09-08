@@ -44,13 +44,20 @@ export async function generateEmbedding(text: string): Promise<number[]> {
   }
 
   try {
-    const extractor = await getExtractor();
-    const output = await extractor(cleanText, {
-      pooling: "mean",
-      normalize: true,
-    });
+    const timeoutPromise = new Promise<never>((_, reject) =>
+      setTimeout(() => reject(new Error("Embedding extraction timed out (6s limit)")), 6000)
+    );
 
-    return Array.from(output.data as Float32Array);
+    const embedPromise = (async () => {
+      const extractor = await getExtractor();
+      const output = await extractor(cleanText, {
+        pooling: "mean",
+        normalize: true,
+      });
+      return Array.from(output.data as Float32Array);
+    })();
+
+    return await Promise.race([embedPromise, timeoutPromise]);
   } catch (error) {
     console.warn("Embedding generation fallback (using zero vector for FTS):", error);
     return new Array(384).fill(0);

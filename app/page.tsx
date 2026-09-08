@@ -24,6 +24,7 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
   const [speechSupported, setSpeechSupported] = useState(true);
   const [micSupported, setMicSupported] = useState(true);
+  const [currentLanguage, setCurrentLanguage] = useState<"en" | "kn">("en");
 
   const recognitionRef = useRef<any>(null);
   const silenceTimerRef = useRef<NodeJS.Timeout | null>(null);
@@ -79,21 +80,45 @@ export default function Home() {
     };
   }, []);
 
+  const detectIsKannada = (text: string, lang?: "en" | "kn"): boolean => {
+    if (lang === "kn") return true;
+    if (lang === "en") return false;
+    const knChars = (text.match(/[\u0C80-\u0CFF]/g) || []).length;
+    const enChars = (text.match(/[a-zA-Z]/g) || []).length;
+    return knChars > enChars;
+  };
+
   const fallbackWebSpeech = (text: string, lang?: "en" | "kn") => {
     if (!speechSupported || !autoVoice || typeof window === "undefined") return;
     try {
       window.speechSynthesis.cancel();
-      const cleanText = text
-        .replace(/^[Jj]ai [Ss]ri [Gg]urudev 🙏\s*/i, "")
-        .replace(/^ಜೈ ಶ್ರೀ ಗುರುದೇವ್ 🙏\s*/i, "")
+      const isKannada = detectIsKannada(text, lang);
+      let cleanText = text
+        .replace(/[\u{1F300}-\u{1FAFF}]|[\u{2600}-\u{27BF}]/gu, "") // remove all emojis
         .replace(/https?:\/\/\S+/g, "")
         .replace(/[*#_`•-]/g, " ")
         .replace(/\s+/g, " ")
         .trim();
+
+      if (!isKannada) {
+        cleanText = cleanText.replace(/\s*\([\u0C80-\u0CFF\s]+\)\s*/g, " ").replace(/[\u0C80-\u0CFF]+/g, "");
+      }
+
       if (!cleanText) return;
-      const isKannada = lang === "kn" || /[\u0C80-\u0CFF]/.test(text);
       const utterance = new SpeechSynthesisUtterance(cleanText);
       utterance.lang = isKannada ? "kn-IN" : "en-IN";
+
+      // Select female voice if available
+      const voices = voicesRef.current.length > 0 ? voicesRef.current : window.speechSynthesis.getVoices();
+      const femaleVoice = voices.find((v) =>
+        (isKannada ? v.lang.startsWith("kn") : v.lang.startsWith("en")) &&
+        /female|zira|heera|neerja|sapna|priya|veena/i.test(v.name)
+      ) || voices.find((v) => isKannada ? v.lang.startsWith("kn") : v.lang.startsWith("en"));
+
+      if (femaleVoice) {
+        utterance.voice = femaleVoice;
+      }
+
       utterance.onstart = () => setIsSpeaking(true);
       utterance.onend = () => setIsSpeaking(false);
       utterance.onerror = () => setIsSpeaking(false);
@@ -107,7 +132,6 @@ export default function Home() {
     if (audioPlayerRef.current) {
       audioPlayerRef.current.pause();
       audioPlayerRef.current.currentTime = 0;
-      audioPlayerRef.current = null;
     }
     if (typeof window !== "undefined" && window.speechSynthesis) {
       window.speechSynthesis.cancel();
@@ -115,11 +139,25 @@ export default function Home() {
     setIsSpeaking(false);
   };
 
+  // Prime the audio context synchronously during a user interaction event.
+  // This satisfies strict mobile/browser autoplay policies so delayed async responses can play voice.
+  const primeAudioContext = () => {
+    if (typeof window === "undefined" || !autoVoice) return;
+    try {
+      if (!audioPlayerRef.current) {
+        audioPlayerRef.current = new Audio();
+      }
+      const audio = audioPlayerRef.current;
+      audio.src = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA";
+      audio.play().catch(() => {});
+    } catch {}
+  };
+
   const speakText = async (text: string, lang?: "en" | "kn") => {
     if (!autoVoice || typeof window === "undefined") return;
     stopSpeaking();
 
-    const isKannada = lang === "kn" || /[\u0C80-\u0CFF]/.test(text);
+    const isKannada = detectIsKannada(text, lang);
 
     try {
       setIsSpeaking(true);
@@ -133,35 +171,35 @@ export default function Home() {
       });
 
       if (!res.ok) {
-        throw new Error("Neural TTS failed");
+        throw new Error(`Neural TTS request failed with status ${res.status}`);
       }
 
       const blob = await res.blob();
       const audioUrl = URL.createObjectURL(blob);
-      const audio = new Audio(audioUrl);
+      const audio = audioPlayerRef.current || new Audio();
       audioPlayerRef.current = audio;
+      audio.src = audioUrl;
 
       audio.onplay = () => setIsSpeaking(true);
       audio.onended = () => {
         setIsSpeaking(false);
         URL.revokeObjectURL(audioUrl);
-        audioPlayerRef.current = null;
       };
       audio.onerror = () => {
         setIsSpeaking(false);
         URL.revokeObjectURL(audioUrl);
-        audioPlayerRef.current = null;
-        fallbackWebSpeech(text, lang);
+        fallbackWebSpeech(text, isKannada ? "kn" : "en");
       };
 
       await audio.play();
     } catch (err) {
       console.warn("Using fallback speech synthesis:", err);
-      fallbackWebSpeech(text, lang);
+      fallbackWebSpeech(text, isKannada ? "kn" : "en");
     }
   };
 
   const sendQuery = async (customQuery?: string) => {
+    primeAudioContext();
     const queryToSend = (customQuery || inputText).trim();
     if (!queryToSend || isResponding || isSendingRef.current) return;
     isSendingRef.current = true;
@@ -188,7 +226,8 @@ export default function Home() {
 
       const data = await response.json();
       const answerText = data.answer || "Jai Sri Gurudev 🙏\n\nI can assist you with information about Adichunchanagiri University.";
-      const detectedLang = data.language as "en" | "kn";
+      const detectedLang = (data.language as "en" | "kn") || (detectIsKannada(answerText) ? "kn" : "en");
+      setCurrentLanguage(detectedLang);
       setCurrentResponse(answerText);
       setCurrentSources(data.sources || []);
       if (typeof data.latency_ms === "number") {
@@ -216,6 +255,7 @@ export default function Home() {
 
   const toggleListening = () => {
     if (!micSupported) return;
+    primeAudioContext();
     stopSpeaking();
     if (isListening) {
       if (recognitionRef.current) recognitionRef.current.stop();
@@ -465,7 +505,10 @@ export default function Home() {
                       <button
                         type="button"
                         className="card-tool-btn"
-                        onClick={() => speakText(currentResponse)}
+                        onClick={() => {
+                          primeAudioContext();
+                          speakText(currentResponse, currentLanguage);
+                        }}
                         title="Replay Voice"
                         aria-label="Replay Voice"
                       >
