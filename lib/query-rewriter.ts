@@ -125,10 +125,20 @@ export function processUserQuery(
     }
   }
 
-  // Construct search query
-  const combinedSearch = expansions.length > 0
-    ? `${original} ${expansions.join(" ")}`.trim()
-    : original;
+  // Construct search query optimized for PostgreSQL English full-text search
+  let combinedSearch: string;
+  if (hasScript) {
+    // For queries containing Kannada script, extract Latin acronyms/words (e.g. ACU, MBBS, BGSIT) + English semantic expansions
+    const latinTokens = original.match(/[a-zA-Z0-9]+/g) || [];
+    const searchTerms = Array.from(new Set([...latinTokens, ...expansions]));
+    combinedSearch = searchTerms.join(" ").trim() || original;
+  } else {
+    // For English / Latin transliteration, normalize hyphens to spaces so websearch_to_tsquery doesn't treat -word as NOT word
+    const cleanedOriginal = original.replace(/(\w+)-(\w+)/g, "$1 $2");
+    combinedSearch = expansions.length > 0
+      ? `${cleanedOriginal} ${expansions.join(" ")}`.trim()
+      : cleanedOriginal;
+  }
 
   return {
     original,
