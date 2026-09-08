@@ -3,6 +3,8 @@ import { supabase, getSecret } from "@/lib/supabase";
 import { generateEmbedding } from "@/lib/embeddings";
 import { processUserQuery } from "@/lib/query-rewriter";
 
+export const maxDuration = 60; // Extend Vercel function timeout limit up to 60s
+
 // Candidate Groq models in prioritized order (tested and verified)
 const GROQ_MODELS = [
   "qwen/qwen3.8-27b",

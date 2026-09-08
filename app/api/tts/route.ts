@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
 
+export const maxDuration = 60; // Extend Vercel function timeout limit up to 60s
+
 // Clean text for natural speech synthesis
 function prepareTextForSpeech(raw: string): string {
   return raw
@@ -31,8 +33,8 @@ export async function POST(request: Request) {
 
     const isKannada = requestedLang === "kn" || /[\u0C80-\u0CFF]/.test(rawText);
 
-    // Default to JARVIS-style Indian English (Prabhat) or Native Kannada (Gagan)
-    let voice = isKannada ? "kn-IN-GaganNeural" : "en-IN-PrabhatNeural";
+    // Default to Female Indian English (Neerja) or Native Kannada (Sapna)
+    let voice = isKannada ? "kn-IN-SapnaNeural" : "en-IN-NeerjaNeural";
     let locale = isKannada ? "kn-IN" : "en-IN";
 
     if (requestedVoice) {
